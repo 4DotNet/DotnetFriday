@@ -1,0 +1,42 @@
+enable: true
+title: Our history in one overview
+paragraph: >
+  We started planning the first DotNetFriday in 2019. The actual first event took place the 17th of January 2020. Since then we burned a lot of numbers...
+
+number:
+  enable: true
+numbers:
+  - icon: ion-android-microphone
+    counter: 5
+    text: World Class Speakers
+  - icon: ion-android-textsms
+    counter: 6
+    text: Sessions
+  - icon: ion-pizza
+    counter: 240
+    text: Burgers
+  - icon: ion-android-bar
+    counter: 446
+    text: Drinks
+
+peoples:
+  enable: true
+people:
+  - text: >
+      Free as in Open Source. You can build on top of my work, but only if you allow others to build on yours.
+    quoteImg: img/cotation.png
+    image: img/speakers/floor-drees.jpg
+    name: Floor Drees
+    role: Developer Product Marketing Manager at Microsoft
+  - text: >
+      Eduard is developing software for over two decades. He is currently working as a cloud solution architect and a team lead at 4DotNet in The Netherlands. In my current position I love to help customers with their journey to the cloud.
+    quoteImg: img/cotation.png
+    image: img/speakers/eduard-keilholz.jpg
+    name: Eduard Keilholz
+    role: Team Lead & Cloud Solution Architect at 4DotNet
+  - text: >
+      Erwin Staal is a .NET Software Engineer and DevOps Consultant at 4DotNet (Meppel, the Netherlands). He has over more than 10 years of experience with both small and large organizations. He likes to immerse himself in the latest technologies.
+    quoteImg: img/cotation.png
+    image: img/speakers/erwin-staal.jpg
+    name: Erwin Staal
+    role: DevOps Engineer

@@ -1,0 +1,45 @@
+{{ if .Site.Params.sessions.enable }}
+{{ "<!-- Slider Start -->" | safeHTML}}
+<div class="sessions">
+
+    {{ if .Site.Params.sessions.enable01 }}
+    <div class="session">
+        <div class="headline">
+        <img
+        class="session-image"
+        src="{{ .Site.Params.sessions.image01 }}"
+      />
+        <h2>{{ .Site.Params.sessions.speaker01 | safeHTML }}</h2>
+    </div>
+        {{ .Site.Params.sessions.session01 | safeHTML }}
+        <p class="session-time">{{ .Site.Params.sessions.time01 | safeHTML }}</p>
+    </div>
+    {{ end }}
+    {{ if .Site.Params.sessions.enable02 }}
+    <div class="session">
+        <div class="headline">
+        <img
+        class="session-image"
+        src="{{ .Site.Params.sessions.image02 }}"
+      />
+        <h2>{{ .Site.Params.sessions.speaker02 | safeHTML }}</h2>
+        </div>
+        {{ .Site.Params.sessions.session02 | safeHTML }}
+        <p class="session-time">{{ .Site.Params.sessions.time02 | safeHTML }}</p>
+    </div>
+    {{ end }}
+    {{ if .Site.Params.sessions.enable03 }}
+    <div class="session">
+        <div class="headline">
+        <img
+        class="session-image"
+        src="{{ .Site.Params.sessions.image03 }}"
+      />
+              <h2>{{ .Site.Params.sessions.speaker03 | safeHTML }}</h2>
+              </div>
+        {{ .Site.Params.sessions.session03 | safeHTML }}
+        <p class="session-time">{{ .Site.Params.sessions.time03 | safeHTML }}</p>
+    </div>
+    {{ end }}
+</div>  
+{{ end }}

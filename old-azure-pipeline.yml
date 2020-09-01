@@ -1,0 +1,30 @@
+trigger:
+  - master
+
+pool:
+  vmImage: "vs2017-win2016"
+
+steps:
+  - checkout: self
+    displayName: "Checkout repository including submodules"
+    submodules: true
+
+  - task: HugoTask@1
+    displayName: "Generate Hugo site"
+    inputs:
+      destination: "$(Build.BinariesDirectory)"
+
+  - task: ArchiveFiles@2
+    displayName: "Archive files for zip deploy"
+    inputs:
+      rootFolderOrFile: "$(Build.BinariesDirectory)"
+      includeRootFolder: false
+      archiveType: "zip"
+      archiveFile: "$(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip"
+      replaceExistingArchive: true
+
+  - task: PublishPipelineArtifact@0
+    displayName: "Public website artifact"
+    inputs:
+      artifactName: "website"
+      targetPath: "$(Build.ArtifactStagingDirectory)"

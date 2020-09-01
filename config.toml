@@ -1,0 +1,114 @@
+title = "DotNetFriday - A meetup platform by 4DotNet"
+baseURL = "https://dotnetfriday.nl/"
+languageCode = "en-us"
+
+# The site's parameters
+[params]
+  home = "Home"
+  
+  [menu]
+
+    [[menu.header]]
+      weight = 2
+      name = "Events"
+      url = "events"
+#    [[menu.header]]
+#      weight = 3
+#      name = "Blog"
+#      url = "blog"
+    [[menu.header]]
+      weight = 5
+      name = "Contact"
+      url = "contact"
+    [[menu.header]]
+      weight = 6
+      name = "Team"
+      url = "team"
+    [[menu.footer]]
+      weight = 1
+      name = "About us"
+      url = "#"
+    [[menu.footer]]
+      weight = 2
+      name = "Contact"
+      url = "contact"
+    [[menu.footer]]
+      weight = 3
+      name = "Events"
+      url = "events"
+#    [[menu.footer]]
+#      weight = 4
+#      name = "Blog"
+#      url = "blog"
+    [[menu.footer]]
+      weight = 5
+      name = "Code of Conduct"
+      url = "terms"
+
+  [params.slider]
+    enable = true
+    title = "Grab some knowledge and a burger"
+    subtitle = "We love software development and the work that we do.<br />Come join our meetup events so we can share knowledge while having a drink and a bite."
+    bgImage = "img/conference-background.jpg"
+    btnText = "Register for 17th of April"
+    url = "https://4dn.me/dnf1704"
+
+  [params.sessions]
+    enable = true
+    enable01 = true
+    speaker01 = "Floor Drees"
+    image01 = "/img/speakers/floor-drees.jpg"
+    time01 = "16:30"
+    session01 = "<h3>GitHub Actions & VS Code Online</h3><p>This session will be packed with online goodies. Floor shows all the ins and out of VS Code Online, and also GitHub Actions. You can now build and deploy all your stuff from GitHub. Learn all the nifty tricks and stay one step ahead!</p>"
+    enable02 = true
+    speaker02 = "Eduard Keilholz"
+    image02 = "/img/speakers/eduard-keilholz.jpg"
+    time02 = "18:15"
+    session02 = "<h3>Cloud Patterns to the Rescue</h3><p>Designing software for the cloud can be quite similar to on-premises solutions. However, when running software systems in the cloud you will run into issues you never ran into on-premises. In my session, I will show three cloud design patterns you can use with which you dodge common pitfalls. This session will help you to design and develop highly performant, scalable software systems in the cloud.</p>"
+    enable03 = true
+    speaker03 = "Erwin Staal"
+    image03 = "/img/speakers/erwin-staal.jpg"
+    time03 = "18:45"
+    session03 = "<h3>Event-driven autoscaling on Kubernetes with KEDA</h3><p>Event-driven, serverless architectures are a hot topic in today’s cloud-native application development. To take full advantage of the serverless benefits of event driven, your application needs to scale and react to those events instantly. It needs to be able to scale from zero to potentially thousands of instances. KEDA is an open sourced component that provides event driven autoscaling for your Kubernetes workloads. KEDA works with any container, but to enable additional serverless capabilities within Kubernetes you can pair KEDA with the Azure Functions runtime. Don't get fooled by 'Azure' in the name. Azure Functions provides a programming model that can run anywhere: in a container running on-premises, fully managed in Azure, or in any Kubernetes cluster and they can be written in many languages. It allows application developers not to worry anymore about writing the code to connect, trigger, and pull from an event source like RabbitMQ, Kafka, or Azure Event Hubs. That’s all handled for you.</p>"
+
+  [params.wrapper]
+    enable = true
+    image = "img/wrapper-img.png"
+    title = "About Us"
+    italic = "4DotNet is a company consisting of a group of .NET professionals with a lot of ambition, a love for technology and a very high level of knowledge. Our customers know that we are responsible for our quality and therefore they know where to find us time and time again."
+    paragraph = "We support companies in developing software based on Microsoft technology. Our clients are mostly software houses and large accounts that have their software development department. We support these organizations by providing classroom training and seconding our consultants. In addition, we also offer customized training courses and advice and sell software licenses. All this based on our years of experience with the Microsoft .NET platform and our extensive knowledge of automation."
+
+  [params.blog]
+    enable = true
+    title = "Get The Latest On What We're doing"
+    subtitle = "Catch up with us, anytime and anywhere"
+
+  [params.feature]
+    enable = true
+    title = "We believe in great ideas"
+    bgImage = "img/feature-bg.jpg"
+    content = "Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus."
+    [params.feature.button]
+      caption = "View Works"
+      url = "#"
+
+  [params.call]
+    enable = false
+    bgImage = "img/call-to-action-bg.jpg"
+    title = "Great people, excellent food"
+    paragraph = "DotNetFriday is all about fun with tech, so we provide a delicious assortment of American Food with juicy Hamburgers, Pulled Pork, Smokey BBQ sauce, delicious fresh Coleslaw, roasted potatoes with truffle sauce and an ice-cold (alcohol-free) beer. So it will certainly be a pleasant evening to learn and enjoy."
+    [params.call.button]
+      url = "https://4dn.me/dnf1704"
+      text = "Register here, it's free"
+
+  [params.contact]
+    enable = true
+    title = "Drop us a note"
+    subtitle = "Don’t just take our word for it. Check out some of our latest work."
+    [params.contact.box]
+      title = "Stop by for a visit"
+      address = "Nevelgaarde 20F, 3436ZZ Nieuwegein"
+      email = "Email: info@4dotnet.nl"
+      phone = "Phone: +31 (0)88-241 44 00"
+    [params.contact.gmaps]
+      title = "We Also Count in Google Maps"
