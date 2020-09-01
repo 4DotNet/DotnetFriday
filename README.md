@@ -2,8 +2,9 @@
 
 # DotNetFriday Website
 
-Install the HUGO framework in order to run / debug. To compile / start the project locally:
+DotNetFriday is a Microsoft .NET Community in The Netherlands. We provide knowledge sessions about Microsoft .NET and Azure. All sessions take place on fridays so that's where the name came from. We try to combine the friday afternoon chill and relax feeling with knowledge sharing. We like to share our knowledge with fellow developers and the Microsoft developer community.
 
-    hugo serve --buildDrafts
+## This project
+This project is a HUGO website in which we try to update the community about upcoming information sessions. We post dates, speaker line-ups and subscription information.
 
-![CI Workflow](https://github.com/4DotNet/DotNetFriday/blob/main/DotNetFriday-Icon.png)
+[Code of Conduct](https://dotnetfriday.nl/terms)
