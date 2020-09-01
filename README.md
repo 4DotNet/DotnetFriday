@@ -6,3 +6,4 @@ Install the HUGO framework in order to run / debug. To compile / start the proje
 
     hugo serve --buildDrafts
 
+![CI Workflow](https://github.com/4DotNet/DotNetFriday/blob/main/DotNetFriday-Icon.png)
