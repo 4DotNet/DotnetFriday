@@ -19,5 +19,8 @@ Jan has been developing software for well over a decade.
 Currently, he is working at 4DotNet as a Cloud Solution Architect/Developer and is awarded by Microsoft with the Microsoft MVP award.
 Jan is, together with Eduard intimately involved in organizing DotNetFriday. He is partly responsible for speaker and session selection.
 
+## Erwin Staal
+![Jan de Vries](/img/speakers/erwin-staal.jpg)
+
 ## Jan Willem de Wagt
 ![Jan Willem de Wagt](/img/speakers/jan-willem-de-wagt.jpg)
