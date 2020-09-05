@@ -20,7 +20,8 @@ Currently, he is working at 4DotNet as a Cloud Solution Architect/Developer and 
 Jan is, together with Eduard intimately involved in organizing DotNetFriday. He is partly responsible for speaker and session selection.
 
 ## Erwin Staal
-![Jan de Vries](/img/speakers/erwin-staal.jpg)
+![Erwin Staal](/img/speakers/erwin-staal.jpg)
+Erwin is an Azure Architect and DevOps Consultant. He likes to immerse himself in the latest technologies and share that knowledge with the community. He is involved in organizing DotNetFriday and is partly responsible for speaker and session selection.
 
 ## Jan Willem de Wagt
 ![Jan Willem de Wagt](/img/speakers/jan-willem-de-wagt.jpg)
