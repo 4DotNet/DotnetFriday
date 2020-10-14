@@ -23,10 +23,6 @@ speakers:
                  With Codespaces you can get fix all that and get a fully powered development machine up and running in 30 seconds. Say bye to the README.md, just give people a Codespace which has everything they need.
                  During this session I will show you what Codespaces is and how you can start writing code without installing tools and SDKs for hours on end. We will see how to use Codespaces as a separate solution, from VS Code, in a browser and even directly built into GitHub.
 
-
-
-
-
 - speaker:
     name: Henry Been
     url: "https://www.henrybeen.nl/"
