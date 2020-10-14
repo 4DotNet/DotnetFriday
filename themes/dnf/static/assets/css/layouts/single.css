@@ -80,7 +80,7 @@ body {
 .toc .nav-link.active {
   padding-left: 1rem;
   padding-right: 0.5rem;
-  background-color: #248aaa;
+  background-color: #1e22aa;
   color: #f9f9f9;
   transition: all ease-out 0.3s;
 }
@@ -142,7 +142,7 @@ h6 {
 }
 
 .post-content blockquote {
-  border-left: 4px solid #248aaa;
+  border-left: 4px solid #1e22aa;
   background-color: #248baa15;
   padding: 0.3rem;
   padding-left: 1rem;
@@ -173,7 +173,7 @@ td {
 }
 
 table thead tr {
-  background: #248aaa;
+  background: #1e22aa;
   color: #e5e9f2;
 }
 
@@ -249,7 +249,7 @@ a.header-anchor code {
 }
 
 kbd {
-  background-color: #248aaa !important;
+  background-color: #1e22aa !important;
   color: #f9fafc;
 }
 
@@ -263,7 +263,7 @@ mark {
 }
 
 .next-prev-navigator a {
-  color: #2098d1;
+  color: #d50965;
   transition: all 0.3s ease-out;
 }
 
@@ -287,7 +287,7 @@ mark {
 .next-prev-navigator .btn-outline-info {
   color: #f9fafc !important;
   border-color: #e5e9f2 !important;
-  background-color: #248aaa !important;
+  background-color: #1e22aa !important;
   transition: all 0.3s ease-out;
 }
 

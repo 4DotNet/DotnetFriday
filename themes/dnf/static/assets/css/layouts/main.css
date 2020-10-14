@@ -35,7 +35,7 @@ p {
 }
 
 a {
-  color: #248aaa;
+  color: #1e22aa;
 }
 
 a:hover {
@@ -58,28 +58,28 @@ a:hover {
 
 .btn-dark:hover,
 .btn-dark:focus {
-  background-color: #248aaa;
-  border-color: #248aaa;
+  background-color: #1e22aa;
+  border-color: #1e22aa;
   transition: all 0.3s ease-out;
 }
 
 .btn-outline-info {
-  color: #2098d1 !important;
-  border-color: #2098d1 !important;
+  color: #d50965 !important;
+  border-color: #d50965 !important;
 }
 
 .btn-outline-info:hover {
-  background-color: #2098d1 !important;
+  background-color: #d50965 !important;
   color: #e5e9f2 !important;
 }
 
 .btn-info {
-  background-color: #248aaa !important;
+  background-color: #1e22aa !important;
   color: #e5e9f2 !important;
 }
 
 .btn-info:hover {
-  background-color: #2098d1 !important;
+  background-color: #d50965 !important;
   color: #e5e9f2 !important;
 }
 

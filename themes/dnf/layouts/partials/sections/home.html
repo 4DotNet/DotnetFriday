@@ -3,13 +3,6 @@
   {{ $author = (index .Site.Data .Site.Language.Lang).author }}
 {{ end }}
 
-{{ $name:="Jane Doe" }}
-{{ if $author.nickname }}
-  {{ $name = $author.nickname }}
-{{ else if $author.name }}
-  {{ $name = $author.name }}
-{{ end }}
-
 {{ $sections:= .Site.Data.sections }}
 {{ if (index .Site.Data .Site.Language.Lang).sections }}
   {{ $sections = (index .Site.Data .Site.Language.Lang).sections }}
@@ -34,10 +27,16 @@
     <img src="{{ $authorImage | absURL }}"
       class="rounded-circle mx-auto d-block img-fluid"
     />
-    <h1 class="greeting"> {{ $author.greeting }} {{ $name }}</h1>
+    <h1 class="greeting"> {{ $author.headline }}</h1>
+    <h3 class="greeting"> {{ $author.secondline }}</h2>
     <div class="typing-carousel">
       <span id="ityped" class="ityped"></span>
       <span class="ityped-cursor"></span>
+    </div>
+    <div class="mt-3">
+      <a href="https://www.eventbrite.nl/e/tickets-4dotnet-conf-2021-124990067657" target="_blank">
+      <button type="button" class="btn btn-primary">Register Now</button>
+    </a>
     </div>
     <ul id="typing-carousel-data">
       {{ if $author.summary }}

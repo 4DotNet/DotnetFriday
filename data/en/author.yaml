@@ -1,8 +1,8 @@
 # some information about you
-name: " | 4Dotnet CONF 2012"
-nickname: " | 4Dotnet CONF 2012"
+headline: "4Dotnet CONF 2021"
+secondline: "January 22, 2021"
 # greeting message before your name. it will default to "Hi! I am" if not provided
-greeting: "January 22, 2021"
+greeting: 
 image: "images/logo.png"
 # give your some contact information. they will be used in the footer
 contactInfo:

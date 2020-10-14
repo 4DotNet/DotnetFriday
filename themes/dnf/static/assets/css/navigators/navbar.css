@@ -66,9 +66,9 @@
 
 .final-navbar .navbar-nav .active,
 .final-navbar li a:hover {
-  color: #2098d1;
+  color: #d50965;
   transition: all 0.3s ease-out;
-  border-bottom: 2px solid #2098d1;
+  border-bottom: 2px solid #d50965;
   background: rgb(2, 0, 36);
   background: linear-gradient(
     90deg,
@@ -86,7 +86,7 @@
 
 .navbar-collapse.show .navbar-nav .active,
 .navbar-collapse.show .navbar-nav a:hover {
-  color: #2098d1;
+  color: #d50965;
 }
 
 #top-navbar-divider {
@@ -138,7 +138,7 @@
 }
 
 .top-navbar .dropdown-menu a:hover {
-  color: #2098d1;
+  color: #d50965;
   transition: all 0.3s ease-out;
   border-bottom: none;
   background: rgb(2, 0, 36);
@@ -179,13 +179,13 @@
 
   .initial-navbar .navbar-nav .active,
   .initial-navbar li a:hover {
-    color: #2098d1;
+    color: #d50965;
     transition: all 0.3s ease-out;
   }
 
   .final-navbar .navbar-nav .active,
   .final-navbar li a:hover {
-    color: #2098d1;
+    color: #d50965;
     transition: none;
 
     border-bottom: none;
@@ -218,13 +218,13 @@
 @media (max-width: 992px) {
   .initial-navbar .navbar-nav .active,
   .initial-navbar li a:hover {
-    color: #2098d1;
+    color: #d50965;
     transition: all 0.3s ease-out;
   }
 
   .final-navbar .navbar-nav .active,
   .final-navbar li a:hover {
-    color: #2098d1;
+    color: #d50965;
     transition: none;
 
     border-bottom: none;
@@ -251,13 +251,13 @@
 @media only screen and (max-width: 768px) {
   .initial-navbar .navbar-nav .active,
   .initial-navbar li a:hover {
-    color: #2098d1;
+    color: #d50965;
     transition: all 0.3s ease-out;
   }
 
   .final-navbar .navbar-nav .active,
   .final-navbar li a:hover {
-    color: #2098d1;
+    color: #d50965;
     transition: none;
 
     border-bottom: none;

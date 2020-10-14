@@ -46,7 +46,7 @@
 }
 
 #search-box:focus {
-  border: 1pt solid #248aaa;
+  border: 1pt solid #1e22aa;
   outline: none;
 }
 
@@ -77,12 +77,12 @@ ul {
 
 .tree li a.active {
   display: inline;
-  color: #2098d1;
+  color: #d50965;
 }
 
 .tree li a:hover {
   margin-left: 3px;
-  color: #2098d1;
+  color: #d50965;
   transition: all 0.3s ease-out;
 }
 
@@ -154,7 +154,7 @@ ul > ul {
 }
 
 a.focused {
-  color: #2098d1 !important;
+  color: #d50965 !important;
 }
 
 /* ============= Device specific fixes ======= */
