@@ -17,8 +17,8 @@ speakers:
     overview: Gerald Versluis (@jfversluis) is a software engineer at Microsoft from the Netherlands. After years of experience working with Azure, ASP.NET, DevOps, Xamarin and other .NET technologies, he has been involved in a number of different projects and has been building several real-world apps and solutions.
   sessions:
   - title: Codespaces, Developing from your iPad, browser, VS Code or anywhere!
-    start: 11:00 (CEST)
-    end: 11:50 (CEST)
+    start: 11:00 (CET)
+    end: 11:50 (CET)
     description: In this session we will look at Codespaces. The new solution by Microsoft which enabled you to move your development environment into the cloud. Do you still have an old machine sitting under your desk, perfectly configured for that one VB6 legacy app? Or is onboarding new team members costing your hours or even days?
                  With Codespaces you can get fix all that and get a fully powered development machine up and running in 30 seconds. Say bye to the README.md, just give people a Codespace which has everything they need.
                  During this session I will show you what Codespaces is and how you can start writing code without installing tools and SDKs for hours on end. We will see how to use Codespaces as a separate solution, from VS Code, in a browser and even directly built into GitHub.
@@ -31,8 +31,8 @@ speakers:
     overview: Henry Been is an independent architect and developer from The Netherlands. He enjoys working with software development teams to create and deliver great software. His interests include the Azure cloud, Agile, DevOps, software architecture and the design and implementation of testable and maintainable software.
   sessions:
   - title: Testing and monitoring distributed applications build using Azure Functions, CosmosDB and Service Bus
-    start: 12:00 (CEST)
-    end: 12:50 (CEST)
+    start: 12:00 (CET)
+    end: 12:50 (CET)
     description: We have all seen the flashy presentations on building distributed applications using cloud offerings as Azure CosmosDB, Functions and messaging solutions. But how do you test such an application? How do you ensure that you do not only deploy fast and often, but can also be confident that your new deployments work reliable?
                  In this session I will share my experiences with testing, deploying and monitoring distributed systems built using these cloud-native technologies. You will learn about the different types of tests used, dealing with databases, messaging systems and much more. And what about after the deployment, how do you monitor the quality of your application while running in production? What do you monitor when operating such a distributed system? And how?
                  Join Henry Been to learn how you can not only build your new cloud services architecture, but can also test and operate it so you can reliable ship new features faster!
@@ -44,8 +44,8 @@ speakers:
     overview: Erwin Staal is a Azure Architect and DevOps Consultant at 4DotNet (Meppel, the Netherlands). He has over more than 10 years of experience with both small and large organizations. He likes to immerse himself in the latest technologies. Currently he is working a lot with ASP.NET Core, Docker and Kubernetes. As a DevOps Consultant he helps companies with the implementation of DevOps and Continuous Delivery.
   sessions:
   - title: Azure Resource Manager templates deep dive
-    start: 13:00 (CEST)
-    end: 13:50 (CEST)
+    start: 13:00 (CET)
+    end: 13:50 (CET)
     description: There are multiple options in Azure to create your resources like VMs, databases or Web Apps. The Azure Resource Manager is one of them and ideal for infrastructure as code scenarios. In this session we will spend a few minutes on the basics of ARM and then quickly go into more depth on the advanced ARM-template topics! First, we will talk about how to organize your templates. As with normal code, we will try to create nicely structured and reusable templates. Linked templates can help tremendously with that so we will dive in those as well. We will look at quite some interesting template functions because they will make our templates more powerful and reusable.
 
 - speaker:
@@ -56,8 +56,8 @@ speakers:
               His main focus is on developing highly performant and scalable solutions using the awesome services provided by the Microsoft Azure platform. Because of his expertise, he has been able to help out multiple customers to bring their on-premises solution to the cloud and guide them towards a better software development ecosystem.
   sessions:
   - title: Take control of your Azure subscription
-    start: 14:00 (CEST)
-    end: 14:50 (CEST)
+    start: 14:00 (CET)
+    end: 14:50 (CET)
     description: A lot of people are proficient in deploying and managing their Azure subscriptions nowadays. What I see happen quite often is there's a lot of manual configuration going on and stuff you 'just need to know'. This is a problem! What you should strive for is an automated way to deploy your complete subscription using predefined policies, having security checks in place and, if necessary, scripts in your pipelines to get control of your subscription.
 
 - speaker:
@@ -68,6 +68,6 @@ speakers:
               He loves helping customers with their journey to the cloud, by creating high-performance, scalable software, and helping team members reach high levels of software development. Eduard’s main focus is on the Microsoft development stack, mainly C# and the Microsoft Azure cloud. He also has a strong affinity with Angular.
   sessions:
   - title: The new Hello World, Serverless and distributed
-    start: 14:00 (CEST)
-    end: 14:50 (CEST)
+    start: 14:00 (CET)
+    end: 14:50 (CET)
     description: It's the modern Hello World app, a link shortener. This session is about the infrastructure, architecture, and technical approach used writing this solution. It covers messaging using the Event Hub and creating a custom input binding for validating JWT Tokens. During this session, I will demonstrate the project and point out key factors making this solution a highly scalable yet straightforward serverless system.
