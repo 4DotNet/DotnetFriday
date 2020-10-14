@@ -1,0 +1,33 @@
+# section information
+section:
+  name: Topics
+  id: topics
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your Skills.
+# Give a summary of you each skill in the summary section.
+skills:
+- name: .NET Core
+  icon: "images/topics/netcore.png"
+  summary: ".NET Core is a cross-platform version of .NET for building websites, services, and console apps."
+  url: "https://dotnet.microsoft.com/download/dotnet-core"
+
+- name: .NET Development
+  icon: "images/topics/net.png"
+  summary: ".NET Framework is a software framework developed by Microsoft that runs primarily on Microsoft Windows. It includes a large class library called Framework Class Library and provides language interoperability across several programming languages"
+  url: "https://dotnet.microsoft.com/download/dotnet-framework"
+
+- name: Kubernetes
+  icon: "images/topics/kubernetes.png"
+  summary: "Capable of deploying, managing application on Kubernetes. Experienced in writing Kubernetes controllers for CRDs."
+  url: "https://kubernetes.io/"
+
+- name: Cloud Computing
+  icon: "images/topics/cloud.png"
+  summary: "Working with one of the largest public cloud environments in the world. Microsoft Azure provides tons of services your can leverage, an we show you how."
+
+
