@@ -21,13 +21,21 @@ skills:
   summary: ".NET Framework is a software framework developed by Microsoft that runs primarily on Microsoft Windows. It includes a large class library called Framework Class Library and provides language interoperability across several programming languages"
   url: "https://dotnet.microsoft.com/download/dotnet-framework"
 
-- name: Kubernetes
-  icon: "images/topics/kubernetes.png"
-  summary: "Capable of deploying, managing application on Kubernetes. Experienced in writing Kubernetes controllers for CRDs."
-  url: "https://kubernetes.io/"
+- name: Azure Functions
+  icon: "images/topics/azure-functions.png"
+  summary: "Develop more efficiently with Functions, an event-driven serverless compute platform that can also solve complex orchestration problems. We show you how to leverage the power of serverless."
+  url: "https://azure.microsoft.com/en-us/services/functions/"
 
 - name: Cloud Computing
   icon: "images/topics/cloud.png"
   summary: "Working with one of the largest public cloud environments in the world. Microsoft Azure provides tons of services your can leverage, an we show you how."
+
+- name: Azure Resource Manager
+  icon: "images/topics/resource-group.png"
+  summary: "The Azure Resource Manager is responsible for provisioning resources within Azure. You can use templates (ARM templates) to drive this in an automated fashion. Want to learn more? We've got your back."
+
+- name: GitHub Codespaces
+  icon: "images/topics/github.png"
+  summary: "The future of software development is here! Develop the most fancy systems from within your browser. With GitHub Codespaces you can, and we dive in to the nitty gritty bits and pieces"
 
 
