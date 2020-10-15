@@ -1,0 +1,21 @@
+{{ $sectionID := replace (lower .section.name) " " "-"  }}
+{{ if .section.id }}
+  {{ $sectionID = .section.id }}
+{{ end }}
+
+<div class="container-fluid anchor pb-5" id="{{ $sectionID }}">
+  {{ if not (.section.hideTitle) }}
+    <h1 class="text-center">{{ .section.name }}</h1>
+  {{ end }}
+
+    <div class="row team">
+      {{ range $index,$member:= .members }}
+            <div class="team-member">
+                <div class="picture"><img src="{{$member.picture}}" /></div>
+                <div class="name"><h3>{{$member.name}}</h3></div>
+                <div class="description"><p>{{$member.description}}</p></div>
+            </div>
+    {{ end }}
+  </div>
+
+</div>
