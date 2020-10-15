@@ -2,21 +2,72 @@
 
 /* ============= Device specific fixes ======= */
 
+.team {
+    display: flex;
+    flex-flow: column;
+    box-sizing: border-box;
+}
+.team .team-member {
+    display: flex;
+    flex-flow: column;
+    flex: 1 1;
+    background-color: #fff;
+    padding: 1rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+.team .team-member .picture {
+    display: flex;
+    flex-flow: column;
+    justify-items: center;
+    align-items: center;
+}
+.team .team-member .picture img {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+}
+.team .team-member .name {
+    display: flex;
+    flex-flow: column;
+    justify-items: center;
+    align-items: center;
+}
+.team .team-member .description {
+    padding: 2rem;
+}
+
+
 /* Large screens such as TV */
 @media only screen and (min-width: 1824px) {
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
-
-@media (max-width: 1400px) {
+@media (min-width: 1024px) {
+    .team {
+        flex-flow: row;
+        flex-wrap: wrap;
+    }
+    .team .team-member {
+        flex: 1 1 40%;
+    }
+}
+@media (min-width: 1400px) {
+    .team {
+        flex-flow: row;
+        flex-wrap: nowrap;
+    }
+    .team .team-member {
+        flex: 1 1 10%;
+    }
 }
 
-@media (max-width: 1200px) {
+@media (min-width: 1200px) {
+
 }
 
 /* IPad Pro */
-@media (max-width: 1024px) {
-}
+
 
 /*  Large devices (desktops, 992px and up) */
 
