@@ -1,6 +1,6 @@
 baseURL: "https://dotnetfriday.nl"
 languageCode: en-us
-title: "DotNetFriday"
+title: "DotnetFriday"
 theme: "dnf"
 
 # Force a locale to be use, really useful to develop the application ! Should be commented in production, the "weight" should rocks.
