@@ -13,6 +13,7 @@
    {{ range $index,$speaker:= .speakers }}
      {{ if eq (mod $index 2) 0 }}
        <div class="row align-items-center  d-flex">
+         
          {{ partial "sections/speakers/vertical-line.html" $index }}
          {{ partial "sections/speakers/speaker-info.html" $speaker }}
        </div>
