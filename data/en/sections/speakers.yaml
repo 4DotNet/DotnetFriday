@@ -12,18 +12,6 @@ section:
 speakers:
 
 - speaker:
-    name: Eduard Keilholz
-    url: "https://hexmaster.nl/"
-    location: The Netherlands
-    overview: Developing software for over two decades, Eduard is a Microsoft Azure MVP. He’s currently working as a cloud solution architect and team lead at 4DotNet in the Netherlands. 
-              He loves helping customers with their journey to the cloud, by creating high-performance, scalable software, and helping team members reach high levels of software development. Eduard’s main focus is on the Microsoft development stack, mainly C# and the Microsoft Azure cloud. He also has a strong affinity with Angular.
-  sessions:
-  - title: The new Hello World, Serverless and distributed
-    start: 12:00 (CET)
-    end: 12:50 (CET)
-    description: It's the modern Hello World app, a link shortener. This session is about the infrastructure, architecture, and technical approach used writing this solution. It covers messaging using the Event Hub and creating a custom input binding for validating JWT Tokens. During this session, I will demonstrate the project and point out key factors making this solution a highly scalable yet straightforward serverless system.
-
-- speaker:
     name: Jan de Vries
     url: "https://jan-v.nl/"
     location: The Netherlands
@@ -31,8 +19,8 @@ speakers:
               His main focus is on developing highly performant and scalable solutions using the awesome services provided by the Microsoft Azure platform. Because of his expertise, he has been able to help out multiple customers to bring their on-premises solution to the cloud and guide them towards a better software development ecosystem.
   sessions:
   - title: Take control of your Azure subscription
-    start: 13:00 (CET)
-    end: 13:50 (CET)
+    start: 12:00 (CET)
+    end: 12:50 (CET)
     description: A lot of people are proficient in deploying and managing their Azure subscriptions nowadays. What I see happen quite often is there's a lot of manual configuration going on and stuff you 'just need to know'. This is a problem! What you should strive for is an automated way to deploy your complete subscription using predefined policies, having security checks in place and, if necessary, scripts in your pipelines to get control of your subscription.
 
 - speaker:
@@ -43,11 +31,28 @@ speakers:
     overview: Henry Been is an independent architect and developer from The Netherlands. He enjoys working with software development teams to create and deliver great software. His interests include the Azure cloud, Agile, DevOps, software architecture and the design and implementation of testable and maintainable software.
   sessions:
   - title: Testing and monitoring distributed applications build using Azure Functions, CosmosDB and Service Bus
-    start: 14:00 (CET)
-    end: 14:50 (CET)
+    start: 13:00 (CET)
+    end: 13:50 (CET)
     description: We have all seen the flashy presentations on building distributed applications using cloud offerings as Azure CosmosDB, Functions and messaging solutions. But how do you test such an application? How do you ensure that you do not only deploy fast and often, but can also be confident that your new deployments work reliable?
                  In this session I will share my experiences with testing, deploying and monitoring distributed systems built using these cloud-native technologies. You will learn about the different types of tests used, dealing with databases, messaging systems and much more. And what about after the deployment, how do you monitor the quality of your application while running in production? What do you monitor when operating such a distributed system? And how?
                  Join Henry Been to learn how you can not only build your new cloud services architecture, but can also test and operate it so you can reliable ship new features faster!
+
+- speaker:
+    name: Irina Scurtu
+    url: "https://irina.codes/"
+    location: Romania
+    overview: Microsoft MVP for Developer Technologies, Software Architect and Microsoft Certified Trainer, always in a quest for latest trends and best practices in architecture, .NET and the world around it. 
+              Irina has more than 1000 hours of delivered trainings, workshops, and presentations, being passionate about .NET and the world around it. 
+              She is the founder of DotNet Iasi User Group where she tries to gather people that are willing to share their knowledge with others, and from time to time publishes articles on her blog.
+  sessions:
+  - title: Embracing gRPC in .NET
+    start: 14:00 (CET)
+    end: 14:50 (CET)
+    description: With an increasing need for scalability and performance dictated by the modern web, it becomes harder and harder to choose an API paradigm that is suitable for service to service communication.
+                 While the classical models still work and have their own merits, some of them rely heavily on documentation, extensive coordination between teams or code-sharing. We use shared libraries, and over time our projects become intertwined with dependencies. In these cases, we need something to untangle those and reduce coupling. Welcome gRPC.
+                 gRPC has been around for a while and .NET Core 3.0 welcomes it as a first-class citizen. It is contract-based, performant - with smaller response/request bodies, perfect for polyglot environments and supports different models – from client-server, to bi-directional streaming out of the box.
+                 In this session, we will look at how to use gRPC and its 4 models and what are the benefits and or downsides of using gRPC compared to the traditional models.
+
 - speaker:
     name: Erwin Staal
     url: "https://erwinstaal.nl/"
@@ -73,12 +78,12 @@ speakers:
                  During this session I will show you what Codespaces is and how you can start writing code without installing tools and SDKs for hours on end. We will see how to use Codespaces as a separate solution, from VS Code, in a browser and even directly built into GitHub.
 
 - speaker:
-    name: TBD
-    url: "https://dotnetfriday.nl"
-    location: Somewhere
-    overview: This speaker is not confirmed yet...
+    name: Ankit Kumar
+    url: "https://microsoft.com"
+    location: United States
+    overview: Ankit is Software Engineer in the Azure Functions team. Working on the Azure Functions runtime and the SDKs responsible for running Functions and .NET 5.
   sessions:
-  - title: This is going to be a awesome session
+  - title: Azure Functions and the .NET 5 Runtime
     start: 17:00 (CET)
     end: 17:50 (CET)
     description: More information coming soon
