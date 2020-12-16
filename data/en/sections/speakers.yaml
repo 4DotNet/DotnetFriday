@@ -81,9 +81,12 @@ speakers:
     name: Ankit Kumar
     url: "https://microsoft.com"
     location: United States
-    overview: Ankit is Software Engineer in the Azure Functions team. Working on the Azure Functions runtime and the SDKs responsible for running Functions and .NET 5.
+    overview: Ankit Kumar is a Software Engineer in Azure Functions team at Microsoft. In Azure Functions, he works on the Functions runtime, client tools, deployment experiences and Linux support. His primary areas of interest lie within Software design for Distributed Systems.
   sessions:
-  - title: Azure Functions and the .NET 5 Runtime
+  - title: Azure Functions and .NET 5
     start: 17:00 (CET)
     end: 17:50 (CET)
-    description: More information coming soon
+    description: Azure Functions recently announced preview support for .NET 5. This support is based off an out-of-process worker model, different from how
+                .NET Core 3 and earlier versions were supported. In this talk, we will be looking at the similarities and differences between the two
+                models, and how we can take advantage of the new features. We will go over the key criteria (such as performance) before thinking of
+                moving to .NET 5 in Azure Functions.
