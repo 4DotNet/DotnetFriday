@@ -1,20 +1,101 @@
-{{ $sectionID := replace (lower .section.name) " " "-"  }}
+{{ $sectionID := replace (lower .section.name) " " "-" }}
 {{ if .section.id }}
-  {{ $sectionID = .section.id }}
+{{ $sectionID = .section.id }}
 {{ end }}
 
 <div class="container anchor pb-5 skills-section" id="{{ $sectionID }}">
   {{ if not (.section.hideTitle) }}
-    <h1 class="text-center">{{ .section.name }}</h1>
+  <h1 class="text-center">{{ .section.name }}</h1>
   {{ end }}
 
-  <p>All attendees, speakers, sponsors and volunteers at our conference are required to agree with the following code of conduct. Organizers will enforce this code throughout the event. We are expecting cooperation from all participants to help ensuring a safe environment for everybody.</p>
-  <h3>The Quick Version</h3>
-  <p>Our conference is dedicated to providing a harassment-free conference experience for everyone, regardless of gender, gender identity and expression, age, sexual orientation, disability, physical appearance, body size, race, ethnicity, religion (or lack thereof), or technology choices. We do not tolerate harassment of conference participants in any form. Sexual language and imagery is not appropriate for any conference venue, including talks, workshops, parties, Twitter and other online media.</p>
-  <p>Conference participants violating these rules may be sanctioned or expelled from the conference without a refund at the discretion of the conference organizers.</p>
-  <h3>The Less Quick Version</h3>
-  <p>Harassment includes offensive verbal comments related to gender, gender identity and expression, age, sexual orientation, disability, physical appearance, body size, race, ethnicity, religion, technology choices, sexual images in public spaces, deliberate intimidation, stalking, following, harassing photography or recording, sustained disruption of talks or other events, inappropriate physical contact, and unwelcome sexual attention.</p>
-  <p>Participants asked to stop any harassing behavior are expected to comply immediately. If a participant engages in harassing behavior, the conference organizers may take any action they deem appropriate, including warning the offender or expulsion from the conference with no refund. If you are being harassed, notice that someone else is being harassed, or have any other concerns, please contact a member of conference staff immediately.</p>
-  <p>Conference staff can be identified as they'll be wearing branded 4Dotnet clothing and/or badges. Conference staff will be happy to help participants contact hotel/venue security or local law enforcement, provide escorts, or otherwise assist those experiencing harassment to feel safe for the duration of the conference. We value your attendance. We expect participants to follow these rules at conference and workshop venues and conference-related social events.</p>
-  <p>Original source and credit: <a href="https://confcodeofconduct.com/" target="_blank">https://confcodeofconduct.com/</a></p>
+  <h2>Our Pledge</h2>
+  <p>We as members, contributors, and leaders pledge to make participation in our community a harassment-free experience
+    for everyone, regardless of age, body size, visible or invisible disability, ethnicity, sex characteristics, gender
+    identity and expression, level of experience, education, socio-economic status, nationality, personal appearance,
+    race, religion, or sexual identity and orientation.</p>
+  <p>We pledge to act and interact in ways that contribute to an open, welcoming, diverse, inclusive, and healthy
+    community.</p>
+
+  <h2>Our Standards</h2>
+  <p>Examples of behavior that contributes to a positive environment for our community include:
+  <ul>
+    <li> Demonstrating empathy and kindness toward other people</li>
+    <li>Being respectful of differing opinions, viewpoints, and experiences</li>
+    <li>Giving and gracefully accepting constructive feedback</li>
+    <li>Accepting responsibility and apologizing to those affected by our mistakes, and learning from the experience
+    </li>
+    <li>Focusing on what is best not just for us as individuals, but for the overall community</li>
+    <li>Examples of unacceptable behavior include:</li>
+    <ul>
+      <li>The use of sexualized language or imagery, and sexual attention or advances of any kind</li>
+      <li>Trolling, insulting or derogatory comments, and personal or political attacks</li>
+      <li>Public or private harassment</li>
+      <li>Publishing others’ private information, such as a physical or email address, without their explicit permission
+      </li>
+      <li>Other conduct which could reasonably be considered inappropriate in a professional setting</li>
+      <li>Enforcement Responsibilities</li>
+    </ul>
+  </ul>
+  </p>
+  <p>Community leaders are responsible for clarifying and enforcing our standards of acceptable behavior and will take
+    appropriate and fair corrective action in response to any behavior that they deem inappropriate, threatening,
+    offensive, or harmful.</p>
+
+  <p>Community leaders have the right and responsibility to remove, edit, or reject comments, commits, code, wiki edits,
+    issues, and other contributions that are not aligned to this Code of Conduct, and will communicate reasons for
+    moderation decisions when appropriate.</p>
+
+  <h2>Scope</h2>
+  <p>This Code of Conduct applies within all community spaces, and also applies when an individual is officially
+    representing the community in public spaces. Examples of representing our community include using an official e-mail
+    address, posting via an official social media account, or acting as an appointed representative at an online or
+    offline event.</p>
+
+  <h2>Enforcement</h2>
+  <p>Instances of abusive, harassing, or otherwise unacceptable behavior may be reported to the community leaders
+    responsible for enforcement: Edgar Tichelaar: <a href="mailto:e.tichelaar@4dotnet.nl">e.tichelaar@4dotnet.nl</a> or
+    Angela Schooneman: <a href="mailto:a.schooneman@4dotnet.nl">a.schooneman@4dotnet.nl</a>.
+    All complaints will be reviewed and investigated promptly and fairly.</p>
+
+  <p>All community leaders are obligated to respect the privacy and security of the reporter of any incident.</p>
+
+  <h3>Enforcement Guidelines</h3>
+  <p>Community leaders will follow these Community Impact Guidelines in determining the consequences for any action they
+    deem in violation of this Code of Conduct:
+  <ol>
+    <li>Correction<br />
+      Community Impact: Use of inappropriate language or other behavior deemed unprofessional or unwelcome in the
+      community.</li>
+
+    Consequence: A private, written warning from community leaders, providing clarity around the nature of the violation
+    and an explanation of why the behavior was inappropriate. A public apology may be requested.
+
+    <li>Warning<br />
+      Community Impact: A violation through a single incident or series of actions.</li>
+
+    Consequence: A warning with consequences for continued behavior. No interaction with the people involved, including
+    unsolicited interaction with those enforcing the Code of Conduct, for a specified period of time. This includes
+    avoiding interactions in community spaces as well as external channels like social media. Violating these terms may
+    lead to a temporary or permanent ban.
+
+    <li>Temporary Ban<br />
+      Community Impact: A serious violation of community standards, including sustained inappropriate behavior.</li>
+
+    Consequence: A temporary ban from any sort of interaction or public communication with the community for a specified
+    period of time. No public or private interaction with the people involved, including unsolicited interaction with
+    those enforcing the Code of Conduct, is allowed during this period. Violating these terms may lead to a permanent
+    ban.
+
+    <li>Permanent Ban<br />
+      Community Impact: Demonstrating a pattern of violation of community standards, including sustained inappropriate
+      behavior, harassment of an individual, or aggression toward or disparagement of classes of individuals.</li>
+
+    Consequence: A permanent ban from any sort of public interaction within the community.
+  </ol>
+  </p>
+  <h2>Attribution</h2>
+  <p>This Code of Conduct is adapted from the Contributor Covenant, version 2.0, available at
+    <a href="https://www.contributor-covenant.org/version/2/0/code_of_conduct.html"
+      tagret="_blank">https://www.contributor-covenant.org/version/2/0/code_of_conduct.html</a>.
+  </p>
 </div>
