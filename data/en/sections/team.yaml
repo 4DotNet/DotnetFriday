@@ -6,20 +6,14 @@ section:
   showOnNavbar: true
 
 members:
-- name: Eduard Keilholz
-  picture: "images/team/eduard.jpg"
-  description: "Eduard is the initiator of DotNetFriday. Eduard is very passionate about technology and techniques required to create high quality software! He likes to share this passion by organizing sessions for technologies that enable you to write better software. He is responsible for the general event and partly responsible for speaker and session selection."
+  - name: Eduard Keilholz
+    picture: "images/team/eduard.jpg"
+    description: "Eduard is the initiator of DotNetFriday. Eduard is very passionate about technology and techniques required to create high quality software! He likes to share this passion by organizing sessions for technologies that enable you to write better software. He is responsible for the general event and partly responsible for speaker and session selection."
 
-- name: Jan de Vries
-  picture: "images/team/jan.jpg"
-  description: "Jan has been developing software for well over a decade. Currently, he is working at 4DotNet as a Cloud Solution Architect/Developer and is awarded by Microsoft with the Microsoft MVP award. Jan is, together with Eduard intimately involved in organizing DotNetFriday. He is partly responsible for speaker and session selection."
+  - name: Jan de Vries
+    picture: "images/team/jan.jpg"
+    description: "Jan has been developing software for well over a decade. Currently, he is working at 4DotNet as a Cloud Solution Architect/Developer and is awarded by Microsoft with the Microsoft MVP award. Jan is, together with Eduard intimately involved in organizing DotNetFriday. He is partly responsible for speaker and session selection."
 
-- name: Jan-Willem de Wagt
-  picture: "images/team/jan-willem.jpg"
-  description: "Jan Willem is the engagement officer of DotNetFriday. He is very eager to meet new people and works hard on making each DotNetFriday event a success. His mission is to fill our venue with attendees."
-
-- name: Erwin Staal
-  picture: "images/team/erwin.jpg"
-  description: "Erwin is an Azure Architect and DevOps Consultant. He likes to immerse himself in the latest technologies and share that knowledge with the community. He is involved in organizing DotNetFriday and is partly responsible for speaker and session selection."
-
-
+  - name: Jan-Willem de Wagt
+    picture: "images/team/jan-willem.jpg"
+    description: "Jan Willem is the engagement officer of DotNetFriday. He is very eager to meet new people and works hard on making each DotNetFriday event a success. His mission is to fill our venue with attendees."
