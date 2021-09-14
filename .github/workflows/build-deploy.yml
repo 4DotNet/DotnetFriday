@@ -4,7 +4,7 @@ name: CI Workflow
 # events but only for the main branch
 on:
   push:
-    branches: [ main ]
+    branches: [main]
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -17,7 +17,7 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-            hugo-version: 'latest'
+          hugo-version: "latest"
 
       - name: Clean public directory
         run: rm -rf public
@@ -32,10 +32,10 @@ jobs:
           path: public/
 
       - name: Upload new files to Azure Blob Storage
-        uses: bacongobbler/azure-blob-storage-upload@v1.1.1
+        uses: bacongobbler/azure-blob-storage-upload@v1.2.0
         with:
-          source_dir: 'public'
-          container_name: '$web'
+          source_dir: "public"
+          container_name: "$web"
           connection_string: ${{ secrets.STORAGEACCOUNTCONNECTIONSTRING }}
           sync: true
 
@@ -43,7 +43,7 @@ jobs:
         uses: azure/login@v1
         with:
           creds: ${{ secrets.AZURECREDENTIALSCDNMANAGER }}
-          
+
       - name: Purge CDN
         run: az cdn endpoint purge -n ${{ secrets.AZURE_CDN_ENDPOINT }} --profile-name ${{ secrets.AZURE_CDN_PROFILE_NAME }} --content-paths "/*" --resource-group ${{ secrets.AZURE_RESOURCE_GROUP }}
 
