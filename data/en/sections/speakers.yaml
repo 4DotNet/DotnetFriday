@@ -21,7 +21,7 @@ speakers:
       - title: Security measures for Azure PaaS
         start: "17.30"
         end: "18.30"
-        description: One of the characteristics of Platform as a Service components in Azure is that they are open for the complete world by default. Azure PaaS offers great services but you do not want to have them open by default in many situations. For this reasons I see many companies switching back the known functionalities (IaaS) but that should not be the case. In this session you will learn how to secure services like: Azure Functions, Azure App Service, Azure SQL Databases with the use of Azure Front Door, Azure Private Link and Virtual Networks and many more.
+        description: One of the characteristics of Platform as a Service components in Azure is that they are open for the complete world by default Azure PaaS offers great services but you do not want to have them open by default in many situations. For this reasons I see many companies switching back the known functionalities (IaaS) but that should not be the case. In this session you will learn how to secure services like Azure Functions, Azure App Service, Azure SQL Databases with the use of Azure Front Door, Azure Private Link and Virtual Networks and many more.
 
   - speaker:
       name: Eduard Keilholz
