@@ -19,8 +19,8 @@ speakers:
         He loves to share is knowledge which was also one of the reasons why he founded the Dutch Cloud Meetup. Maik is a public speaker, writes blogs and organizes events. Microsoft has recognized him as Microsoft Azure MVP.
     sessions:
       - title: Security measures for Azure PaaS
-        start: 17:30
-        end: 18:30
+        start: 17.30
+        end: 18.30
         description: One of the characteristics of Platform as a Service components in Azure is that they are open for the complete world by default. Azure PaaS offers great services but you do not want to have them open by default in many situations. For this reasons I see many companies switching back the known functionalities (IaaS) but that should not be the case. In this session you will learn how to secure services like: Azure Functions, Azure App Service, Azure SQL Databases with the use of Azure Front Door, Azure Private Link and Virtual Networks and many more.
 
   - speaker:
@@ -30,6 +30,6 @@ speakers:
       overview: Eduard is a Cloud Solution Architect at 4DotNet (The Netherlands). He likes to help customers with implementing and experiencing cloud technologies. He likes to create highly performant software and help team members reach a higher skill level of software development. He focusses is on the Microsoft development stack, mainly C# and the Microsoft Azure Cloud, and has a strong affinity with Angular. He enjoys speaking at (inter)national conferences and contributing to community events. In 2020, Microsoft has recognized these community activities with the Microsoft MVP Award for Azure.
     sessions:
       - title: Deploy your API secured, with a DevOps CI/CD pipeline
-        start: 19:30
-        end: 20:30
+        start: 19.30
+        end: 20.30
         description: This session is all about DevOps and CI/CD. I will build an ASP.NET WebApi from scratch and deploy it using an Azure DevOps CI/CD pipeline and Infrastructure as Code. I will show you how different ARM templates are compared to the new Bicep DSL, and discuss the advantages of building and deploying in an automated fashion.
