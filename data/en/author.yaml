@@ -1,6 +1,6 @@
 # some information about you
-headline: "DotnetFriday"
-secondline: "October 15, 2021"
+headline: "DotNetFriday"
+secondline: "April 8, 2022"
 # greeting message before your name. it will default to "Hi! I am" if not provided
 greeting:
 image: "images/logo.png"
