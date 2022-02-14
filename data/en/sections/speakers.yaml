@@ -11,25 +11,27 @@ section:
 # Your experiences
 speakers:
   - speaker:
-      name: Maik van der Gaag (unconfirmed)
-      url: "https://msftplayground.com/"
-      location: The Netherlands
-      overview:
-        Maik van der Gaag is the CTO of 3fifty, an experienced consultancy company with a strong focus on the Microsoft Cloud. He has over 15 years’ experience providing architecture, development, training and design expertise. During his works he works in a variety of projects ranging from Cloud Transformations to DevOps implementations.
-        He loves to share is knowledge which was also one of the reasons why he founded the Dutch Cloud Meetup. Maik is a public speaker, writes blogs and organizes events. Microsoft has recognized him as Microsoft Azure MVP.
-    sessions:
-      - title: To be decided
-        start: To be decided
-        end: To be decided
-        description: To be defined
-
-  - speaker:
       name: Eduard Keilholz
       url: "https://www.hexmaster.nl/"
       location: The Netherlands
       overview: Eduard is a Cloud Solution Architect at 4DotNet (The Netherlands). He likes to help customers with implementing and experiencing cloud technologies. He likes to create highly performant software and help team members reach a higher skill level of software development. He focusses is on the Microsoft development stack, mainly C# and the Microsoft Azure Cloud, and has a strong affinity with Angular. He enjoys speaking at (inter)national conferences and contributing to community events. In 2020, Microsoft has recognized these community activities with the Microsoft MVP Award for Azure.
     sessions:
-      - title: Deploy your API secured, with a DevOps CI/CD pipeline
-        start: To be decided
-        end: To be decided
-        description: This session is all about DevOps and CI/CD. I will build an ASP.NET WebApi from scratch and deploy it using an Azure DevOps CI/CD pipeline and Infrastructure as Code. I will show you how different ARM templates are compared to the new Bicep DSL, and discuss the advantages of building and deploying in an automated fashion.
+      - title: Forget SignalR! Start working real-time with Azure Web PubSub
+        start: 17:30
+        end: 18:30
+        description: Getting real-time information on processes and operations is essential when creating convenient, user-friendly web systems. With Web PubSub, Microsoft took the next step by enabling your to leverage real-time communication right from your browser. In this session, I will show you how to use Web PubSub and discover some advanced scenarios using alternative protocols, that enable real-time communication between servers and clients.
+
+  - speaker:
+      name: Barbara Forbes
+      url: "https://4bes.nl/"
+      location: The Netherlands
+      overview:
+        Barbara works as the Azure technical lead for OGD in the Netherlands. She is a Microsoft MVP Azure, MCT and GitHub Star. Her focus is on Azure and automation in a very broad way.
+        Think Serverless, Azure DevOps, PowerShell, GitHub and Infrastructure as Code. She loves teaching in an approachable way. She regularly writes posts for her blog https://4bes.nl
+        and speaks at conferences and user groups. She helps grow the community as co-owner of the Dutch DevOps & GitHub community (DDOG), as well as co-hosting the Dutch PowerShell User
+        Group (DUPSUG).
+    sessions:
+      - title: Bicep for the enterprise
+        start: 19:30
+        end: 20:30
+        description: If you've been working with ARM templates, you have probably heard about Bicep. If you have found the Bicep repository on GitHub, you might have followed the tutorials already. But how do you take the next steps? In this session, we will focus on what an enterprise environment needs from Infrastructure as Code and how Bicep can help you out. We will look at the basics like loops and conditions, but will also take some real-life examples to see how we can make use of modules. Combining it with CICD pipelines will give you a complete solution to start implementing in your own environment.
