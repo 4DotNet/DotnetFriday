@@ -53,12 +53,8 @@
   }
 }
 @media (min-width: 1400px) {
-  .team {
-    flex-flow: row;
-    flex-wrap: nowrap;
-  }
   .team .team-member {
-    flex: 1 1 10%;
+    flex: 1 1 25%;
   }
 }
 
