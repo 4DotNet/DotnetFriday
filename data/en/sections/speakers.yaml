@@ -11,14 +11,29 @@ section:
 # Your experiences
 speakers:
   - speaker:
+      name: Henk Boelman
+      url: "https://www.henkboelman.com/"
+      location: The Netherlands
+      overview:
+        Henk is a Cloud Advocate specializing in Artificial intelligence and Azure with a background in application development. He is currently part of the regional cloud advocate team in the Netherlands. Before joining Microsoft, he was a Microsoft AI MVP and worked as a software developer and architect building lots of AI powered platforms on Azure.
+        He loves to share his knowledge about topics such as DevOps, Azure and Artificial Intelligence by providing training courses and he is a regular speaker at user groups and international conferences.
+    sessions:
+      - title: Making sense of unstructured data with AI
+        start: 17:00
+        end: 18:00
+        description:
+          Do you have a lot of data in unreadable formats such as PDFs, images and audio files and want the ability to extract this rich information, analyze it and act on it?
+          In this session, you'll learn how to combine a set of Cognitive Services like Azure Cognitive Search to make sense of this data in a short amount of time. We'll discuss AI concepts, like the ingest-enrich-explore pattern, skillsets, leveraging cognitive services, knowledge bases and connecting all these elements together to build an intelligent search experience into an applications.
+
+  - speaker:
       name: Eduard Keilholz
       url: "https://www.hexmaster.nl/"
       location: The Netherlands
       overview: Eduard is a Cloud Solution Architect at 4DotNet (The Netherlands). He likes to help customers with implementing and experiencing cloud technologies. He likes to create highly performant software and help team members reach a higher skill level of software development. He focusses is on the Microsoft development stack, mainly C# and the Microsoft Azure Cloud, and has a strong affinity with Angular. He enjoys speaking at (inter)national conferences and contributing to community events. In 2020, Microsoft has recognized these community activities with the Microsoft MVP Award for Azure.
     sessions:
       - title: Forget SignalR! Start working real-time with Azure Web PubSub
-        start: 17:30
-        end: 18:30
+        start: 19:00
+        end: 19:15
         description: Getting real-time information on processes and operations is essential when creating convenient, user-friendly web systems. With Web PubSub, Microsoft took the next step by enabling your to leverage real-time communication right from your browser. In this session, I will show you how to use Web PubSub and discover some advanced scenarios using alternative protocols, that enable real-time communication between servers and clients.
 
   - speaker:
@@ -32,6 +47,6 @@ speakers:
         Group (DUPSUG).
     sessions:
       - title: Bicep for the enterprise
-        start: 19:30
-        end: 20:30
+        start: 19:20
+        end: 20:20
         description: If you've been working with ARM templates, you have probably heard about Bicep. If you have found the Bicep repository on GitHub, you might have followed the tutorials already. But how do you take the next steps? In this session, we will focus on what an enterprise environment needs from Infrastructure as Code and how Bicep can help you out. We will look at the basics like loops and conditions, but will also take some real-life examples to see how we can make use of modules. Combining it with CICD pipelines will give you a complete solution to start implementing in your own environment.
