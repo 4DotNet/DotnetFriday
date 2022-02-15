@@ -1,7 +1,7 @@
 <div class="col-10 col-lg-8">
   <div class="experience-entry-heading">
     <h5>{{ if .speaker.url }}<a href={{.speaker.url}}>{{ .speaker.name }}</a>, {{ .speaker.location }}{{ else }}{{ .speaker.name }}, {{ .speaker.location }}{{ end }}</h5>
-    <h5>{{ .speaker.title }}</h5>
+    <h6>{{ .speaker.title }}</h6>
     <p>{{ .speaker.overview | markdownify }}</p>
   </div>
   <!-- Add the positions information -->
