@@ -12,6 +12,7 @@ section:
 speakers:
   - speaker:
       name: Henk Boelman
+      title: Senior Cloud Advocate @ Microsoft
       url: "https://www.henkboelman.com/"
       location: The Netherlands
       overview:
@@ -27,17 +28,19 @@ speakers:
 
   - speaker:
       name: Eduard Keilholz
+      title: Cloud Solution Architect @ 4Dotnet
       url: "https://www.hexmaster.nl/"
       location: The Netherlands
       overview: Eduard is a Cloud Solution Architect at 4DotNet (The Netherlands). He likes to help customers with implementing and experiencing cloud technologies. He likes to create highly performant software and help team members reach a higher skill level of software development. He focusses is on the Microsoft development stack, mainly C# and the Microsoft Azure Cloud, and has a strong affinity with Angular. He enjoys speaking at (inter)national conferences and contributing to community events. In 2020, Microsoft has recognized these community activities with the Microsoft MVP Award for Azure.
     sessions:
-      - title: Forget SignalR! Start working real-time with Azure Web PubSub
+      - title: Forget SignalR! Start working real-time with Azure Web PubSub (Lightning Talk)
         start: 19:00
         end: 19:15
         description: Getting real-time information on processes and operations is essential when creating convenient, user-friendly web systems. With Web PubSub, Microsoft took the next step by enabling your to leverage real-time communication right from your browser. In this session, I will show you how to use Web PubSub and discover some advanced scenarios using alternative protocols, that enable real-time communication between servers and clients.
 
   - speaker:
       name: Barbara Forbes
+      title: Azure technical lead @ OGD
       url: "https://4bes.nl/"
       location: The Netherlands
       overview:
