@@ -11,20 +11,23 @@ section:
 # Your experiences
 speakers:
   - speaker:
-      name: Henk Boelman
-      title: Senior Cloud Advocate @ Microsoft
-      url: "https://www.henkboelman.com/"
+      name: Roelant Dieben
+      title: Cloud Architect @ Ordina
+      url: "https://twitter.com/RoelantDieben"
       location: The Netherlands
       overview:
-        Henk is a Cloud Advocate specializing in Artificial intelligence and Azure with a background in application development. He is currently part of the regional cloud advocate team in the Netherlands. Before joining Microsoft, he was a Microsoft AI MVP and worked as a software developer and architect building lots of AI powered platforms on Azure.
-        He loves to share his knowledge about topics such as DevOps, Azure and Artificial Intelligence by providing training courses and he is a regular speaker at user groups and international conferences.
+        Roelant is a cloud architect with firm roots in software development and has been working for the Microsoft unit at Ordina for about seven years.
+        He is a Microsoft Azure MVP and Microsoft certified trainger with a passion for machine learning and artifical intelligence in general.
+        He is a co-organizer of the Azure Thursday user group and a regular speaker at user groups and events.
     sessions:
       - title: Making sense of unstructured data with AI
         start: 17:00
         end: 18:00
         description:
-          Do you have a lot of data in unreadable formats such as PDFs, images and audio files and want the ability to extract this rich information, analyze it and act on it?
-          In this session, you'll learn how to combine a set of Cognitive Services like Azure Cognitive Search to make sense of this data in a short amount of time. We'll discuss AI concepts, like the ingest-enrich-explore pattern, skillsets, leveraging cognitive services, knowledge bases and connecting all these elements together to build an intelligent search experience into an applications.
+          Most applications of AI and machine learning are being powered by huge amounts of data in all sorts of forms. Sometimes this data is encapsulated in PDFs, images, video or audio files, but you would still want the possibility to extract and leverage this data.
+          During this session you will get an introduction to the cognitive services that Microsoft has to offer and how to combine these services with Azure Cognitive Search for extracting and analyzing your data.
+          In addition we will discuss some broader AI concepts, the ingest-enrich-explore pattern and how this all fits together with leveraging the cognitive services.
+          After the session you will be able to infuse your own applications with some AI or a full-blown intelligent search experience.
 
   - speaker:
       name: Eduard Keilholz
