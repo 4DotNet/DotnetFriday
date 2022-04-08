@@ -38,6 +38,7 @@ jobs:
           container_name: "$web"
           connection_string: ${{ secrets.STORAGEACCOUNTCONNECTIONSTRING }}
           sync: true
+          overwrite: 'true'
 
       - name: Azure service principal login
         uses: azure/login@v1
