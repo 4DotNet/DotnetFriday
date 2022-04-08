@@ -32,7 +32,7 @@ jobs:
           path: public/
 
       - name: Upload new files to Azure Blob Storage
-        uses: bacongobbler/azure-blob-storage-upload@v1.2.0
+        uses: bacongobbler/azure-blob-storage-upload@main
         with:
           source_dir: "public"
           container_name: "$web"
