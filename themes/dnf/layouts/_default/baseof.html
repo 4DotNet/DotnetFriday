@@ -8,10 +8,20 @@
     <!------ ADD PAGE SPECIFIC HEADERS ------->
     {{ block "header" . }} {{ end }}
 
-    <!-- ADD GOOGLE ANALYTICS IF ENABLED -->
-    {{ if .Site.GoogleAnalytics }}
-      {{ template "_internal/google_analytics_async.html" . }}
-    {{ end }}
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-7R7R6XBKSM"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-7R7R6XBKSM");
+    </script>
   </head>
 
   <body data-spy="scroll" data-target="#TableOfContents" data-offset="80">
