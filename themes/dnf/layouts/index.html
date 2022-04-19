@@ -15,13 +15,22 @@
     <link rel="stylesheet" href="/assets/css/sections/recent-posts.css" />
     <link rel="stylesheet" href="/assets/css/sections/achievements.css" />
 
-    <!-- Add Google Analytics if enabled in configuration -->
-    {{ if .Site.GoogleAnalytics }}
-        {{ template "_internal/google_analytics_async.html" . }}
-    {{ end }}
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-7R7R6XBKSM"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-7R7R6XBKSM");
+    </script>
   </head>
   <body data-spy="scroll" data-target="#top-navbar" data-offset="100">
-
     <!--- NAVBAR ------------------------->
     {{- partial "navigators/navbar.html" . -}}
 
@@ -29,31 +38,19 @@
     {{- partial "sections/home.html" . -}}
 
     <!--- ADD OPTIONAL SECTIONS ----------->
-    {{ $sections:= .Site.Data.sections }}
-    {{ if (index .Site.Data .Site.Language.Lang).sections }}
-      {{ $sections = (index .Site.Data .Site.Language.Lang).sections }}
-    {{ end }}
-
-    {{ if $sections }}
-      {{ $background:= "bg-white"}}
-      {{ range sort $sections "section.weight" }}
-        {{ if .section.enable }}
-          <div class="container-fluid section-holder d-flex {{ $background }}">
-            {{ if .section.template }}
-              {{- partial .section.template . -}}
-            {{ else }}
-              {{- partial (printf "sections/%s.html" (replace (lower .section.id) " " "-")) . -}}
-            {{ end }}
-          </div>
-          <!--- alter background color for next section --->
-          {{ if eq $background "bg-white" }}
-            {{ $background = "bg-dimmed" }}
-          {{ else }}
-            {{ $background = "bg-white" }}
-          {{end}}
-        {{ end }}
-      {{ end }}
-    {{ end }}
+    {{ $sections:= .Site.Data.sections }} {{ if (index .Site.Data
+    .Site.Language.Lang).sections }} {{ $sections = (index .Site.Data
+    .Site.Language.Lang).sections }} {{ end }} {{ if $sections }} {{
+    $background:= "bg-white"}} {{ range sort $sections "section.weight" }} {{ if
+    .section.enable }}
+    <div class="container-fluid section-holder d-flex {{ $background }}">
+      {{ if .section.template }} {{- partial .section.template . -}} {{ else }}
+      {{- partial (printf "sections/%s.html" (replace (lower .section.id) " "
+      "-")) . -}} {{ end }}
+    </div>
+    <!--- alter background color for next section --->
+    {{ if eq $background "bg-white" }} {{ $background = "bg-dimmed" }} {{ else
+    }} {{ $background = "bg-white" }} {{end}} {{ end }} {{ end }} {{ end }}
 
     <!--- ADD FOOTER ----------------------->
     {{- partial "footer.html" . -}}
