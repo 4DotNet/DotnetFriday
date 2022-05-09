@@ -11,48 +11,36 @@ section:
 # Your experiences
 speakers:
   - speaker:
-      name: Roelant Dieben
-      title: Cloud Architect @ Ordina
-      url: "https://twitter.com/RoelantDieben"
+      name: Gerald Versluis
+      title: Software Engineer @ Microsoft
+      url: "https://twitter.com/jfversluis"
       location: The Netherlands
       overview:
-        Roelant is a cloud architect with firm roots in software development and has been working for the Microsoft unit at Ordina for about seven years.
-        He is a Microsoft Azure MVP and Microsoft certified trainger with a passion for machine learning and artifical intelligence in general.
-        He is a co-organizer of the Azure Thursday user group and a regular speaker at user groups and events.
+        Gerald Versluis (@jfversluis) is a software engineer at Microsoft from the Netherlands. After years of experience working with Azure, ASP.NET,
+        DevOps, Xamarin and other .NET technologies, he has been involved in a number of different projects and has been building several real-world apps and solutions.
     sessions:
-      - title: Making sense of unstructured data with AI
+      - title: Introduction to App Development with .NET MAUI
         start: 17:00
         end: 18:00
         description:
-          Most applications of AI and machine learning are being powered by huge amounts of data in all sorts of forms. Sometimes this data is encapsulated in PDFs, images, video or audio files, but you would still want the possibility to extract and leverage this data.
-          During this session you will get an introduction to the cognitive services that Microsoft has to offer and how to combine these services with Azure Cognitive Search for extracting and analyzing your data.
-          In addition we will discuss some broader AI concepts, the ingest-enrich-explore pattern and how this all fits together with leveraging the cognitive services.
-          After the session you will be able to infuse your own applications with some AI or a full-blown intelligent search experience.
+          .NET MAUI provides an extremely flexible and powerful way to create apps for Android, iOS, macOS, and Windows, from very
+          simple to extremely robust and complex. Is this one size fits all? Where should you start? In this session I'll run through
+          what .NET MAUI is, how it fits in the .NET ecosystem, differences with Xamarin and how to get started yourself!
 
   - speaker:
-      name: Eduard Keilholz
-      title: Cloud Solution Architect @ 4Dotnet
-      url: "https://www.hexmaster.nl/"
-      location: The Netherlands
-      overview: Eduard is a Cloud Solution Architect at 4DotNet (The Netherlands). He likes to help customers with implementing and experiencing cloud technologies. He likes to create highly performant software and help team members reach a higher skill level of software development. He focusses is on the Microsoft development stack, mainly C# and the Microsoft Azure Cloud, and has a strong affinity with Angular. He enjoys speaking at (inter)national conferences and contributing to community events. In 2020, Microsoft has recognized these community activities with the Microsoft MVP Award for Azure.
-    sessions:
-      - title: Forget SignalR! Start working real-time with Azure Web PubSub (Lightning Talk)
-        start: 19:00
-        end: 19:15
-        description: Getting real-time information on processes and operations is essential when creating convenient, user-friendly web systems. With Web PubSub, Microsoft took the next step by enabling your to leverage real-time communication right from your browser. In this session, I will show you how to use Web PubSub and discover some advanced scenarios using alternative protocols, that enable real-time communication between servers and clients.
-
-  - speaker:
-      name: Barbara Forbes
-      title: Azure technical lead @ OGD
-      url: "https://4bes.nl/"
+      name: Suzanne Rijnbergen
+      title: Director - ICS & Cybersecurity @ Accenture
+      url: "https://www.linkedin.com/in/rijnbergen/"
       location: The Netherlands
       overview:
-        Barbara works as the Azure technical lead for OGD in the Netherlands. She is a Microsoft MVP Azure, MCT and GitHub Star. Her focus is on Azure and automation in a very broad way.
-        Think Serverless, Azure DevOps, PowerShell, GitHub and Infrastructure as Code. She loves teaching in an approachable way. She regularly writes posts for her blog https://4bes.nl
-        and speaks at conferences and user groups. She helps grow the community as co-owner of the Dutch DevOps & GitHub community (DDOG), as well as co-hosting the Dutch PowerShell User
-        Group (DUPSUG).
+        Suzanne Rijnbergen is Associate Director ICS and Cybersecurity at Accenture and leads the Resources Security business in the Netherlands.
+        She has 15+ years of experience in information security, both in IT and OT, and is experienced in advisory services for C-level clients
+        on supply chain security risk and third-party risk management.
     sessions:
-      - title: Bicep for the enterprise
-        start: 19:20
-        end: 20:20
-        description: If you've been working with ARM templates, you have probably heard about Bicep. If you have found the Bicep repository on GitHub, you might have followed the tutorials already. But how do you take the next steps? In this session, we will focus on what an enterprise environment needs from Infrastructure as Code and how Bicep can help you out. We will look at the basics like loops and conditions, but will also take some real-life examples to see how we can make use of modules. Combining it with CICD pipelines will give you a complete solution to start implementing in your own environment.
+      - title: Supply Chain Security: Get Ready Or Get Breached
+        start: 19:00
+        end: 20:00
+        description:
+          Join Suzanne as she provides simplified and concrete insight into the evolution of supply chain threat, plus practical learnings that you can apply directly in your organisation to drive change and build a cyber-resilient future together.Join Suzanne as she provides simplified and concrete insight into the evolution of supply chain threat, plus practical learnings that you can apply directly in your organisation to drive change and build a cyber-resilient future together.
+          About 70% of businesses are particularly vulnerable to cyberattacks through their supply chains. According to institutes, such as the Dutch National Intelligence Services and ENISA, this number is rising and poses a threat to the continuity of businesses.
+          In this session, Suzanne Rijnbergen will focus on examples of supply chain attacks by cybercriminals that illustrate the challenges organisations face. She will detail different national and international initiatives ongoing in this area and provide insightful knowledge on how organizations can start securing their supply chain themselves.
