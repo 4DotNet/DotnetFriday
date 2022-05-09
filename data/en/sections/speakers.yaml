@@ -23,7 +23,7 @@ speakers:
         start: 17:00
         end: 18:00
         description:
-          .NET MAUI provides an extremely flexible and powerful way to create apps for Android, iOS, macOS, and Windows, from very
+          Microsoft .NET MAUI provides an extremely flexible and powerful way to create apps for Android, iOS, macOS, and Windows, from very
           simple to extremely robust and complex. Is this one size fits all? Where should you start? In this session I'll run through
           what .NET MAUI is, how it fits in the .NET ecosystem, differences with Xamarin and how to get started yourself!
 
