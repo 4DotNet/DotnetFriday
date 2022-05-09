@@ -9,7 +9,7 @@
   {{ range $index,$session:= .sessions }}
       <h6 class="designation">{{ $session.title }}</h6>
       <p class="text-muted">{{ $session.start }} - {{ $session.end }}</p>
-      <p class="text-muted">{{ $session.description }}</p>
+      <p class="text-muted">{{ replace $session.description "\n" "<br />" | safeHTML }}</p>
       </ul>
   {{ end }}
   </div>
