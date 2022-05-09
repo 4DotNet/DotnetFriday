@@ -23,7 +23,7 @@ speakers:
         start: 17:00
         end: 18:00
         description:
-          Microsoft .NET MAUI provides an extremely flexible and powerful way to create apps for Android, iOS, macOS, and Windows, from very
+          .NET MAUI provides an extremely flexible and powerful way to create apps for Android, iOS, macOS, and Windows, from very
           simple to extremely robust and complex. Is this one size fits all? Where should you start? In this session I'll run through
           what .NET MAUI is, how it fits in the .NET ecosystem, differences with Xamarin and how to get started yourself!
 
@@ -37,7 +37,7 @@ speakers:
         She has 15+ years of experience in information security, both in IT and OT, and is experienced in advisory services for C-level clients
         on supply chain security risk and third-party risk management.
     sessions:
-      - title: Supply Chain Security: Get Ready Or Get Breached
+      - title: Supply Chain Security - Get Ready Or Get Breached
         start: 19:00
         end: 20:00
         description:
