@@ -20,13 +20,13 @@ speakers:
         He is the coolest dad, Microsoft Certified Professional, Microsoft MVP and secretly a Cloud Technology Evangelist obsessed with code, architecture
         and shiny new tech; sharing knowledge wherever to whoever will listen. He likes teaching, writing and vlogging about the things that make him happy.
         Check out his blog at https://reynders.co or follow him on Twitter @FanieReynders.
-      sessions:
-        - title: A lap around GitHub Codespaces
-          start: 17:00
-          end: 18:00
-          description:
-            We take a journey on what a typical developer experience can look like using GitHub Codespaces for spinning up instant cloud managed
-            development environments
+    sessions:
+      - title: A lap around GitHub Codespaces
+        start: 17:00
+        end: 18:00
+        description:
+          We take a journey on what a typical developer experience can look like using GitHub Codespaces for spinning up instant cloud managed
+          development environments
 
   - speaker:
       name: Mart de Graaf
