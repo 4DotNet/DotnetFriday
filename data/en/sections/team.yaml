@@ -14,9 +14,9 @@ members:
     picture: "images/team/jan-willem.jpg"
     description: "Jan Willem is the engagement officer of DotnetFriday. He is very eager to meet new people and works hard on making each DotnetFriday event a success. His mission is to fill our venue with attendees."
 
-  - name: Annejan Barelds
-    picture: "images/team/annejan.jpg"
-    description: "Annejan has been an avid software developer since 2006. And while his career took him to several non-development roles, he keeps coming back to development: exploring new technologies, building great software with it, and sharing his knowledge with others, is what makes him tick. For DotnetFriday, he works with Eduard and Jan on making sure that we deliver great content at all our events."
+  # - name: Annejan Barelds
+  #   picture: "images/team/annejan.jpg"
+  #   description: "Annejan has been an avid software developer since 2006. And while his career took him to several non-development roles, he keeps coming back to development: exploring new technologies, building great software with it, and sharing his knowledge with others, is what makes him tick. For DotnetFriday, he works with Eduard and Jan on making sure that we deliver great content at all our events."
 
   - name: Angela Schooneman
     picture: "images/team/angela.jpg"
