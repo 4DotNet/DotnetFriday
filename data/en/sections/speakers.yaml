@@ -11,56 +11,66 @@ section:
 # Your experiences
 speakers:
   - speaker:
-      name: Dennis Doomen
-      title: Hands-on architect in the .NET space with 26 years of experience
-      url: "https://www.continuousimprover.com"
+      name: Florian van Dillen
+      title: Full-stack software engineer at 4Dotnet
+      url: "https://fvandillen.github.io/"
       location: The Netherlands
-      overview:
-        Dennis is a veteran architect in the .NET space with a special interest in writing clean code, Domain Driven Design,
-        Event Sourcing and everything agile. He specializes in designing enterprise solutions based on the .NET technologies
-        as well as providing coaching on all aspects of designing, building and maintaining enterprise systems. He is the
-        author of www.fluentassertions.com, a very popular .NET assertion framework, www.liquidprojections.net, a set of
-        libraries for building Event Sourcing architectures and he has been maintaining coding guidelines for C# on
-        www.csharpcodingguidelines.com since 2001. He also keeps a blog on his everlasting quest for better solutions at
-        www.continuousimprover.com. You can reach him on twitter through @ddoomen.
+      overview: Full-stack software engineer at 4Dotnet
 
     sessions:
-      - title: Design Patterns for implementing Event Sourcing in .NET
+      - title: Testcontainers - a practical deep-dive
         start: 17:00
         end: 18:00
         description:
-          Event Sourcing is becoming more mainstream these days, and a lot of conferences have demonstrated the pros
-          and cons of this artitecture style from multiple angles. I've done a few of these and publishes a lot of
-          articles on best practices and solutions to common problems. But what nobody did was to show you how to
-          build an event sourced systems in the .NET ecosystem. There are a lot of open-source projects that you can
-          use, so you'll need to find a right mix and your own code to that. So let me show you how I would implement
-          this in .NET with almost 10 years of Event Sourcing experience behind my belt.
+          Are you mocking your dependencies, especially during unit tests? Tired of setting up infrastructure before
+          running your integration tests? There are other ways to go about this! Testcontainers are a lightweight,
+          disposable means of running your infrastructure such as a database. In this session we will explore the
+          different ways in which we can use the excellent Testcontainers-dotnet library and hopefully give you
+          solid foundation of using it in your own projects.
 
   - speaker:
-      name: Mike Martin
-      title: Dad, Husband, Geek, NumberGirl, msft technical evangelist, Azure Lover and ex MVP, wall crawler, Batman fan, Caring Community Member
-      url: "https://martdegraaf.nl/"
+      name: Martijn Veld
+      title: Software Developer at 4DotNet
+      url: "https://www.linkedin.com/in/martijnveld/"
       location: The Netherlands
       overview:
-        As a Microsoft Technical Evangelist, Mike is an Azure goto for ISV’s (independent software vendors). He’s been active in the IT industry
-        for more than 20 years and has performed almost all types of job profiles, going from coaching and leading a team to architecting and
-        systems design and training. Today he’s primarily into the Microsoft Cloud Platform and Application Lifecycle Management. He’s not a
-        stranger to both dev and IT Pro topics, they even call him the perfect hybrid solution.
+        As software Developer at 4DotNet I help our clients to build future-proof software using the .NET
+        framework / .NET Core in combination with different data storage technologies among which SQL server.
+        A strong focus is on delivering cloud-native software solutions on the Azure platform.
+
     sessions:
-      - title: The Toolshed - Inside Microsoft Azure TOOLS - Your daily hammers
+      - title: Calling Flurl - accessing REST APIs the easy way
         start: 19:00
-        end: 20:30
+        end: 19:15
         description:
-          Visual Studio, MSFT’s flagship tool is available for almost every purpose now and people just love it. With it came the new
-          release of the online version and also one for Microsoft Azure integrated in Azure App Services (“Monaco”). This doesn’t
-          make the choice of tooling easier on all of us. And thus maybe it’s about time to take a look what we can do with all the
-          available tools and which tools are your best tools of the trade. And is there such a thing as “One Tool to rule’em all”?
-          This session will hopefully enlighten your path to Microsoft Azure Tooling (for Dev, IT Pro and asset Management)
+          Flurl is a modern, fluent, asynchronous, testable, portable, buzzword-laden URL builder and HTTP client
+          library for .NET. In this brief talk I will demonstrate how Flurl can make your life easier when trying
+          to access data from an external API and how you can easily test such applications.
+
+  - speaker:
+      name: Sander Molenkamp
+      title: Principal Cloud Architect @ Info Support & Microsoft Azure MVP
+      url: "https://www.sandermolenkamp.com/"
+      location: The Netherlands
+      overview:
+        Sander Molenkamp is principal cloud architect and Microsoft Azure MVP with over 20 years of professional
+        experience. He works for Info Support (www.infosupport.com) designing and developing customer solutions
+        using cloud native architectures. Sander is passionate about community and is co-organizer of the Dutch
+        Azure Meetup and a host on the dotnetFlix podcast (www.youtube.com/dotnetflix).
+
+    sessions:
+      - title: Star Tours - Event Sourcing at Cosmic Scale
+        start: 19:20
+        end: 20:20
+        description:
+          Set in the Star Wars universe, Star Tours is a Disney theme park attraction that takes passengers on a turbulent trip across the
+          galaxy. You might have ridden it, but have you ever stopped and thought about the complexity of running such an interplanetary
+          travelling agency?
 
 
-          In January 2012 he became a crew member of AZUG, the Belgian Microsoft Azure User Group. As an active member he’s both involved in giving
-          presentations and organizing events (like ITProceed, Techorama and Global Azure Bootcamp aka GAB). Mike was also a Microsoft
-          Azure MVP (awarded 5 times since 2013, received his Fifth in July 2017! ) and Microsoft Azure Advisor.
+          Event Sourcing can help us tackle this complexity by storing state as a series of events that include the 'why' and 'when' of the
+          specific event. Cosmos DB, the multi-model globally distributed database service on Azure is a great fit for storing these events.
 
-
-          Helping out in the community and introducing new & young people into the world of Microsoft and technology is also one of his passions.
+          In this demo-heavy session I'll show you how to build an event store on Cosmos DB starting from scratch. Topics include bulk
+          operations using stored procedures, partitioning strategies, and how to create projections using the Cosmos DB Change Feed. After
+          this session, you'll be ready to start your own galactic travelling agency!
