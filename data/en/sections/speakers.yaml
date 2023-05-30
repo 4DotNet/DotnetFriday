@@ -40,8 +40,8 @@ speakers:
 
     sessions:
       - title: Calling Flurl - accessing REST APIs the easy way
-        start: 19:00
-        end: 19:15
+        start: 18:45
+        end: 19:00
         description:
           Flurl is a modern, fluent, asynchronous, testable, portable, buzzword-laden URL builder and HTTP client
           library for .NET. In this brief talk I will demonstrate how Flurl can make your life easier when trying
@@ -60,8 +60,8 @@ speakers:
 
     sessions:
       - title: Star Tours - Event Sourcing at Cosmic Scale
-        start: 19:20
-        end: 20:20
+        start: 19:05
+        end: 20:05
         description:
           Set in the Star Wars universe, Star Tours is a Disney theme park attraction that takes passengers on a turbulent trip across the
           galaxy. You might have ridden it, but have you ever stopped and thought about the complexity of running such an interplanetary
