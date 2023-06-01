@@ -10,8 +10,16 @@
 <link href="https://fonts.googleapis.com/css2?family=Alata&family=Montserrat&display=swap" rel="stylesheet">
 
 <meta property="og:url" content="https://dotnetfriday.nl" />
-<meta property="og:description" content="We host quarterly meetups for .NET developers and Microsoft Azure enthousiasts." />
-<meta property="og:image" content="https://dotnetfriday.nl/images/logo.jpg" />
+{{ if .Params.description }}
+    <meta property="og:description" content="{{.Params.description}}" />
+{{ else }}
+    <meta property="og:description" content="We host quarterly meetups for .NET developers and Microsoft Azure enthousiasts." />
+{{ end }}
+{{ if .Params.image }}
+    <meta property="og:image" content="{{.Params.image}}" />
+{{ else }}
+    <meta property="og:image" content="https://dotnetfriday.nl/images/logo.jpg" />
+{{ end }}
 
 <!-- font configuration -->
 <link rel="stylesheet" href="{{ .Site.Params.staticPath }}/css/font.css" media="all">
