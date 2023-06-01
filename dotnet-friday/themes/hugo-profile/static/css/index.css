@@ -74,6 +74,9 @@ header .navbar.animate {
   min-height: 100vh;
   line-height: 2rem;
   max-width: 100%;
+  background-image: url(/images/hero-backdrop.jpg);
+  background-position: center center;
+  background-size: cover;
 }
 #hero .content.animate {
   animation: fade-left 1s ease-out;
