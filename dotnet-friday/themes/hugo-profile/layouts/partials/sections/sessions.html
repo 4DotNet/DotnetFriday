@@ -1,0 +1,73 @@
+{{ if .Site.Params.sessions.enable | default false }}
+<section id="sessions" class="py-5">
+    <div class="container">
+        
+        <h3 class="text-center">{{ .Site.Params.sessions.title | default "Sessions" }}</h3>
+        <div class="row justify-content-center py-5">
+            {{ $indexMenu := .Site.Params.sessions.index }}
+            {{ range $index, $element := .Site.Params.sessions.items }}
+            <div class="col-12 p-0">
+                <div class="row row align-items-center justify-content-center m-1 mb-4">
+                    {{ if $indexMenu }}
+                    <div class="col-md-1 text-center me-2 p-0 d-none d-md-block">
+                        <div class="py-2">
+                            <span class="index shadow-lg">
+                                {{ add $index 1 }}
+                            </span>
+                        </div>
+                    </div>
+                    {{ end }}
+
+                    <div class="col-md-9">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="float-end">
+                                    <small>{{ .schedule }}</small>
+                                </div>
+                                {{ if .speaker.url }}
+                                <a href="{{ .speaker.url }}" class="link-primary" target="_blank">
+                                    <h3 class="card-title">{{ .speaker.name }}</h3>
+                                </a>
+                                {{ else }}
+                                    <h3 class="card-title">{{ .speaker.name }}</h3>
+                                {{ end }}
+
+                                {{ if .speaker.jobTitle }}
+                                    <h6>
+                                    {{ .speaker.jobTitle }}
+                                    </h6>
+                                {{ end }}
+                                
+                                {{ if .speaker.biography }}
+                                    <p>
+                                    {{ .speaker.biography }}
+                                    </p>
+                                {{ end }}
+
+                                {{ if .session }}
+                                <div class="py-1">
+                                    <h4 class="card-subtitle mb-2">{{ .session.title }}</h4>
+                                    <p>{{ .session.abstract }}</p>
+                                </div>
+                                {{ end }}
+                                <div class="py-1 education-content">
+                                    {{ .content | markdownify}}
+                                </div>
+
+                                {{ if .featuredLink.enable }}
+                                <div class="py-1">
+                                    <a href="{{ .featuredLink.url }}" class="btn">
+                                        {{ .featuredLink.name | default "Featured" }}
+                                    </a>
+                                </div>
+                                {{ end }}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</section>
+{{ end }}
