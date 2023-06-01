@@ -26,16 +26,22 @@
                                 </div>
                                 {{ if .speaker.url }}
                                 <a href="{{ .speaker.url }}" class="link-primary" target="_blank">
-                                    <h4 class="card-title">{{ .speaker.name }}</h4>
+                                    <h3 class="card-title">{{ .speaker.name }}</h3>
                                 </a>
                                 {{ else }}
-                                    <h4 class="card-title">{{ .speaker.name }}</h4>
+                                    <h3 class="card-title">{{ .speaker.name }}</h3>
+                                {{ end }}
+
+                                {{ if .speaker.jobTitle }}
+                                    <h6>
+                                    {{ .speaker.jobTitle }}
+                                    </h6>
                                 {{ end }}
                                 
                                 {{ if .speaker.biography }}
-                                    <h6>
+                                    <p>
                                     {{ .speaker.biography }}
-                                    </h6>
+                                    </p>
                                 {{ end }}
 
                                 {{ if .session }}
