@@ -16,6 +16,17 @@
 <!-- font configuration -->
 <link rel="stylesheet" href="{{ .Site.Params.staticPath }}/css/font.css" media="all">
 
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-7R7R6XBKSM"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-7R7R6XBKSM');
+</script>
+
 <!-- Internal templates -->
 {{ template "_internal/google_analytics.html" . }}
 {{ template "_internal/opengraph.html" . }}
