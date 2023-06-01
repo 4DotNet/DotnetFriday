@@ -2,6 +2,8 @@ baseURL: https://dotnetfriday.nl/
 languageCode: en-us
 title: "DotnetFriday"
 theme: hugo-profile
+images:
+  - /images/logo.jpg
 
 outputs:
   home:

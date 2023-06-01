@@ -10,6 +10,8 @@ tags:
   - Front Door
   - Virtual Networks
 image: /images/dnf-20211015.jpg
+images:
+  - /images/dnf-20211015.jpg
 description: A security edition. This time with Maik van der Gaag and Eduard Keilholz (me) as speakers. Maik went through the Azure Portal and showed us click by click how you can secure your services and set up a virtual network as a first security boundary. Then we continues with a session about how to bring your services from your DevOps environment in production in a secure way using DevSecOps with Azure DevOps
 toc: true
 ---

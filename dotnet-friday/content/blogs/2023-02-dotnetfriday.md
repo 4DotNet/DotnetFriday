@@ -9,6 +9,8 @@ tags:
   - Supply Chain
   - Security
 image: /images/dnf-20230210.jpg
+images:
+  - /images/dnf-20230210.jpg
 description: |-
     The DotnetFriday event held last week was an absolute blast, filled with valuable insights and exciting discussions. One of the highlights of the event was Dennis Doomen's captivating talk on Event Sourcing. His deep understanding and practical examples showcased the power and flexibility of this architectural pattern. Attendees were left inspired to explore the potential of Event Sourcing in their own projects. Another standout session was led by Mike Martin, who took us on a thrilling journey through the vast landscape of tools available for developers working with Microsoft Azure. From infrastructure management to serverless computing and machine learning, Mike covered it all, leaving no stone unturned. The event was truly packed with knowledge and left the attendees with a renewed sense of enthusiasm for their work in the .NET ecosystem and Azure.
 toc: true

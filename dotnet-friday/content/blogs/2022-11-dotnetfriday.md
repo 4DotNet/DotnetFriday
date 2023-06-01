@@ -8,6 +8,8 @@ tags:
   - GitHub
   - Codespaces
 image: /images/dnf-20221104.jpg
+images:
+  - /images/dnf-20221104.jpg
 description: How about GitHub, the git technology, and the relatively new GitHub Codespaces. This edition of DotnetFriday is packed with Git. Fanie takes us on a trip trhough codespaces and shows us how to build a development environment in no-time, that is up to PAR with your current environment. Mart takes you by the hand and explores workflows you can use working with Git.
 toc: true
 ---

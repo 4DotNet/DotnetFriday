@@ -9,6 +9,8 @@ tags:
   - Supply Chain
   - Security
 image: /images/dnf-20220520.jpg
+images:
+  - /images/dnf-20220520.jpg
 description: The .NET MAUI world is slowly taking over. This new revolution of front-end experience for .NET developers is gaining more and more popularity. Time ti invite Gerald Versluis, for an introduction. At the same time, we have seen what issues in your supply chain can do. The Log4J problem existed world-wide, because the Log4J package is a largely used packake. Suzanne Rijnbergen, Director ICS and Cybersecurity at Accenture tells us how to prevent supply chain attacks.
 toc: true
 ---

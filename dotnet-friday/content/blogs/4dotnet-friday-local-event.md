@@ -16,6 +16,8 @@ tags:
   - GitHub
   - Azure Functions
 image: /images/dotnetconf-2021.jpg
+images:
+  - /images/dotnetconf-2021.jpg
 description: |-
     In january 2021 we organized a DotNet Conference local event. A day full of tech sessions with 6 of the most wanted speakers out there. We hosted the event from our Nieuwegein office with hosts Erwin Staal and Eduard Keilholz. We had a lot of fun, gave away some awesome prices and even became trending topic on twitter.
 toc: true

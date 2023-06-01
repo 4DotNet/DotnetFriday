@@ -11,6 +11,8 @@ tags:
   - Infrastructure
   - IaC
 image: /images/dnf-20220408.jpg
+images:
+  - /images/dnf-20220408.jpg
 description: This edition of DotnetFriday was originally planned with Henk Boelman. Unfortunately he had to cancel last minute because of an illness and we were lucky enough to have Roelant Dieben to replace him.
 toc: true
 ---
