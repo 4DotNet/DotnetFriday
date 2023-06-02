@@ -501,12 +501,14 @@ header .navbar.animate {
 
 #teammembers .card {
   cursor: context-menu;
-  background-color: var(--secondary-color) !important;
   border-radius: 1rem;
   box-shadow: 0 0 36px rgba(0, 0, 0, 0.1);
   /* transform: translate3d(0, 0, 0); */
   transition: box-shadow 0.2s linear, opacity 0.2s linear;
   border: 2px solid transparent;
+}
+.dark #teammembers .card {
+  background-color: var(--secondary-color) !important;
 }
 
 #teammembers a.card {
@@ -536,7 +538,7 @@ header .navbar.animate {
   height: 124px;
 }
 
-#teammembers .card-text {
+.dark #teammembers .card-text {
   background-color: var(--secondary-color) !important;
   color: var(--text-secondary-color) !important;
 }
