@@ -157,10 +157,11 @@ header .navbar.animate {
 }
 
 #hero a.btn {
+  background-color: var(--secondary-color) !important;
   margin-top: 50px;
   padding: 0.7rem 1.75rem;
   border: 1px solid var(--primary-color);
-  color: var(--text-color) !important;
+  color: #ccc !important;
   border-radius: 0.75rem;
   transition: none;
 }
@@ -170,9 +171,7 @@ header .navbar.animate {
 }
 
 #hero a.btn:hover {
-  background-color: var(--secondary-color) !important;
-  color: var(--text-color) !important;
-  opacity: 0.9;
+  color: #fff !important;
 }
 
 #hero a.btn.social-icon:hover {
