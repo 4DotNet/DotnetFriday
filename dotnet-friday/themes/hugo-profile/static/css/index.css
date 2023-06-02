@@ -553,9 +553,10 @@ header .navbar.animate {
   transition: none;
   transition: opacity 0.3s;
   border-radius: 0.5rem !important;
-  border-color: var(--primary-color) !important;
-  background-color: var(--secondary-color) !important;
   color: var(--text-color) !important;
+}
+.dark #contact .bnt {
+  background-color: var(--secondary-color) !important;
 }
 
 #contact .btn:hover {
