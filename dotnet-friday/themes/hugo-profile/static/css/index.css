@@ -68,6 +68,13 @@ header .navbar.animate {
   visibility: hidden !important;
 }
 
+.default-background {
+  background-color: var(--secondary-background-color) !important;
+}
+.dark .default-background {
+  background-color: var(--secondary-background-color-dark) !important;
+}
+
 /* hero */
 
 #hero {
@@ -82,8 +89,17 @@ header .navbar.animate {
   animation: fade-left 1s ease-out;
 }
 
+#hero .content {
+  background-color: rgba(255, 255, 255, .8);
+  padding: 2rem;
+}
+.dark #hero .content {
+  background-color: rgba(0, 0, 0, .6);
+}
+
+
 #hero .hero-bottom-svg {
-  opacity: 0.5;
+  opacity: 1;
   position: absolute;
   bottom: -50px;
   left: -150px;
@@ -103,17 +119,9 @@ header .navbar.animate {
   font-size: clamp(40px, 8vw, 60px);
 }
 
-.light #hero h3 {
-  color: white;
-}
-
 #hero p {
   margin: 20px 0px 0px;
   max-width: 640px;
-}
-
-.light #hero p {
-  color: #ccc;
 }
 
 #hero .image img {
@@ -139,11 +147,10 @@ header .navbar.animate {
 }
 
 #hero a.btn.social-icon {
-  line-height: 0%;
   border-radius: 50%;
   margin-top: 50px;
-  padding: 0.7rem;
-  border: 1px solid var(--primary-color);
+  padding: 0.7rem 1rem;
+
   transition: none;
 }
 
@@ -260,7 +267,7 @@ header .navbar.animate {
   width: 100%;
 }
 
-/* experience */
+/* experience
 
 #experience h3 {
   color: var(--text-secondary-color) !important;
@@ -398,7 +405,7 @@ header .navbar.animate {
   a.btn:hover {
   color: var(--text-color) !important;
   opacity: 0.7;
-}
+} */
 
 /* Education */
 
@@ -413,13 +420,15 @@ header .navbar.animate {
   border-radius: 50%;
   max-height: 50px;
   z-index: 2;
-  background-color: var(--primary-color) !important;
   color: var(--secondary-color) !important;
   font-weight: bold;
 }
 
+#hero #sessions .card * {
+  background-color: var(--secondary-background-color);
+}
 .dark #sessions .card * {
-  background-color: var(--secondary-color) !important;
+  background-color: var(--secondary-background-color-dark);
 }
 
 #sessions .card {
@@ -507,8 +516,12 @@ header .navbar.animate {
   transition: box-shadow 0.2s linear, opacity 0.2s linear;
   border: 2px solid transparent;
 }
+
+#teammembers .card {
+  background-color: var(--secondary-background-color);
+}
 .dark #teammembers .card {
-  background-color: var(--secondary-color) !important;
+  background-color: var(--secondary-background-color-dark);
 }
 
 #teammembers a.card {
@@ -539,7 +552,6 @@ header .navbar.animate {
 }
 
 .dark #teammembers .card-text {
-  background-color: var(--secondary-color) !important;
   color: var(--text-secondary-color) !important;
 }
 

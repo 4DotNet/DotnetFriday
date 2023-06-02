@@ -4,9 +4,10 @@
     cursor: context-menu;
     overflow: hidden;
     border: none;
+    background-color: var(--background-color) !important;
 }
 .dark #list-page .card {
-    background-color: var(--secondary-color) !important;
+    background-color: var(--background-color-dark) !important;
 }
 
 #list-page .card a {
@@ -22,28 +23,29 @@
     transform: translateY(-7px);
 }
 
-.dark #list-page .card-text * {
-    background-color: var(--secondary-color) !important;
-}
 
 #list-page .post-footer {
     padding: .5rem 1rem;
     color: var(--text-color) !important;
-    border-top: 1px solid rgba(15, 80, 100, 0.16);
     opacity: 0.9;
+    background-color: var(--secondary-background-color) !important;
 }
-
 .dark #list-page .post-footer {
-    background-color: var(--secondary-color) !important;
+    padding: .5rem 1rem;
+    color: var(--text-color) !important;
+    opacity: 0.9;
+    background-color: var(--secondary-background-color-dark) !important;
 }
 
 #list-page .post-footer a {
     color: var(--text-secondary-color) !important;
-    border-color: var(--primary-color) !important;
+    background-color: var(--secondary-background-color) !important;
     transition: none;
+    border: solid 1px var(--primary-color) !important;
 }
 .dark #list-page .post-footer a {
-    background-color: var(--secondary-color) !important;
+    color: var(--text-secondary-color-dark) !important;
+    background-color: var(--secondary-background-color-dark) !important;
 }
 
 #list-page .post-footer a:focus {
@@ -70,10 +72,13 @@
 #list-page ul li a {
     transition: none;
     color: var(--text-color) !important;
+    background-color: var(--background-color) !important;
+    border: solid 1px var(--text-color) !important;
 }
 .dark #list-page ul li a {
-    border-color: var(--secondary-color);
-    background-color: var(--secondary-color) !important;
+    color: var(--text-color-dark) !important;
+    background-color: var(--background-color-dark) !important;
+    border: solid 1px var(--text-color-dark) !important;
 }
 
 #list-page ul li a:focus {

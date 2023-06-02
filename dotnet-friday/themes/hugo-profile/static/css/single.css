@@ -178,22 +178,53 @@
     margin-bottom: 1em;
 }
 
+/* #single aside.social .social-content ul li a {
+    border: 1px solid transparent;
+    background: var(--background-color);
+    padding: .7rem .9rem;
+    color: var(--text-color);
+    border-radius: 10px;
+    overflow: hidden;
+}
+.dark #single aside.social .social-content ul li a {
+    background: var(--background-color-dark);
+}
+
+#single aside.social .social-content ul li {
+    margin: .7rem .5rem;
+    margin-left: 0;
+}
+
+#single aside.social .social-content ul li:hover a {
+    border: 1px solid var(--primary-color);
+    opacity: .8;
+    color: var(--primary-color);
+} */
+
+
 
 #single aside.tags ul.tags-ul li a {
     padding: 10px 15px;
     margin-bottom: 2px;
-    border-radius: 8px;
-    background-color: var(--background-color);
     text-decoration: none;
     color: var(--text-color);
+    border: 1px solid transparent;
+    background: var(--background-color);
+    border-radius: 10px;
+    font-size: .9rem;
 }
 
+.dark #single aside.tags ul.tags-ul li a {
+    background: var(--background-color-dark);
+}
 #single aside.tags ul.tags-ul li {
     margin-bottom: 1.2rem;
 }
 
-#single aside.tags ul.tags-ul li:hover {
-    opacity: 0.8;
+#single aside.tags ul.tags-ul li:hover a {
+    border: 1px solid var(--primary-color);
+    opacity: .8;
+    color: var(--primary-color);
 }
 
 
@@ -254,11 +285,15 @@
 }
 
 #single aside.social .social-content ul li a {
-    border: 1px solid var(--primary-color);
-    padding: .7rem;
+    border: 1px solid transparent;
+    background: var(--background-color);
+    padding: .7rem .9rem;
     color: var(--text-color);
     border-radius: 10px;
     overflow: hidden;
+}
+.dark #single aside.social .social-content ul li a {
+    background: var(--background-color-dark);
 }
 
 #single aside.social .social-content ul li {
@@ -267,6 +302,7 @@
 }
 
 #single aside.social .social-content ul li:hover a {
+    border: 1px solid var(--primary-color);
     opacity: .8;
     color: var(--primary-color);
 }
@@ -281,15 +317,14 @@
     z-index: 99;
     border: none;
     outline: none;
-    background-color: var(--secondary-color);
+    background-color: var(--secondary-background-color);
     color: var(--primary-color);
     cursor: pointer;
     border-radius: 10px;
 }
 
 #single #topScroll:hover {
-    background-color: var(--primary-color);
-    color: var(--secondary-color);
+    background-color: var(--secondary-color);
     transition: .5s;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
 }
