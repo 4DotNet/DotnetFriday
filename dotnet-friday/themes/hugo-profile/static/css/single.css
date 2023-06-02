@@ -155,11 +155,17 @@
 /* sidebar */
 
 #single aside {
-    background-color: var(--secondary-color);
     border-radius: .7rem;
     padding: .7rem 1rem;
     margin-bottom: 1em;
 }
+.light #single aside {
+    background-color: var(--secondary-background-color);
+}
+.dark #single aside {
+    background-color: var(--secondary-background-color-dark);
+}
+
 
 #single .sticky-sidebar {
   position: sticky;
