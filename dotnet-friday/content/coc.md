@@ -1,8 +1,9 @@
 ---
 title: "Code of Conduct"
+author: 4Dotnet
 date: 2023-06-01T15:18:21+02:00
 draft: false
-toc: false
+toc: true
 ---
 
 # Our Pledge
