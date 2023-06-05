@@ -126,7 +126,7 @@ params:
   # Hero
   hero:
     enable: true
-    intro: "Hi, welcome to"
+    intro: "Welcome to"
     title: "DotnetFriday"
     subtitle: "Join us the 9th of June"
     content: "We host quarterly meetups for .NET developers and Microsoft Azure enthousiasts. Join us the 9th of June in person in Nieuwegein, The Netherlands. We do not host online sessions and we do not post sessions online after the event."
