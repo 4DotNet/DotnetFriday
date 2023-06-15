@@ -379,20 +379,11 @@ params:
             url: https://github.com/gurusabarish/HugoProfileV2
 
   #Contact
-  contact:
+  speaking:
     enable: true
-    # title: "Custom Name"
-    enableCfp: true
-    cfpLink: https://sessionize.com/dotnet-friday/
-    cfpText: Do you want to speak at DotnetFriday? Submit your session to apply.
-    content: Our inbox is always open. Whether you have a question or just want to say hi, we'll try our best to get back to you!
-    email: info@4dotnet.nl
-    btnName: Mail us
-    # formspree:
-    #   enable: true # `contact.email` value will be ignored
-    #   formId: abcdefgh # Take it from your form's endpoint, like 'https://formspree.io/f/abcdefgh'
-    #   emailCaption: "Enter your email address"
-    #   messageCaption: "Enter your message here"
+    title: "Speaking at DotnetFriday"
+    link: https://sessionize.com/dotnet-friday/
+    text: Do you want to speak at DotnetFriday? We have a permanent Call for Proposals (CfP) open on Sessionize. Submit your session to apply.
 
   footer:
     recentPosts:
