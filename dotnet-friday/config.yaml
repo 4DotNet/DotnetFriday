@@ -382,6 +382,9 @@ params:
   contact:
     enable: true
     # title: "Custom Name"
+    enableCfp: true
+    cfpLink: https://sessionize.com/dotnet-friday/
+    cfpText: Do you want to speak at DotnetFriday? Submit your session to apply.
     content: Our inbox is always open. Whether you have a question or just want to say hi, we'll try our best to get back to you!
     email: info@4dotnet.nl
     btnName: Mail us
