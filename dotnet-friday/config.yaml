@@ -378,7 +378,22 @@ params:
           - icon: fab fa-github
             url: https://github.com/gurusabarish/HugoProfileV2
 
-  #Contact
+  program:
+    enable: true
+    title: "Program"
+    text: |-
+      DotnetFriday events always start at 16:30 CEST. We allow attendees to arrive and settle with a drink for about half an hour.
+      first session typically starts at 17:00 CEST. A usual DotnetFriday evening looks like so:
+
+      | Time (CEST) |     |
+      |-------------|-----|
+      | 16:30 | Walk in, take a drink and have a chat |
+      | 17:00 | First session of the evening |
+      | 18:00 | End of the session, starting dinner |
+      | 18:50 | Lightning talk (this timeslot is optional does not always take place) |
+      | 19:10 | Second session of the evening (might start 10 minutes earlierin case of no lightning talk) |
+      | 20:10 | Drinks and bites, having a chat and a laugh |
+
   speaking:
     enable: true
     title: "Speaking at DotnetFriday"
