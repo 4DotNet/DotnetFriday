@@ -40,7 +40,7 @@
                                 
                                 {{ if .speaker.biography }}
                                     <p>
-                                    {{ .speaker.biography }}
+                                    {{ .speaker.biography | markdownify }}
                                     </p>
                                 {{ end }}
 

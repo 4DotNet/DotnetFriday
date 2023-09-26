@@ -260,15 +260,24 @@ params:
             By the end of the session you will have a good grasp of Dapr workflows and will be use them yourself to build distributed applications.
 
       - speaker:
-          name: "Kenny Baas-Schwegler"
+          name: "Kenny Baas-Schwegler & Bruno Boucard"
           jobTitle: Facilitating design & architecture by the people!
           url: "https://baasie.com/"
           biography: |-
+            **Kenny Baas-Schwegler**
+
             A lot of knowledge is lost when designing and building software — lost because of hand-overs in a telephone game, confusing communication by not having a shared language, discussing complexity without visualization and by not leveraging the full potential and wisdom of the diversity of the people. That lost knowledge while creating software impacts the software product’s sustainability, quality, and value. Kenny Baas-Schwegler is a strategic software delivery consultant and agile software architect focusing on socio-technical systems thinking.
 
             He approaches software delivery by blending Domain-Driven Design and Continuous Delivery to facilitate change with Deep Democracy through collaborative modeling tools like Eventstorming, Wardley mapping, context mapping, and many more. As a result, Kenny is the catalyst that empowers and collaboratively enables organizations, teams, and groups of people to design, architecting, and build sustainable quality software products.
 
-            One of Kenny’s core principles is sharing knowledge. He does that by writing a blog on his website baasie.com and helping curate the Leanpub book visual collaboration tool. Besides writing, he also shares experience in the Domain-Driven Design community as an organizer of Virtual Domain-Driven Design (virtualddd.com) and Domain-Driven Design Nederland. In addition, he enjoys being a public speaker by giving talks and hands-on workshops at conferences and meetups.
+            One of Kenny's core principles is sharing knowledge. He does that by writing a blog on his website baasie.com and helping curate the Leanpub book visual collaboration tool. Besides writing, he also shares experience in the Domain-Driven Design community as an organizer of Virtual Domain-Driven Design (virtualddd.com) and Domain-Driven Design Nederland. In addition, he enjoys being a public speaker by giving talks and hands-on workshops at conferences and meetups.
+
+            **Bruno Boucard**
+
+            Bruno Boucard started in the 80s coding on a TRS 80 machine. Today he is a senior developer, trainer, agile coach & technical coach, and speaker. He loves to explain with concrete examples with live coding, if necessary. He is the leader of the BDD Paris user group. He's a long-time Microsoft MVP, but he still codes Java, Python and C++ with a C# accent ;-)
+
+            His company, 42skillz, aims to help organizations make software work differently. he offers training, coaching and advice on TDD, BDD, legacy code refactoring and DDD techniques with an extra soul.
+
         schedule: "19:00 - 20:00"
         session:
           title: "Moving Beyond Naive Domain Models: Refactoring Towards Deeper Insights Using Domain-Driven Design"
