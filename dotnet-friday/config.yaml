@@ -128,8 +128,8 @@ params:
     enable: true
     intro: "Welcome to"
     title: "DotnetFriday"
-    subtitle: "Join us the 29th of September"
-    content: "We host quarterly meetups for .NET developers and Microsoft Azure enthousiasts. Join us the 29th of September in person in Nieuwegein, The Netherlands. We do not host online sessions and we do not post sessions online after the event."
+    subtitle: "Join us the 1st of December"
+    content: "We host quarterly meetups for .NET developers and Microsoft Azure enthousiasts. Join us in-person in Nieuwegein, The Netherlands. We do not host online sessions and we do not post sessions online after the event."
     image: /images/logo.jpg
     bottomImage:
       enable: false
@@ -137,7 +137,7 @@ params:
     button:
       enable: true
       name: "Register Now"
-      url: "https://www.eventbrite.nl/e/registratie-4dotnet-dotnetfriday-meetup-647893064597?aff=DnFWeb"
+      url: "https://www.eventbrite.nl/e/registratie-4dotnet-dotnetfriday-meetup-739969377327?aff=DnFWeb"
       download: true
       newPage: true
     socialLinks:
@@ -242,82 +242,73 @@ params:
     index: false
     items:
       - speaker:
-          name: "Marc Duiker"
-          jobTitle: I ♥ Serverless, Dev Communities, & Creative Coding
-          url: "https://www.polywork.com/marcduiker"
+          name: "Erwin Staal & Patrick de Kruijf"
+          url: "https://www.erwinstaal.nl/"
           biography: |-
-            Marc is a Sr Developer Advocate at Diagrid with a strong focus on event-driven architectures in the Azure cloud. He loves helping developers to achieve more every day.
-            You might have seen Marc at a developer meetup or conference since he's a regular speaker in the area of Azure cloud & serverless technologies. He started Azure Functions University, a free and open source learning curriculum on GitHub, where everyone can learn about Azure Functions at their own pace. In 2019, 2020, and 2021 Marc received the Microsoft Azure MVP award for his community contributions.
-            In his spare time, Marc likes to give attention to the creative part of his brain. He likes to create pixel art (check out VSCode Pets), code visuals & music, and an occasional retro game.
-          schedule: "17:00 - 18:00"
+            **Erwin Staal**  
+            **Azure Architect @ Xpirit, Author of 'Azure Infrastructure as Code'**
+
+            Erwin Staal is an Azure Architect and DevOps consultant working for Xpirit in the Netherlands. Helping companies deliver their software to customers using DevOps practices and cloud-native architectures is what he loves to do. He believes in the power of both the monolith and microservices and prefers to run his workload on the Azure Cloud and/or Kubernetes.
+            Besides the work he does for the customers of Xpirit, he has a passion for sharing knowledge. He is one of the authors of 'Azure Infrastructure as Code' (https://www.manning.com/books/azure-infrastructure-as-code), occasionally writes a blog, and is an international speaker at conferences.
+
+            **Patrick de Kruijf**  
+            **Cloud Architect / Azure Virtual Desktop Specialist / Managed Landing Zone Technology Lead @ Xpirit**
+
+            Patrick is a passionate consultant with broad knowledge of infrastructure and security aspects of IT. As a Cloud Architect and Specialist, he helps customers by designing, implementing, and assessing cloud architectures and solutions in alignment with his customers’ business and IT objectives.
+
+            He applies state-of-the-art technologies and concepts, including the cloud and DevOps, to help his customers create business value. His approach is one of honesty and building relationships, which always makes him a trusted advisor for his stakeholders. Patrick has a clear and analytical mindset and is a consultant with excellent communication and presentation skills.
+
+            Throughout the past 16 years, Patrick has accumulated a broad experience in Infrastructure, Security, and Consulting, mainly at companies that relied heavily on Microsoft technology. He has worked in various disciplines, from enterprise to government, non-profit, and private customers. As consultant and architect, Patrick was responsible for designing and implementing Microsoft reference architecture, principles, and guidelines.
+        schedule: "17:00 - 18:00"
         session:
-          title: "Orchestrate your business logic reliably with Dapr workflows"
+          title: "Govern your Azure environment through Azure Policy"
           abstract: |-
-            Many complex business processes are modelled as workflows. Workflows need to be resilient, tolerant to failures, and consistent in their execution. Quite a dauting task if you need to write or manage this yourself.
-
-            In this session I'll cover the latest Dapr building block that allows developers to build resilient and long running workflows in code. I'll go into the specific workflow features, such as scheduling, sequential and parallel execution, and external event triggers. I'll show code samples (in C#) for each of these features and will run some workflows locally using the Dapr CLI. Finally, we'll take a peek under the cover and look at the internals of Dapr workflow, and which components it is built on top of.
-
-            By the end of the session you will have a good grasp of Dapr workflows and will be use them yourself to build distributed applications.
+            When your Azure environment is relatively small, it is straightforward to keep track of what resources you have running in Azure and make sure that your solution is secure, compliant, and cost-effective. When your cloud workload gets bigger, and you have a lot of subscriptions and multiple management groups, that is much harder to do. Luckily, Azure has a built-in feature called Azure Policy that can help you govern your Azure resources. But how do we implement policies, guarantee compliance and security, without decreasing developer agility? This session will teach you how to deploy policies using Infrastructure as Code. You will see how to use the built-in policies and how to create your own. We will look at all the different effects that a policy can have and which should be used when. You will learn how to assign policies on different scopes and finally how to review the compliance status. All with the goal to enforce security, be compliant, monitor that continuously, and keep costs at bay.
 
       - speaker:
-          name: "Kenny Baas-Schwegler & Bruno Boucard"
-          jobTitle: Facilitating design & architecture by the people!
-          url: "https://baasie.com/"
+          name: "Henry Been"
+          jobTitle: DevOps & Azure Architect | Microsoft MVP
+          url: "https://www.henrybeen.nl/"
           biography: |-
-            **Kenny Baas-Schwegler**
+            Henry Been is an independent architect and developer from The Netherlands. He enjoys working with software development teams to create and deliver great software for the Azure cloud. His interests include the Azure cloud, Agile, DevOps, software architecture and the design and implementation of testable and maintainable software.
 
-            A lot of knowledge is lost when designing and building software — lost because of hand-overs in a telephone game, confusing communication by not having a shared language, discussing complexity without visualization and by not leveraging the full potential and wisdom of the diversity of the people. That lost knowledge while creating software impacts the software product’s sustainability, quality, and value. Kenny Baas-Schwegler is a strategic software delivery consultant and agile software architect focusing on socio-technical systems thinking.
-
-            He approaches software delivery by blending Domain-Driven Design and Continuous Delivery to facilitate change with Deep Democracy through collaborative modeling tools like Eventstorming, Wardley mapping, context mapping, and many more. As a result, Kenny is the catalyst that empowers and collaboratively enables organizations, teams, and groups of people to design, architecting, and build sustainable quality software products.
-
-            One of Kenny's core principles is sharing knowledge. He does that by writing a blog on his website baasie.com and helping curate the Leanpub book visual collaboration tool. Besides writing, he also shares experience in the Domain-Driven Design community as an organizer of Virtual Domain-Driven Design (virtualddd.com) and Domain-Driven Design Nederland. In addition, he enjoys being a public speaker by giving talks and hands-on workshops at conferences and meetups.
-
-            **Bruno Boucard**
-
-            Bruno Boucard started in the 80s coding on a TRS 80 machine. Today he is a senior developer, trainer, agile coach & technical coach, and speaker. He loves to explain with concrete examples with live coding, if necessary. He is the leader of the BDD Paris user group. He's a long-time Microsoft MVP, but he still codes Java, Python and C++ with a C# accent ;-)
-
-            His company, 42skillz, aims to help organizations make software work differently. he offers training, coaching and advice on TDD, BDD, legacy code refactoring and DDD techniques with an extra soul.
-
+            Besides his work he is a conference speaker at international conferences, is the author of two books, and creates online training courses for Pluralsight and A Cloud Guru. For his work in the community he has been awarded the Microsoft MVP Award since 2019. To follow Henry you can go to his blog or look him up on Twitter: @henry_been
         schedule: "19:00 - 20:00"
         session:
-          title: "Moving Beyond Naive Domain Models: Refactoring Towards Deeper Insights Using Domain-Driven Design"
+          title: "The art of getting 💩 done"
           abstract: |-
-            When creating initial domain models, we often use shallow knowledge by identifying nouns and verbs to determine the objects and methods. However, these models do not accurately reflect the primary concerns of domain experts. To improve the model, we need to refactor and develop deeper insights that capture key concerns and eliminate superficial aspects. To continuously improve the model, the code design must also support this change.
+            Do you want to call in sick for the half day of Sprint Planning every other week? Do you take every excuse to cancel your pre-refinement meeting with your product owner and simply want to stand up and leave the actual refinement after debating the sizing of a story for 20 minutes? Do you just feel that all that sprinting is just not working for you?
 
-            In this live coding session, I will showcase a naive model created using Domain-Driven Design (DDD) principles. I will start the session by explaining what Eric Evans intended to achieve with DDD, which goes beyond tactical patterns like aggregate and domain services. I will demonstrate how to design your domain model using techniques such as EventStorming, Example Mapping, and Responsibility Mapping. Then I will use tactical patterns in code to implement a supple design that enables continuous refactoring and deep modeling as domain expertise grows. By the end of the session, you will have a clear understanding of what DDD is, with a concrete example of how to move away from naive domain models and towards deeper models through refactoring guided by tests.
+            If that's the case, this session is for you! Over the last few years, we have seen an explosion in methodologies, frameworks and ways of working within IT. But is this helping us in getting more sh*t done? Sometimes, but not always. Whenever given the opportunity and the right context, I try do things differently. In this session I will share what I dislike about some of the things happening in our industry, and how I have approached things in three different teams over the last few years.
 
+            So please join Henry Been in this session where he reflects on ten years of working in software development and the things that have helped him getting 💩 done.
 
-#   - speaker:
-#       name: Sander Molenkamp
-#       title: Principal Cloud Architect @ Info Support & Microsoft Azure MVP
-#       url: "https://www.sandermolenkamp.com/"
-#       location: The Netherlands
-#       overview:
-        # Sander Molenkamp is principal cloud architect and Microsoft Azure MVP with over 20 years of professional
-        # experience. He works for Info Support (www.infosupport.com) designing and developing customer solutions
-        # using cloud native architectures. Sander is passionate about community and is co-organizer of the Dutch
-        # Azure Meetup and a host on the dotnetFlix podcast (www.youtube.com/dotnetflix).
+  #   - speaker:
+  #       name: Sander Molenkamp
+  #       title: Principal Cloud Architect @ Info Support & Microsoft Azure MVP
+  #       url: "https://www.sandermolenkamp.com/"
+  #       location: The Netherlands
+  #       overview:
+  # Sander Molenkamp is principal cloud architect and Microsoft Azure MVP with over 20 years of professional
+  # experience. He works for Info Support (www.infosupport.com) designing and developing customer solutions
+  # using cloud native architectures. Sander is passionate about community and is co-organizer of the Dutch
+  # Azure Meetup and a host on the dotnetFlix podcast (www.youtube.com/dotnetflix).
 
-#     sessions:
-#       - title: Star Tours - Event Sourcing at Cosmic Scale
-#         start: 19:05
-#         end: 20:05
-#         description:
-#           Set in the Star Wars universe, Star Tours is a Disney theme park attraction that takes passengers on a turbulent trip across the
-#           galaxy. You might have ridden it, but have you ever stopped and thought about the complexity of running such an interplanetary
-#           travelling agency?
+  #     sessions:
+  #       - title: Star Tours - Event Sourcing at Cosmic Scale
+  #         start: 19:05
+  #         end: 20:05
+  #         description:
+  #           Set in the Star Wars universe, Star Tours is a Disney theme park attraction that takes passengers on a turbulent trip across the
+  #           galaxy. You might have ridden it, but have you ever stopped and thought about the complexity of running such an interplanetary
+  #           travelling agency?
 
+  #           Event Sourcing can help us tackle this complexity by storing state as a series of events that include the 'why' and 'when' of the
+  #           specific event. Cosmos DB, the multi-model globally distributed database service on Azure is a great fit for storing these events.
 
-#           Event Sourcing can help us tackle this complexity by storing state as a series of events that include the 'why' and 'when' of the
-#           specific event. Cosmos DB, the multi-model globally distributed database service on Azure is a great fit for storing these events.
-
-#           In this demo-heavy session I'll show you how to build an event store on Cosmos DB starting from scratch. Topics include bulk
-#           operations using stored procedures, partitioning strategies, and how to create projections using the Cosmos DB Change Feed. After
-#           this session, you'll be ready to start your own galactic travelling agency!
-
-
-
-
+  #           In this demo-heavy session I'll show you how to build an event store on Cosmos DB starting from scratch. Topics include bulk
+  #           operations using stored procedures, partitioning strategies, and how to create projections using the Cosmos DB Change Feed. After
+  #           this session, you'll be ready to start your own galactic travelling agency!
 
   # Achievements
   teammembers:

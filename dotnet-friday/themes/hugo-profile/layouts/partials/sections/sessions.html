@@ -47,7 +47,7 @@
                                 {{ if .session }}
                                 <div class="py-1">
                                     <h4 class="card-subtitle mb-2">{{ .session.title }}</h4>
-                                    <p>{{ .session.abstract }}</p>
+                                    <p>{{ .session.abstract | markdownify }}</p>
                                 </div>
                                 {{ end }}
                                 <div class="py-1 education-content">
