@@ -1,18 +1,18 @@
 ---
 title: "DotnetFriday December 2023"
-date: 2023-09-29T22:00:00+02:00
+date: 2023-12-01T22:00:00+02:00
 draft: false
 author: Eduard Keilholz
 tags:
-  - DAPR
-  - Workflows
-  - Sidecar
-  - Resilliency
-  - DDD
-  - Naive Models
-  - Example Mapping
-  - Domain
-  - EventStorming
+  - Azure
+  - Policy
+  - Governance
+  - Environment
+  - Scrum
+  - Project Management
+  - Management Schedule
+  - Maker Schedule
+  - Improvement
 image: /images/dnf-20230929.jpg
 images:
   - /images/dnf-20230929.jpg
