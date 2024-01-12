@@ -13,9 +13,9 @@ tags:
   - Management Schedule
   - Maker Schedule
   - Improvement
-image: /images/dnf-20230929.jpg
+image: /images/dnf-20231201.jpg
 images:
-  - /images/dnf-20230929.jpg
+  - /images/dnf-20231201.jpg
 description: |-
     The latest edition of DotnetFriday proved to yet-again a great success, with attendees benefiting from insightful sessions delivered by industry experts. Erwin Staal and Patrick de Kruijf took the stage to delve into the intricacies of Azure Policy, offering a comprehensive exploration of its applications and best practices. Their session not only elucidated the technical nuances but also showcased the practical implementation of Azure Policy in real-world scenarios. On another front, Henry Been captivated the audience with his session on project management titled 'The Art of getting shit done.' His engaging presentation not only provided valuable insights into effective project management strategies but also infused a sense of humor and practicality into the often challenging realm of getting projects across the finish line. The dynamic combination of technical depth and project management finesse made this DotnetFriday meetup an enriching experience for all attendees, fostering a vibrant community of learning and collaboration.
 toc: true
