@@ -128,7 +128,7 @@ params:
     enable: true
     intro: "Welcome to"
     title: "DotnetFriday"
-    subtitle: "Join us the 1st of December"
+    subtitle: "Join us the 9th of Februari"
     content: "We host quarterly meetups for .NET developers and Microsoft Azure enthousiasts. Join us in-person in Nieuwegein, The Netherlands. We do not host online sessions and we do not post sessions online after the event."
     image: /images/logo.jpg
     bottomImage:
@@ -242,46 +242,31 @@ params:
     index: false
     items:
       - speaker:
-          name: "Erwin Staal & Patrick de Kruijf"
-          url: "https://www.erwinstaal.nl/"
+          name: "Annejan Barelds"
+          url: "https://4dotnet.nl/"
           biography: |-
-            **Erwin Staal**  
-            **Azure Architect @ Xpirit, Author of 'Azure Infrastructure as Code'**
-
-            Erwin Staal is an Azure Architect and DevOps consultant working for Xpirit in the Netherlands. Helping companies deliver their software to customers using DevOps practices and cloud-native architectures is what he loves to do. He believes in the power of both the monolith and microservices and prefers to run his workload on the Azure Cloud and/or Kubernetes.
-            Besides the work he does for the customers of Xpirit, he has a passion for sharing knowledge. He is one of the authors of 'Azure Infrastructure as Code' (https://www.manning.com/books/azure-infrastructure-as-code), occasionally writes a blog, and is an international speaker at conferences.
-
-            **Patrick de Kruijf**  
-            **Cloud Architect / Azure Virtual Desktop Specialist / Managed Landing Zone Technology Lead @ Xpirit**
-
-            Patrick is a passionate consultant with broad knowledge of infrastructure and security aspects of IT. As a Cloud Architect and Specialist, he helps customers by designing, implementing, and assessing cloud architectures and solutions in alignment with his customers’ business and IT objectives.
-
-            He applies state-of-the-art technologies and concepts, including the cloud and DevOps, to help his customers create business value. His approach is one of honesty and building relationships, which always makes him a trusted advisor for his stakeholders. Patrick has a clear and analytical mindset and is a consultant with excellent communication and presentation skills.
-
-            Throughout the past 16 years, Patrick has accumulated a broad experience in Infrastructure, Security, and Consulting, mainly at companies that relied heavily on Microsoft technology. He has worked in various disciplines, from enterprise to government, non-profit, and private customers. As consultant and architect, Patrick was responsible for designing and implementing Microsoft reference architecture, principles, and guidelines.
+            Annejan has been an avid software developer since 2006. And while his career took him to several non-development roles, he keeps coming back to development: exploring new technologies, building great software with it, and sharing his knowledge with others, is what makes him tick. He currently works for 4Dotnet where he's helping customers build great software on Azure.        schedule: "17:00 - 18:00"
         schedule: "17:00 - 18:00"
         session:
-          title: "Govern your Azure environment through Azure Policy"
+          title: "Delegated Access with OAuth: Why Developers Should Care"
           abstract: |-
-            When your Azure environment is relatively small, it is straightforward to keep track of what resources you have running in Azure and make sure that your solution is secure, compliant, and cost-effective. When your cloud workload gets bigger, and you have a lot of subscriptions and multiple management groups, that is much harder to do. Luckily, Azure has a built-in feature called Azure Policy that can help you govern your Azure resources. But how do we implement policies, guarantee compliance and security, without decreasing developer agility? This session will teach you how to deploy policies using Infrastructure as Code. You will see how to use the built-in policies and how to create your own. We will look at all the different effects that a policy can have and which should be used when. You will learn how to assign policies on different scopes and finally how to review the compliance status. All with the goal to enforce security, be compliant, monitor that continuously, and keep costs at bay.
+            Abstract coming soon
 
       - speaker:
-          name: "Henry Been"
-          jobTitle: DevOps & Azure Architect | Microsoft MVP
-          url: "https://www.henrybeen.nl/"
+          name: "Kristof Riebbels"
+          jobTitle: Xebia | Xpirit, I still feel like a software developer
+          url: "https://dotnet.kriebbels.me"
           biography: |-
-            Henry Been is an independent architect and developer from The Netherlands. He enjoys working with software development teams to create and deliver great software for the Azure cloud. His interests include the Azure cloud, Agile, DevOps, software architecture and the design and implementation of testable and maintainable software.
-
-            Besides his work he is a conference speaker at international conferences, is the author of two books, and creates online training courses for Pluralsight and A Cloud Guru. For his work in the community he has been awarded the Microsoft MVP Award since 2019. To follow Henry you can go to his blog or look him up on Twitter: @henry_been
+            Kristof is a Consultant at Xebia | Xpirit, driven by a passion for knowledge acquisition and sharing. With a background working as an employee and a steadfast commitment to continuous improvement, he recently made a transition into the consultancy field. Alongside earning the AZ-204 certificate, Kristof is currently focused on the development and delivery of secure code, motivated by the growing importance of safeguarding data privacy in the face of frequent breaches. Over the past years, he has dedicated himself to inspiring and coaching fellow developers, empowering them to enhance their software development skills by embracing modern practices and the timeless SOLID principles.
         schedule: "19:00 - 20:00"
         session:
-          title: "The art of getting 💩 done"
+          title: "Mock your OpenID Connect Provider"
           abstract: |-
-            Do you want to call in sick for the half day of Sprint Planning every other week? Do you take every excuse to cancel your pre-refinement meeting with your product owner and simply want to stand up and leave the actual refinement after debating the sizing of a story for 20 minutes? Do you just feel that all that sprinting is just not working for you?
+            This session delves into the importance of OpenID Connect in ensuring robust authentication and authorization for APIs.
 
-            If that's the case, this session is for you! Over the last few years, we have seen an explosion in methodologies, frameworks and ways of working within IT. But is this helping us in getting more sh*t done? Sometimes, but not always. Whenever given the opportunity and the right context, I try do things differently. In this session I will share what I dislike about some of the things happening in our industry, and how I have approached things in three different teams over the last few years.
+            Join us for an informative session where we explore the integration of OpenID Connect within the development lifecycle.
 
-            So please join Henry Been in this session where he reflects on ten years of working in software development and the things that have helped him getting 💩 done.
+            Gain insights on how OpenID Connect is configured, how you can mock it to seamlessly integrate OpenID Connect within your CI Pipeline and even test your scopes and policies, without changing your configuration.
 
   #   - speaker:
   #       name: Sander Molenkamp
