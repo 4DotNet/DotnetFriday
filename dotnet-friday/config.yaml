@@ -245,7 +245,7 @@ params:
           name: "Annejan Barelds"
           url: "https://4dotnet.nl/"
           biography: |-
-            Annejan has been an avid software developer since 2006. And while his career took him to several non-development roles, he keeps coming back to development: exploring new technologies, building great software with it, and sharing his knowledge with others, is what makes him tick. He currently works for 4Dotnet where he's helping customers build great software on Azure.        schedule: "17:00 - 18:00"
+            Annejan has been an avid software developer since 2006. And while his career took him to several non-development roles, he keeps coming back to development: exploring new technologies, building great software with it, and sharing his knowledge with others, is what makes him tick. He currently works for 4Dotnet where he's helping customers build great software on Azure.
         schedule: "17:00 - 18:00"
         session:
           title: "Delegated Access with OAuth: Why Developers Should Care"
