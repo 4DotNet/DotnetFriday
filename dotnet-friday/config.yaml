@@ -163,12 +163,12 @@ params:
       enable: true
       title: "Here some of the topics we have covered the past sessions:"
       items:
-        - ".NET 7"
+        - "Microsoft .NET"
         - "DDD"
         - "CQRS"
         - "Event Sourcing"
         - "Microsoft Azure"
-        - "ASP.NET Core"
+        - "Microservices"
 
   # Experience
   experience:
