@@ -250,15 +250,13 @@ params:
         session:
           title: "Delegated Access with OAuth: Why Developers Should Care"
           abstract: |-
-            These days, most software solutions are distributed solutions: several autonomous services working together to provide functionality.
-            And the developers of those services put in extra effort to maintain that autonomy, because services should not get too tightly coupled
-            to other services in all sorts of ways. In this talk, we'll discuss a strategy to extend this autonomy to user authorization as well.
-            Simply put: autonomous services should be able to make autonomous authorization decisions on user requests - and not depend on the
-            calling service to make those decisions for them. This is what delegated access is all about. We'll spend some time discussing why
-            you would want to enable this in your solutions - for example to facilitate auditing processes, or to allow for step-up authentication
-            for high-privileged actions, to name just a few reasons. And of course, we'll also see a demo on how to implement this using OpenID
-            Connect & OAuth, Microsoft Entra ID and .NET. So whether you're skeptical of the benefits of delegated access but want to keep an
-            open mind, or you are already sold on the idea and really want to learn how to make this happen, this talk is for you.
+            So you're a developer and want to learn how to build those cool, new, autonomous services? Nice. Then you also want
+            to attend this session and learn you can enable your autonomous services to also make autonomous authorization
+            decisions. Join me in finding out how OAuth On-Behalf-Of works, and why it's relevant. In this talk, we'll cover why
+            user delegation using On-Behalf-Of helps you meet auditing requirements, how it helps you achieve lower coupling
+            between services, and how it fits into a larger puzzle that security specialists like to call Zero Trust Architecture.
+            And of course we'll also demo how to actually implement it using Entra ID and .NET. So whether you're not sure yet
+            if this is worth your trouble, or are already sold on the idea and want to make it happen, this talk is for you.
 
       - speaker:
           name: "Kristof Riebbels"
