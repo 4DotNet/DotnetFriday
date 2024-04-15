@@ -242,37 +242,46 @@ params:
     index: false
     items:
       - speaker:
-          name: "Annejan Barelds"
-          url: "https://4dotnet.nl/"
+          name: "Niels Tanis"
+          jobTitle: Sr. Principal Security Researcher at Veracode | Microsoft MVP
+          url: "https://blog.fennec.dev/"
           biography: |-
-            Annejan has been an avid software developer since 2006. And while his career took him to several non-development roles, he keeps coming back to development: exploring new technologies, building great software with it, and sharing his knowledge with others, is what makes him tick. He currently works for 4Dotnet where he's helping customers build great software on Azure.
+            Niels Tanis has got a background in .NET development, pentesting and security consultancy. He is Microsoft MVP and has been involved in breaking, defending and building secure applications. He joined Veracode in 2015 and right now he works as a security researcher on a variant of languages and technologies related to Veracode’s Binary Static Analysis service. He is married, father of two and lives in a small village just outside Amersfoort, The Netherlands.
         schedule: "17:00 - 18:00"
         session:
-          title: "Delegated Access with OAuth: Why Developers Should Care"
+          title: "Using WebAssembly to run, extend, and secure your .NET application"
           abstract: |-
-            So you're a developer and want to learn how to build those cool, new, autonomous services? Nice. Then you also want
-            to attend this session and learn you can enable your autonomous services to also make autonomous authorization
-            decisions. Join me in finding out how OAuth On-Behalf-Of works, and why it's relevant. In this talk, we'll cover why
-            user delegation using On-Behalf-Of helps you meet auditing requirements, how it helps you achieve lower coupling
-            between services, and how it fits into a larger puzzle that security specialists like to call Zero Trust Architecture.
-            And of course we'll also demo how to actually implement it using Entra ID and .NET. So whether you're not sure yet
-            if this is worth your trouble, or are already sold on the idea and want to make it happen, this talk is for you.
+            WebAssembly (WASM) has come a long way since its first release in 2017. As a technology stack running inside the web browser, it even allows products like Adobe Photoshop to run in that context, and with Blazor WebAssembly .NET runs inside of the browser as well. Now, WASM is expanding beyond the browser to run in a server-based context. With the introduction of WebAssembly System Interface (WASI), the technology leverages a standardised API that allows it to run on any system that supports it, for example to support cloud-based workloads.
+            
+            Had WASM and WASI been around in 2009, Docker would not have existed according to one of its founders, Solomon Hykes. WASM has a strong security posture given how it works with linear memory space and how it supports a sandboxed-based environment called “nano-process”, which uses a capabilities-based security model. Users can even take .NET and, with the help of WASI, run it on a Trusted Execution Environment (TEE) to add an additional layer of security.
+            
+            In this session we'll start out with going through some of the basic security features of WASM and then move to running and extending an .NET application it with WASM. After that we'll focus on the security features and run .NET on a TEE and use the sandbox and the capabilities based security model to limit what it's allowed to do.
 
       - speaker:
-          name: "Kristof Riebbels"
-          jobTitle: Xebia | Xpirit, I still feel like a software developer
-          url: "https://dotnet.kriebbels.me"
+          name: "Stacy Cashmore"
+          jobTitle: Tech Explorer DevOps, Omniplan, Netherlands
+          url: "https://stacy-clouds.net/blog-posts"
           biography: |-
-            Kristof is a Consultant at Xebia | Xpirit, driven by a passion for knowledge acquisition and sharing. With a background working as an employee and a steadfast commitment to continuous improvement, he recently made a transition into the consultancy field. Alongside earning the AZ-204 certificate, Kristof is currently focused on the development and delivery of secure code, motivated by the growing importance of safeguarding data privacy in the face of frequent breaches. Over the past years, he has dedicated himself to inspiring and coaching fellow developers, empowering them to enhance their software development skills by embracing modern practices and the timeless SOLID principles.
+            Stacy is Tech Explorer DevOps at Omniplan, and Microsoft MVP in Developer Technologies.
+
+            She's been developing software since the mid-1990s and has been speaking about improving the way we develop software at conferences and meetups since 2018
+
+            As well as sparing with the software architect about technical issues, she spends her time helping the development team, and the wider company, with continuous improvement in terms of technical work, process and, of course, working together as a team.
+
+            Outside of work she enjoys spending time with her classic car, cooking, playing the piano badly and spending time with her family, doing amongst other things, building a Lego modular building city in their house.
         schedule: "19:00 - 20:00"
         session:
-          title: "Mock your OpenID Connect Provider"
+          title: "Azure Static Web Apps for the Enterprise"
           abstract: |-
-            This session delves into the importance of OpenID Connect in ensuring robust authentication and authorization for APIs.
+            Azure Static Web Apps. An easy way to get a hobby site into the world for very little cost.
 
-            Join us for an informative session where we explore the integration of OpenID Connect within the development lifecycle.
+            But that's not all they can do! With a few changes to the out of the box experience, and using the standard, paid, tier we can use these Azure Resources in our enterprise architecture!
 
-            Gain insights on how OpenID Connect is configured, how you can mock it to seamlessly integrate OpenID Connect within your CI Pipeline and even test your scopes and policies, without changing your configuration.
+            We will touch upon infrastructure as code, to make reliable deployments to a known environment.
+
+            We'll look into how to change the default pipeline to allow unit tests etc for the code, and deploying the same build applications into multiple environments.
+
+            Finally, we'll take a look at Custom Authentication - using Auth0 to authenticate and a custom Azure Function to provide the roles for our users.
 
   #   - speaker:
   #       name: Sander Molenkamp
