@@ -137,7 +137,7 @@ params:
     button:
       enable: true
       name: "Register Now"
-      url: "https://www.eventbrite.nl/e/registratie-4dotnet-dotnetfriday-meetup-795960167287?aff=oddtdtcreator"
+      url: "https://www.eventbrite.nl/e/registratie-4dotnet-dotnetfriday-meetup-24-mei-2024-871805592997"
       download: true
       newPage: true
     socialLinks:
