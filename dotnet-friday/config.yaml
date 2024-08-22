@@ -128,7 +128,7 @@ params:
     enable: true
     intro: "Welcome to"
     title: "DotnetFriday"
-    subtitle: "Join us the 24th of May"
+    subtitle: "Join us the 27th of September"
     content: "We host quarterly meetups for .NET developers and Microsoft Azure enthousiasts. Join us in-person in Nieuwegein, The Netherlands. We do not host online sessions and we do not post sessions online after the event."
     image: /images/logo.jpg
     bottomImage:
@@ -136,8 +136,8 @@ params:
     # roundImage: true # Make hero image circular | default false
     button:
       enable: true
-      name: "Register Now"
-      url: "https://www.eventbrite.nl/e/registratie-4dotnet-dotnetfriday-meetup-795960167287?aff=oddtdtcreator"
+      name: "Register Now (temporarily disabled)"
+      url: "https://www.eventbrite.nl/"
       download: true
       newPage: true
     socialLinks:
@@ -242,46 +242,32 @@ params:
     index: false
     items:
       - speaker:
-          name: "Niels Tanis"
-          jobTitle: Sr. Principal Security Researcher at Veracode | Microsoft MVP
-          url: "https://blog.fennec.dev/"
+          name: "Anjuli Jhakry"
+          jobTitle: .NET Developer at 4DotNet | Microsoft MVP .NET
+          url: "https://www.linkedin.com/in/anjuli-jhakry-1b8169116/"
           biography: |-
-            Niels Tanis has got a background in .NET development, pentesting and security consultancy. He is Microsoft MVP and has been involved in breaking, defending and building secure applications. He joined Veracode in 2015 and right now he works as a security researcher on a variant of languages and technologies related to Veracode’s Binary Static Analysis service. He is married, father of two and lives in a small village just outside Amersfoort, The Netherlands.
+            Meet Anjuli Jhakry: A Microsoft MVP and .NET developer at 4DotNet by day and a Microsoft Entra ID explorer by night. I'm navigating the vast ecosystem of Microsoft, always eager to learn. Beyond this, I am passionate about giving presentations and advocating for the incredible potential of tech to everyone.
         schedule: "17:00 - 18:00"
         session:
-          title: "Using WebAssembly to run, extend, and secure your .NET application"
+          title: "Welcome to the .NET festival: a performance with Microsoft Orleans"
           abstract: |-
-            WebAssembly (WASM) has come a long way since its first release in 2017. As a technology stack running inside the web browser, it even allows products like Adobe Photoshop to run in that context, and with Blazor WebAssembly .NET runs inside of the browser as well. Now, WASM is expanding beyond the browser to run in a server-based context. With the introduction of WebAssembly System Interface (WASI), the technology leverages a standardised API that allows it to run on any system that supports it, for example to support cloud-based workloads.
-            
-            Had WASM and WASI been around in 2009, Docker would not have existed according to one of its founders, Solomon Hykes. WASM has a strong security posture given how it works with linear memory space and how it supports a sandboxed-based environment called “nano-process”, which uses a capabilities-based security model. Users can even take .NET and, with the help of WASI, run it on a Trusted Execution Environment (TEE) to add an additional layer of security.
-            
-            In this session we'll start out with going through some of the basic security features of WASM and then move to running and extending an .NET application it with WASM. After that we'll focus on the security features and run .NET on a TEE and use the sandbox and the capabilities based security model to limit what it's allowed to do.
+          Get to know the power of Microsoft Orleans! Microsoft Orleans abstracts away much of the complexity of managing actors, distribution, and many more things, so that developers can focus on the application logic. In this presentation, you will learn about how Microsoft Orleans works and how it implements the Actor model, with a demonstration of a festival app.
 
       - speaker:
-          name: "Stacy Cashmore"
-          jobTitle: Tech Explorer DevOps, Omniplan, Netherlands
-          url: "https://stacy-clouds.net/blog-posts"
+          name: "Steef-Jan Wiggers"
+          jobTitle: Technical Integration Architect, MVP, Integration, SeaHawks Fan
+          url: "https://sjwiggers.com/"
           biography: |-
-            Stacy is Tech Explorer DevOps at Omniplan, and Microsoft MVP in Developer Technologies.
-
-            She's been developing software since the mid-1990s and has been speaking about improving the way we develop software at conferences and meetups since 2018
-
-            As well as sparing with the software architect about technical issues, she spends her time helping the development team, and the wider company, with continuous improvement in terms of technical work, process and, of course, working together as a team.
-
-            Outside of work she enjoys spending time with her classic car, cooking, playing the piano badly and spending time with her family, doing amongst other things, building a Lego modular building city in their house.
+            Steef-Jan is a Microsoft Azure MVP, blogger, author, and frequent public speaker. He has over 20 years of experience as a technical lead developer and application architect, specializing in custom applications, enterprise application integration, Web services, and Microsoft Azure. Steef-Jan has faced integration and cloud challenges in a diverse range of industries, where he has done architecting, designing, developing, mentoring, and supporting sophisticated and innovative software using many different Microsoft technologies and products.
         schedule: "19:00 - 20:00"
         session:
-          title: "Azure Static Web Apps for the Enterprise"
+          title: "Let systems communicate using Azure Integration Services"
           abstract: |-
-            Azure Static Web Apps. An easy way to get a hobby site into the world for very little cost.
+            How do I let my systems talk with each other in the Cloud or let's say in Azure? Well, Microsoft's answer to that is Azure Integration Services (AIS) - consisting of Logic Apps, API Management, Event Grid and the Service Bus. With these components, you can build solutions in Azure to facilitate communication between on-premise systems, SaaS systems or Azure services or what is known as integration.
 
-            But that's not all they can do! With a few changes to the out of the box experience, and using the standard, paid, tier we can use these Azure Resources in our enterprise architecture!
+            AIS allows you to build various types of integration solutions leveraging different messaging mechanisms and ways of 'loose coupling'. Furthermore, AIS can help in automating your business processes whether or not in combination with the Power Platform component - Power Automate.
 
-            We will touch upon infrastructure as code, to make reliable deployments to a known environment.
-
-            We'll look into how to change the default pipeline to allow unit tests etc for the code, and deploying the same build applications into multiple environments.
-
-            Finally, we'll take a look at Custom Authentication - using Auth0 to authenticate and a custom Azure Function to provide the roles for our users.
+            In this session, we shall discuss the AIS Components, the options for a solution architecture to allow systems to talk, best practices, real-world use cases, and combing AIS with Power Automate to facilitate business process automation.
 
   #   - speaker:
   #       name: Sander Molenkamp
