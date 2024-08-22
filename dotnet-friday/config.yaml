@@ -137,11 +137,7 @@ params:
     button:
       enable: true
       name: "Register Now"
-<<<<<<< HEAD
       url: "https://www.eventbrite.nl/e/registratie-4dotnet-dotnetfriday-meetup-13-september-2024-998471313577"
-=======
-      url: "https://www.eventbrite.nl/e/registratie-4dotnet-dotnetfriday-meetup-24-mei-2024-871805592997"
->>>>>>> main
       download: true
       newPage: true
     socialLinks:
