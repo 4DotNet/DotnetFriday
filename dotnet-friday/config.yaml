@@ -251,7 +251,7 @@ params:
         session:
           title: "Welcome to the .NET festival: a performance with Microsoft Orleans"
           abstract: |-
-          Get to know the power of Microsoft Orleans! Microsoft Orleans abstracts away much of the complexity of managing actors, distribution, and many more things, so that developers can focus on the application logic. In this presentation, you will learn about how Microsoft Orleans works and how it implements the Actor model, with a demonstration of a festival app.
+            Get to know the power of Microsoft Orleans! Microsoft Orleans abstracts away much of the complexity of managing actors, distribution, and many more things, so that developers can focus on the application logic. In this presentation, you will learn about how Microsoft Orleans works and how it implements the Actor model, with a demonstration of a festival app.
 
       - speaker:
           name: "Steef-Jan Wiggers"
