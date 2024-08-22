@@ -34,10 +34,7 @@ jobs:
           HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
           HUGO_ENVIRONMENT: production
         run: |
-          hugo --minify    steps:
-      - uses: actions/checkout@v3
-        with:
-          submodules: true
+          hugo --minify
       - name: Build And Deploy
         id: builddeploy
         uses: Azure/static-web-apps-deploy@v1
