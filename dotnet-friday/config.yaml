@@ -29,11 +29,11 @@ Menus:
       title: Previous editions of DotnetFriday
       url: /blogs
       weight: 1
-    - identifier: gallery
-      name: Impressions
-      title: Impressions of DotnetFriday
-      url: /gallery
-      weight: 2
+    # - identifier: gallery
+    #   name: Impressions
+    #   title: Impressions of DotnetFriday
+    #   url: /gallery
+    #   weight: 2
     - identifier: coc
       name: Code of Conduct
       title: Click to read our Code of Conduct
