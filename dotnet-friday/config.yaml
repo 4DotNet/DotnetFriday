@@ -128,7 +128,7 @@ params:
     enable: true
     intro: "Welcome to"
     title: "DotnetFriday"
-    subtitle: "Join us the 13th of September"
+    subtitle: "Join us the 29th of November"
     content: "We host quarterly meetups for .NET developers and Microsoft Azure enthousiasts. Join us in-person in Nieuwegein, The Netherlands. We do not host online sessions and we do not post sessions online after the event."
     image: /images/logo.jpg
     bottomImage:
@@ -137,7 +137,7 @@ params:
     button:
       enable: true
       name: "Register Now"
-      url: "https://www.eventbrite.nl/e/registratie-4dotnet-dotnetfriday-meetup-13-september-2024-998471313577"
+      url: "https://www.eventbrite.nl/e/registratie-dotnetfriday-meetup-29-november-2024-1069048545979"
       download: true
       newPage: true
     socialLinks:
@@ -242,32 +242,55 @@ params:
     index: false
     items:
       - speaker:
-          name: "Anjuli Jhakry"
-          jobTitle: .NET Developer at 4DotNet | Microsoft MVP .NET
-          url: "https://www.linkedin.com/in/anjuli-jhakry-1b8169116/"
+          name: "Johnny Hooyberghs"
+          jobTitle: Passionate Developer at Involved and Microsoft MVP
+          url: "https://www.involved-it.be/"
           biography: |-
-            Meet Anjuli Jhakry: A Microsoft MVP and .NET developer at 4DotNet by day and a Microsoft Entra ID explorer by night. I'm navigating the vast ecosystem of Microsoft, always eager to learn. Beyond this, I am passionate about giving presentations and advocating for the incredible potential of tech to everyone.
+            Johnny Hooyberghs is a consultant for Involved since 2014 focusing on .NET architecture and backend development and a Microsoft MVP since 2020. Prior to joining Involved, he has had experience developing software for Corilus since 2008. He has been passionate about .NET ever since it was released and his areas of expertise are C#, .NET (Core), ASP.NET (Core), Entity Framework (Core), Cloud Native Development, Azure Cloud and ALM using the Microsoft Stack. Every now and then he enjoys doing some web development using Blazor and app development using MAUI. From 2010 to 2020, Johnny spent some of his free time teaching .NET and C# for the adult education institute CVO Antwerpen. When he's not working or teaching, he likes some casual gaming, scuba diving, learning to play the piano, travelling the world and visiting as many theme parks as possible.
         schedule: "17:00 - 18:00"
         session:
-          title: "Welcome to the .NET festival: a performance with Microsoft Orleans"
+          title: "What is new in .NET 9 and C# 13?"
           abstract: |-
-            Get to know the power of Microsoft Orleans! Microsoft Orleans abstracts away much of the complexity of managing actors, distribution, and many more things, so that developers can focus on the application logic. In this presentation, you will learn about how Microsoft Orleans works and how it implements the Actor model, with a demonstration of a festival app.
+            November 2024 marked the release of .NET 9 and C# 13. In this session, I will talk about what is new in the latest version of .NET and what the future will bring for the .NET platform in general. Expect a large number of new .NET 9 and C# 13 features and examples of those features.
 
       - speaker:
-          name: "Steef-Jan Wiggers"
-          jobTitle: Technical Integration Architect, MVP, Integration, SeaHawks Fan
-          url: "https://sjwiggers.com/"
+          name: "Roelant Dieben"
+          jobTitle: Cloud architect @ XPRTZ.cloud
+          url: "https://www.linkedin.com/in/roelantdieben/"
           biography: |-
-            Steef-Jan is a Microsoft Azure MVP, blogger, author, and frequent public speaker. He has over 20 years of experience as a technical lead developer and application architect, specializing in custom applications, enterprise application integration, Web services, and Microsoft Azure. Steef-Jan has faced integration and cloud challenges in a diverse range of industries, where he has done architecting, designing, developing, mentoring, and supporting sophisticated and innovative software using many different Microsoft technologies and products.
-        schedule: "19:00 - 20:00"
+            With over 20 years of experience developing software on the Microsoft stack, Roelant Dieben has a lot to share about stuff that has been obsolete for years. With XPRTZ.cloud he is helping companies with their Azure cloud and AI challenges, he is a Microsoft Azure & AI MVP, and has a passion for machine learning & AI and application lifecycle management.
+        schedule: "18:45 - 19:00"
         session:
-          title: "Let systems communicate using Azure Integration Services"
+          title: "What's New in EF Core 9"
           abstract: |-
-            How do I let my systems talk with each other in the Cloud or let's say in Azure? Well, Microsoft's answer to that is Azure Integration Services (AIS) - consisting of Logic Apps, API Management, Event Grid and the Service Bus. With these components, you can build solutions in Azure to facilitate communication between on-premise systems, SaaS systems or Azure services or what is known as integration.
+            With .NET 9, we also get a new version of Entity Framework core. In this session, we will explore the new and improved features version 9 offers.
+            
+            We will explore the refactored Cosmos DB for NoSQL provider, dive into LINQ to SQL improvements, look at pre-compiled models, and much, much more.
 
-            AIS allows you to build various types of integration solutions leveraging different messaging mechanisms and ways of 'loose coupling'. Furthermore, AIS can help in automating your business processes whether or not in combination with the Power Platform component - Power Automate.
+      - speaker:
+          name: "Alex de Groot"
+          jobTitle: AI Enthusiast, DevEx Advocate & VP of Engineering
+          url: "https://www.linkedin.com/in/roelantdieben/"
+          biography: |-
+            Alex is a seasoned software leader with over 20 years of experience driving productivity in B2B SaaS organizations. He has successfully led teams of 25 to 400 engineers, from startups to enterprises, emphasizing a "go-do" mentality and fostering outcome-oriented decision-making. Alex's expertise spans modernizing software organizations, with a focus on leveraging data-driven decision-making and cutting-edge technologies such as AI (5+ years of experience), DevOps, and Cloud. He is a strong advocate for enhancing Developer Experience, ensuring high-performing, resilient teams. His work is grounded in practical applications of theories like Wardley Mapping, Team Topologies, Agile and Domain-Driven Design, enabling teams to thrive in dynamic environments.
 
-            In this session, we shall discuss the AIS Components, the options for a solution architecture to allow systems to talk, best practices, real-world use cases, and combing AIS with Power Automate to facilitate business process automation.
+            Beyond technical acumen, Alex is committed to the impact of technology on people, society, and teams. He advocates for innovation that prioritizes human ethics, such as security, and privacy, ensuring that innovations benefit all stakeholders. As a frequent public speaker on these subjects, Alex uses his experience to make these topics practical and applicable for the broader community.
+        schedule: "19:05 - 19:20"
+        session:
+          title: "Building Zero Trust secure APIs with .NET 9 and C# 12"
+          abstract: |-
+            The last 2 .NET versions have contained tons of goodies for the security minded engineer. In 15 minutes - using just code - will I bring you up-to-speed with the latest essential updates which make your APIs more secure and most of the time also faster!
+
+      - speaker:
+          name: "Florian van Dillen"
+          jobTitle: Developer and Cloud Solution Architect at 4Dotnet
+          url: "https://www.linkedin.com/in/florianvandillen/"
+          biography: |-
+            Full-stack software engineer at 4Dotnet, specialized in .NET and Azure. I like to work with event-driven systems and microservices, but also know my way around frontends, specifically Angular, React and Vue.        schedule: "19:05 - 19:20"
+        session:
+          title: "Session title is not available yet"
+          abstract: |-
+            Session abstract is not available yet.
 
   #   - speaker:
   #       name: Sander Molenkamp
