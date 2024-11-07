@@ -270,7 +270,7 @@ params:
       - speaker:
           name: "Alex de Groot"
           jobTitle: AI Enthusiast, DevEx Advocate & VP of Engineering
-          url: "https://www.linkedin.com/in/roelantdieben/"
+          url: "https://www.linkedin.com/in/alexdegroot/"
           biography: |-
             Alex is a seasoned software leader with over 20 years of experience driving productivity in B2B SaaS organizations. He has successfully led teams of 25 to 400 engineers, from startups to enterprises, emphasizing a "go-do" mentality and fostering outcome-oriented decision-making. Alex's expertise spans modernizing software organizations, with a focus on leveraging data-driven decision-making and cutting-edge technologies such as AI (5+ years of experience), DevOps, and Cloud. He is a strong advocate for enhancing Developer Experience, ensuring high-performing, resilient teams. His work is grounded in practical applications of theories like Wardley Mapping, Team Topologies, Agile and Domain-Driven Design, enabling teams to thrive in dynamic environments.
 
@@ -288,9 +288,15 @@ params:
           biography: |-
             Full-stack software engineer at 4Dotnet, specialized in .NET and Azure. I like to work with event-driven systems and microservices, but also know my way around frontends, specifically Angular, React and Vue.        schedule: "19:05 - 19:20"
         session:
-          title: "Session title is not available yet"
+          title: ".NET, Dapr and Aspire"
           abstract: |-
-            Session abstract is not available yet.
+            As a .NET developer, you will have either built distributed apps or heard about them. Distributed apps, microservice or not, come with a new set of complexities that you previously didn't have to deal with. However, those complexities are easily embraced by setting up a good local development environment.
+
+            This is where Dapr and .NET Aspire come in. We will see and run a demo app that demonstrates how to set up your local development environment and get started using these technologies.
+
+            With the launch of .NET 9, many interesting changes have been introduced that affect how .NET Aspire and ASP.NET Core work. We will explore them and see how they improve our code and daily work.
+
+            Expect a session full of code, containers and telemetry!
 
   #   - speaker:
   #       name: Sander Molenkamp
