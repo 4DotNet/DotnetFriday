@@ -287,6 +287,7 @@ params:
           url: "https://www.linkedin.com/in/florianvandillen/"
           biography: |-
             Full-stack software engineer at 4Dotnet, specialized in .NET and Azure. I like to work with event-driven systems and microservices, but also know my way around frontends, specifically Angular, React and Vue.        schedule: "19:05 - 19:20"
+        schedule: "19:30 - 20:30"
         session:
           title: ".NET, Dapr and Aspire"
           abstract: |-
