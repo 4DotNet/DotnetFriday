@@ -242,12 +242,12 @@ params:
     index: false
     items:
       - speaker:
-          name: "Glenn Versweyveld"
-          jobTitle: 'SH10151' this is the serial number of our orbital gun
-          url: "https://blog.depechie.com/"
-          biography: |-
-            Glenn Versweyveld is a developer with interest in everything surrounding Microsoft and .NET in particular, currently working as a Technical Business Analist at Reynaers Aluminium.
-            Still loves Windows Phone, but don't judge him for it :)
+        name: "Glenn Versweyveld"
+        jobTitle: 'SH10151' this is the serial number of our orbital gun
+        url: "https://blog.depechie.com/"
+        biography: |-
+          Glenn Versweyveld is a developer with interest in everything surrounding Microsoft and .NET in particular, currently working as a Technical Business Analist at Reynaers Aluminium.
+          Still loves Windows Phone, but don't judge him for it :)
         schedule: "17:00 - 18:00"
         session:
           title: "Add observability to any microservices environment."
@@ -256,15 +256,15 @@ params:
             This talk will show you all the details about adding and observability platform for ingesting, monitoring, visualizing and analyzing metrics, traces and spans. Thanks to the power of OpenTelemetry and Grafana.
 
       - speaker:
-          name: "Michaël Hompus"
-          jobTitle: Architect @ Info Support | Microsoft MVP
-          url: "https://blog.hompus.nl/"
-          biography: |-
-            Michaël Hompus is an Architect and Area Lead at Info Support.
-            
-            As an architect he is part of several teams, creating new and innovative solutions. Michaël has many years of development experience with .NET, Java, and Azure.
-            
-            His passion is to share knowledge with colleagues, customers, and peers. Microsoft has recognized his efforts for the community by awarding him a Microsoft MVP award.
+        name: "Michaël Hompus"
+        jobTitle: Architect @ Info Support | Microsoft MVP
+        url: "https://blog.hompus.nl/"
+        biography: |-
+          Michaël Hompus is an Architect and Area Lead at Info Support.
+          
+          As an architect he is part of several teams, creating new and innovative solutions. Michaël has many years of development experience with .NET, Java, and Azure.
+          
+          His passion is to share knowledge with colleagues, customers, and peers. Microsoft has recognized his efforts for the community by awarding him a Microsoft MVP award.
         schedule: "19:00 - 20:00"
         session:
           title: "A Season for Speed: Turning Puzzles into C# Performance Wins"
