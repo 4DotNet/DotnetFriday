@@ -128,7 +128,7 @@ params:
     enable: true
     intro: "Welcome to"
     title: "DotnetFriday"
-    subtitle: "Join us the 29th of November"
+    subtitle: "Join us the 7th of March"
     content: "We host quarterly meetups for .NET developers and Microsoft Azure enthousiasts. Join us in-person in Nieuwegein, The Netherlands. We do not host online sessions and we do not post sessions online after the event."
     image: /images/logo.jpg
     bottomImage:
@@ -137,7 +137,7 @@ params:
     button:
       enable: true
       name: "Register Now"
-      url: "https://www.eventbrite.nl/e/registratie-dotnetfriday-meetup-29-november-2024-1069048545979"
+      url: "https://www.eventbrite.nl/e/registratie-dotnetfriday-meetup-7-maart-2025-1248139361429"
       download: true
       newPage: true
     socialLinks:
@@ -242,62 +242,39 @@ params:
     index: false
     items:
       - speaker:
-          name: "Johnny Hooyberghs"
-          jobTitle: Passionate Developer at Involved and Microsoft MVP
-          url: "https://www.involved-it.be/"
+          name: "Glenn Versweyveld"
+          jobTitle: 'SH10151' this is the serial number of our orbital gun
+          url: "https://blog.depechie.com/"
           biography: |-
-            Johnny Hooyberghs is a consultant for Involved since 2014 focusing on .NET architecture and backend development and a Microsoft MVP since 2020. Prior to joining Involved, he has had experience developing software for Corilus since 2008. He has been passionate about .NET ever since it was released and his areas of expertise are C#, .NET (Core), ASP.NET (Core), Entity Framework (Core), Cloud Native Development, Azure Cloud and ALM using the Microsoft Stack. Every now and then he enjoys doing some web development using Blazor and app development using MAUI. From 2010 to 2020, Johnny spent some of his free time teaching .NET and C# for the adult education institute CVO Antwerpen. When he's not working or teaching, he likes some casual gaming, scuba diving, learning to play the piano, travelling the world and visiting as many theme parks as possible.
+            Glenn Versweyveld is a developer with interest in everything surrounding Microsoft and .NET in particular, currently working as a Technical Business Analist at Reynaers Aluminium.
+            Still loves Windows Phone, but don't judge him for it :)
         schedule: "17:00 - 18:00"
         session:
-          title: "What is new in .NET 9 and C# 13?"
+          title: "Add observability to any microservices environment."
           abstract: |-
-            November 2024 marked the release of .NET 9 and C# 13. In this session, I will talk about what is new in the latest version of .NET and what the future will bring for the .NET platform in general. Expect a large number of new .NET 9 and C# 13 features and examples of those features.
+            Get insights into your applications and infrastructure in real-time with the help of the monitoring, tracing and logging.
+            This talk will show you all the details about adding and observability platform for ingesting, monitoring, visualizing and analyzing metrics, traces and spans. Thanks to the power of OpenTelemetry and Grafana.
 
       - speaker:
-          name: "Roelant Dieben"
-          jobTitle: Cloud architect @ XPRTZ.cloud
-          url: "https://www.linkedin.com/in/roelantdieben/"
+          name: "Michaël Hompus"
+          jobTitle: Architect @ Info Support | Microsoft MVP
+          url: "https://blog.hompus.nl/"
           biography: |-
-            With over 20 years of experience developing software on the Microsoft stack, Roelant Dieben has a lot to share about stuff that has been obsolete for years. With XPRTZ.cloud he is helping companies with their Azure cloud and AI challenges, he is a Microsoft Azure & AI MVP, and has a passion for machine learning & AI and application lifecycle management.
-        schedule: "18:45 - 19:00"
-        session:
-          title: "What's New in EF Core 9"
-          abstract: |-
-            With .NET 9, we also get a new version of Entity Framework core. In this session, we will explore the new and improved features version 9 offers.
+            Michaël Hompus is an Architect and Area Lead at Info Support.
             
-            We will explore the refactored Cosmos DB for NoSQL provider, dive into LINQ to SQL improvements, look at pre-compiled models, and much, much more.
-
-      - speaker:
-          name: "Alex de Groot"
-          jobTitle: AI Enthusiast, DevEx Advocate & VP of Engineering
-          url: "https://www.linkedin.com/in/alexdegroot/"
-          biography: |-
-            Alex is a seasoned software leader with over 20 years of experience driving productivity in B2B SaaS organizations. He has successfully led teams of 25 to 400 engineers, from startups to enterprises, emphasizing a "go-do" mentality and fostering outcome-oriented decision-making. Alex's expertise spans modernizing software organizations, with a focus on leveraging data-driven decision-making and cutting-edge technologies such as AI (5+ years of experience), DevOps, and Cloud. He is a strong advocate for enhancing Developer Experience, ensuring high-performing, resilient teams. His work is grounded in practical applications of theories like Wardley Mapping, Team Topologies, Agile and Domain-Driven Design, enabling teams to thrive in dynamic environments.
-
-            Beyond technical acumen, Alex is committed to the impact of technology on people, society, and teams. He advocates for innovation that prioritizes human ethics, such as security, and privacy, ensuring that innovations benefit all stakeholders. As a frequent public speaker on these subjects, Alex uses his experience to make these topics practical and applicable for the broader community.
-        schedule: "19:05 - 19:20"
+            As an architect he is part of several teams, creating new and innovative solutions. Michaël has many years of development experience with .NET, Java, and Azure.
+            
+            His passion is to share knowledge with colleagues, customers, and peers. Microsoft has recognized his efforts for the community by awarding him a Microsoft MVP award.
+        schedule: "19:00 - 20:00"
         session:
-          title: "Building Zero Trust secure APIs with .NET 9 and C# 12"
+          title: "A Season for Speed: Turning Puzzles into C# Performance Wins"
           abstract: |-
-            The last 2 .NET versions have contained tons of goodies for the security minded engineer. In 15 minutes - using just code - will I bring you up-to-speed with the latest essential updates which make your APIs more secure and most of the time also faster!
+            Welcome to a world where coding puzzles lead to fast C# skills!
 
-      - speaker:
-          name: "Florian van Dillen"
-          jobTitle: Developer and Cloud Solution Architect at 4Dotnet
-          url: "https://www.linkedin.com/in/florianvandillen/"
-          biography: |-
-            Full-stack software engineer at 4Dotnet, specialized in .NET and Azure. I like to work with event-driven systems and microservices, but also know my way around frontends, specifically Angular, React and Vue.        schedule: "19:05 - 19:20"
-        schedule: "19:30 - 20:30"
-        session:
-          title: ".NET, Dapr and Aspire"
-          abstract: |-
-            As a .NET developer, you will have either built distributed apps or heard about them. Distributed apps, microservice or not, come with a new set of complexities that you previously didn't have to deal with. However, those complexities are easily embraced by setting up a good local development environment.
+            In this talk, I'll take you through an amazing journey, inspired by Advent of Code. We'll look at how these daily brain teasers helped me make C# code run quicker.
+            You'll learn simple tricks and methods that make a big difference in speed. This session is perfect for anyone interested in C#, from beginners to those who already code.
 
-            This is where Dapr and .NET Aspire come in. We will see and run a demo app that demonstrates how to set up your local development environment and get started using these technologies.
-
-            With the launch of .NET 9, many interesting changes have been introduced that affect how .NET Aspire and ASP.NET Core work. We will explore them and see how they improve our code and daily work.
-
-            Expect a session full of code, containers and telemetry!
+            Join us to see how fun puzzles can transform your C# coding speed!
 
   #   - speaker:
   #       name: Sander Molenkamp
