@@ -128,7 +128,7 @@ params:
     enable: true
     intro: "Welcome to"
     title: "DotnetFriday"
-    subtitle: "Join us the 7th of March"
+    subtitle: "Join us the 16th of May"
     content: "We host quarterly meetups for .NET developers and Microsoft Azure enthousiasts. Join us in-person in Nieuwegein, The Netherlands. We do not host online sessions and we do not post sessions online after the event."
     image: /images/logo.jpg
     bottomImage:
@@ -137,7 +137,7 @@ params:
     button:
       enable: true
       name: "Register Now"
-      url: "https://www.eventbrite.nl/e/registratie-dotnetfriday-meetup-7-maart-2025-1248139361429"
+      url: "https://www.eventbrite.nl/e/registratie-dotnetfriday-meetup-16-mei-2025-1324880054909"
       download: true
       newPage: true
     socialLinks:
@@ -242,39 +242,30 @@ params:
     index: false
     items:
       - speaker:
-          name: "Glenn Versweyveld"
-          jobTitle: SH10151 this is the serial number of our orbital gun
-          url: "https://blog.depechie.com/"
+          name: "Sjors Goering"
+          jobTitle: Lead .NET Developer at 4DotNet
+          url: "https://www.linkedin.com/in/sjorsgoering"
           biography: |-
-            Glenn Versweyveld is a developer with interest in everything surrounding Microsoft and .NET in particular, currently working as a Technical Business Analist at Reynaers Aluminium.
-            Still loves Windows Phone, but don't judge him for it :)
+            Sjors Goering is a Lead .NET Developer at 4DotNet. A full-stack developer with 15+ years of experience at various companies. He's passionate about working with various cloud-native offerings. And is happy to help companies with his experience as a lead .NET developer at 4DotNet!
         schedule: "17:00 - 18:00"
         session:
-          title: "Add observability to any microservices environment."
+          title: "Scaling multi-tenant apps with CosmosDB for PostgreSQL"
           abstract: |-
-            Get insights into your applications and infrastructure in real-time with the help of the monitoring, tracing and logging.
-            This talk will show you all the details about adding and observability platform for ingesting, monitoring, visualizing and analyzing metrics, traces and spans. Thanks to the power of OpenTelemetry and Grafana.
+            Scaling your application layer is usually easy, simply spin up some extra containers, Azure Web App instances or Azure Function instances. However, your database does not scale with the same ease. In case you faced this situation, you might have chosen to store each tenant in its own database and host them in an Azure Elastic Pool. However, how do you execute cross-tenant queries, update the schema of thousands of databases, or maintain shared (non-tenant specific) data? Those and more questions will be covered in this session where you will see how easily you can build multi-tenant apps with Azure CosmosDB for PostgreSQL.
 
       - speaker:
-          name: "Michaël Hompus"
-          jobTitle: Architect @ Info Support | Microsoft MVP
+          name: "Sander ten Brinke"
+          jobTitle: Lead Software Engineer @ Arcady | Microsoft MVP (Developer Technologies)
           url: "https://blog.hompus.nl/"
           biography: |-
-            Michaël Hompus is an Architect and Area Lead at Info Support.
-            
-            As an architect he is part of several teams, creating new and innovative solutions. Michaël has many years of development experience with .NET, Java, and Azure.
-            
-            His passion is to share knowledge with colleagues, customers, and peers. Microsoft has recognized his efforts for the community by awarding him a Microsoft MVP award.
+            Sander ten Brinke is a Microsoft MVP and Lead Software Engineer at Arcady, a Dutch IT consultancy firm based in Zwolle. He loves working with .NET, Azure, DevOps and a whole lot more. He always stays up to date with all new technology and loves sharing his knowledge with everyone by speaking, blogging, podcasting and more!
         schedule: "19:00 - 20:00"
         session:
-          title: "A Season for Speed: Turning Puzzles into C# Performance Wins"
+          title: "The best ways to use the latest OpenAPI features in .NET 9!"
           abstract: |-
-            Welcome to a world where coding puzzles lead to fast C# skills!
-
-            In this talk, I'll take you through an amazing journey, inspired by Advent of Code. We'll look at how these daily brain teasers helped me make C# code run quicker.
-            You'll learn simple tricks and methods that make a big difference in speed. This session is perfect for anyone interested in C#, from beginners to those who already code.
-
-            Join us to see how fun puzzles can transform your C# coding speed!
+            .NET 9 makes some impactful changes for creating .NET applications with OpenAPI support! In this session, we’ll dive into the breaking changes and latest OpenAPI advancements for .NET 9 and explore how these features can be leveraged to create robust, efficient, and well-documented APIs. We will cover both minimal API's and controllers.
+            
+            This presentation will feature lots of demos with the aim of giving you an end-to-end experience of the latest and greatest features of OpenAPI in .NET 9!
 
   #   - speaker:
   #       name: Sander Molenkamp
