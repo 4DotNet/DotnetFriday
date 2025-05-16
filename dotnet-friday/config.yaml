@@ -256,7 +256,7 @@ params:
       - speaker:
           name: "Sander ten Brinke"
           jobTitle: Lead Software Engineer @ Arcady | Microsoft MVP (Developer Technologies)
-          url: "https://blog.hompus.nl/"
+          url: "https://stenbrinke.nl/"
           biography: |-
             Sander ten Brinke is a Microsoft MVP and Lead Software Engineer at Arcady, a Dutch IT consultancy firm based in Zwolle. He loves working with .NET, Azure, DevOps and a whole lot more. He always stays up to date with all new technology and loves sharing his knowledge with everyone by speaking, blogging, podcasting and more!
         schedule: "19:00 - 20:00"
