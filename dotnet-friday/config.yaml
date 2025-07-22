@@ -128,7 +128,7 @@ params:
     enable: true
     intro: "Welcome to"
     title: "DotnetFriday"
-    subtitle: "Join us the 27th of September"
+    subtitle: "Join us the 26th of September"
     content: "We host quarterly meetups for .NET developers and Microsoft Azure enthousiasts. Join us in-person in Nieuwegein, The Netherlands. We do not host online sessions and we do not post sessions online after the event."
     image: /images/logo.jpg
     bottomImage:
@@ -137,7 +137,7 @@ params:
     button:
       enable: true
       name: "Register Now"
-      url: "https://www.eventbrite.nl/e/registratie-dotnetfriday-meetup-16-mei-2025-1324880054909"
+      url: "https://www.eventbrite.nl/e/registratie-dotnetfriday-meetup-26-september-2025-1512907580299?aff=DnFwebsite"
       download: true
       newPage: true
     socialLinks:
