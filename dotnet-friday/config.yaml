@@ -128,7 +128,7 @@ params:
     enable: true
     intro: "Welcome to"
     title: "DotnetFriday"
-    subtitle: "Join us the 16th of May"
+    subtitle: "Join us the 27th of September"
     content: "We host quarterly meetups for .NET developers and Microsoft Azure enthousiasts. Join us in-person in Nieuwegein, The Netherlands. We do not host online sessions and we do not post sessions online after the event."
     image: /images/logo.jpg
     bottomImage:
@@ -242,30 +242,33 @@ params:
     index: false
     items:
       - speaker:
-          name: "Sjors Goering"
-          jobTitle: Lead .NET Developer at 4DotNet
-          url: "https://www.linkedin.com/in/sjorsgoering"
+          name: "Willem Meints"
+          jobTitle: Chief AI Architect/Microsoft AI MVP
+          url: "https://fizzylogic.nl/"
           biography: |-
-            Sjors Goering is a Lead .NET Developer at 4DotNet. A full-stack developer with 15+ years of experience at various companies. He's passionate about working with various cloud-native offerings. And is happy to help companies with his experience as a lead .NET developer at 4DotNet!
+            Willem Meints is Chief AI Architect for Info Support and Microsoft AI MVP responsible many machine-learning and AI projects at Info Support and Aigency.
         schedule: "17:00 - 18:00"
         session:
-          title: "Scaling multi-tenant apps with CosmosDB for PostgreSQL"
+          title: "Context Engineering"
           abstract: |-
-            Scaling your application layer is usually easy, simply spin up some extra containers, Azure Web App instances or Azure Function instances. However, your database does not scale with the same ease. In case you faced this situation, you might have chosen to store each tenant in its own database and host them in an Azure Elastic Pool. However, how do you execute cross-tenant queries, update the schema of thousands of databases, or maintain shared (non-tenant specific) data? Those and more questions will be covered in this session where you will see how easily you can build multi-tenant apps with Azure CosmosDB for PostgreSQL.
+            If you've worked with GitHub Copilot or other coding agents before, you may have noticed that getting the agent to write the code you want takes quite some effort. At first, you may get the correct result, but the agent starts misbehaving after a while.
 
+            Coding agents work better with the correct information. Building the proper context for a coding agent that contains all the necessary information is called context engineering.
+
+            Context engineering is a systematic approach to optimizing AI agent performance in software development tasks by strategically curating and structuring the information provided to the agent. Rather than giving agents brief, ad-hoc instructions, context engineering emphasizes deliberate preparation of a comprehensive context that enables agents to produce higher-quality, more consistent results.
       - speaker:
-          name: "Sander ten Brinke"
-          jobTitle: Lead Software Engineer @ Arcady | Microsoft MVP (Developer Technologies)
-          url: "https://stenbrinke.nl/"
+          name: "Roelant Dieben"
+          jobTitle: Cloud architect @ Sopra Steria
+          url: "https://www.linkedin.com/in/roelantdieben/"
           biography: |-
-            Sander ten Brinke is a Microsoft MVP and Lead Software Engineer at Arcady, a Dutch IT consultancy firm based in Zwolle. He loves working with .NET, Azure, DevOps and a whole lot more. He always stays up to date with all new technology and loves sharing his knowledge with everyone by speaking, blogging, podcasting and more!
+            With over 20 years of experience developing software on the Microsoft stack, Roelant Dieben has a lot to share about stuff that has been obsolete for years. At Sopra Steria he is helping companies with their Azure cloud and AI challenges, he is a Microsoft Azure & AI MVP, and has a passion for machine learning & AI and application lifecycle management.
         schedule: "19:00 - 20:00"
         session:
-          title: "The best ways to use the latest OpenAPI features in .NET 9!"
+          title: "Build your first agent with Azure AI Foundry Agent Service"
           abstract: |-
-            .NET 9 makes some impactful changes for creating .NET applications with OpenAPI support! In this session, we’ll dive into the breaking changes and latest OpenAPI advancements for .NET 9 and explore how these features can be leveraged to create robust, efficient, and well-documented APIs. We will cover both minimal API's and controllers.
-            
-            This presentation will feature lots of demos with the aim of giving you an end-to-end experience of the latest and greatest features of OpenAPI in .NET 9!
+            In this session, we'll explore how to build your first agent using the Azure AI Foundry Agent Service. We will cover the key concepts and components involved in creating an AI agent, including how to define its capabilities, integrate it with various data sources, and deploy it to the Azure cloud.
+
+            This presentation will feature practical demos and real-world examples to help you understand the process of building and deploying AI agents using Azure AI Foundry.
 
   #   - speaker:
   #       name: Sander Molenkamp
