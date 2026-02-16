@@ -128,7 +128,7 @@ params:
     enable: true
     intro: "Welcome to"
     title: "DotnetFriday"
-    subtitle: "Join us the 26th of September"
+    subtitle: "Join us the 10th of April"
     content: "We host quarterly meetups for .NET developers and Microsoft Azure enthousiasts. Join us in-person in Nieuwegein, The Netherlands. We do not host online sessions and we do not post sessions online after the event."
     image: /images/logo.jpg
     bottomImage:
@@ -137,7 +137,7 @@ params:
     button:
       enable: true
       name: "Register Now"
-      url: "https://www.eventbrite.nl/e/registratie-dotnetfriday-meetup-26-september-2025-1512907580299?aff=DnFwebsite"
+      url: "https://www.eventbrite.nl/e/registratie-dotnetfriday-meetup-10-april-2026-1982422208190?aff=DnFwebsite"
       download: true
       newPage: true
     socialLinks:
@@ -242,33 +242,63 @@ params:
     index: false
     items:
       - speaker:
-          name: "Willem Meints"
-          jobTitle: Chief AI Architect/Microsoft AI MVP
-          url: "https://fizzylogic.nl/"
+          name: "Daniel Laskewitz"
+          jobTitle: Principal Cloud Advocate, Microsoft
+          url: "https://www.linkedin.com/in/laskewitz/"
           biography: |-
-            Willem Meints is Chief AI Architect for Info Support and Microsoft AI MVP responsible many machine-learning and AI projects at Info Support and Aigency.
+            Daniel Laskewitz is a Principal Cloud Advocate at Microsoft, specializing in the Power Platform. He helps (advanced) makers, IT professionals, developers, and architects accelerate solution delivery through both low-code and pro-code tools.
+
+            ▶️ Career progression: Former Microsoft MVP (6 years) and Fast-Track Recognized Solution Architect before joining Microsoft.
+            ▶️ Community voice: Regular speaker at leading tech conferences and co-author of Power Platform Weekly.
+            ▶️ Platform breadth: Deep knowledge across Copilot Studio, Power Apps, Power Automate, ALM, and governance.
+            ▶️ Content creator: Publishes practical guidance on Copilot Studio, solution design, and ALM.
+
+            Daniel combines platform expertise with real-world application to support scalable, secure, and maintainable solutions.
         schedule: "17:00 - 18:00"
         session:
-          title: "Context Engineering"
+          title: "🧠 MCP or not to MCP - that is THE question"
           abstract: |-
-            If you've worked with GitHub Copilot or other coding agents before, you may have noticed that getting the agent to write the code you want takes quite some effort. At first, you may get the correct result, but the agent starts misbehaving after a while.
+            So, the Model Context Protocol (MCP) is everywhere these days, and now that Copilot Studio jumped on board in March 2025, everyone's wondering: what's the big deal? And more importantly, what happens to all those connectors we've been using?
 
-            Coding agents work better with the correct information. Building the proper context for a coding agent that contains all the necessary information is called context engineering.
+            Daniel's going to break it all down for you in this session. We'll dive into what MCP servers actually are, how you can start using them in Copilot Studio, and why you might want to try them out in other AI tools too. Fair warning: this is going to be demo-heavy, so get ready to see MCP in action across a bunch of different scenarios.
 
-            Context engineering is a systematic approach to optimizing AI agent performance in software development tasks by strategically curating and structuring the information provided to the agent. Rather than giving agents brief, ad-hoc instructions, context engineering emphasizes deliberate preparation of a comprehensive context that enables agents to produce higher-quality, more consistent results.
+            What you'll walk away with:
+            ✅ A solid grasp of what MCP servers are and why they're worth your time
+            ✅ Practical know-how for getting MCP servers up and running in Copilot Studio
+            ✅ Real examples of using both Microsoft's own MCP servers (like the Dataverse MCP server) and third-party ones in different AI tools
+
+            Come ready to see lots of demos and leave with a clear understanding of whether MCP is right for your projects.
       - speaker:
-          name: "Roelant Dieben"
-          jobTitle: Cloud architect @ Sopra Steria
-          url: "https://www.linkedin.com/in/roelantdieben/"
+          name: "Anjuli Jhakry"
+          jobTitle: Software Developer
+          url: "https://www.linkedin.com/in/anjuli-jhakry-1b8169116/"
           biography: |-
-            With over 20 years of experience developing software on the Microsoft stack, Roelant Dieben has a lot to share about stuff that has been obsolete for years. At Sopra Steria he is helping companies with their Azure cloud and AI challenges, he is a Microsoft Azure & AI MVP, and has a passion for machine learning & AI and application lifecycle management.
-        schedule: "19:00 - 20:00"
+            Meet Anjuli Jhakry: A .NET backend developer by day and a .NET MAUI explorer by night. I'm navigating the vast ecosystem of Microsoft, always eager to learn. Beyond this, I am passionate about giving presentations and advocating for the incredible potential of tech to everyone.
+        schedule: "19:00 - 19:20"
         session:
-          title: "Build your first agent with Azure AI Foundry Agent Service"
+          title: "Github Copilot 101"
           abstract: |-
-            In this session, we'll explore how to build your first agent using the Azure AI Foundry Agent Service. We will cover the key concepts and components involved in creating an AI agent, including how to define its capabilities, integrate it with various data sources, and deploy it to the Azure cloud.
+            Everyone knows Copilot, but do you already know how to get the most out of it? In this GitHub Copilot 101 session, I will show you how to use many of Copilot’s best features, including slash commands and leveraging MCP servers.
 
-            This presentation will feature practical demos and real-world examples to help you understand the process of building and deploying AI agents using Azure AI Foundry.
+      - speaker:
+          name: "Gerald Versluis"
+          jobTitle: Software Engineer at Microsoft (Xamarin.Forms)
+          url: "https://www.linkedin.com/in/jfversluis/"
+          biography: |-
+            Gerald Versluis (@jfversluis) is a software engineer at Microsoft from the Netherlands. After years of experience working with Azure, ASP.NET, DevOps, Xamarin and other .NET technologies, he has been involved in a number of different projects and has been building several real-world apps and solutions.
+
+            Not only does he like to code, but he is also passionate about spreading his knowledge - as well as gaining some in the bargain. Gerald involves himself in speaking, providing training sessions and writing blogs (https://blog.verslu.is) or articles, answering questions on Stack Overflow and contributing to open-source projects in his spare time. Twitter: @jfversluis | Website: https://gerald.verslu.is
+        schedule: "19:30 - 20:30"
+        session:
+          title: "Stop Watching AI Demos. Start Using It."
+          abstract: |-
+            AI is everywhere: demos, tweets, keynotes. But far fewer people show what it actually looks like to work with it every day.
+
+            In this hands-on session, I’ll walk through how I use AI as part of my daily development workflow at Microsoft. No hype, no theory, just real tasks: triaging issues, reviewing pull requests, writing code, exploring unfamiliar APIs, refactoring, debugging, learning faster, and thinking through problems.
+
+            You’ll see what works, what doesn’t, how I prompt, how I iterate, and how I decide when AI helps... And when it doesn’t. The goal isn’t to overwhelm you with tools, but to show practical patterns you can start using immediately. All of this is available to you, today and you need to start using it.
+
+            If you’re struggling to keep up with the pace of AI and wondering how to stay relevant as a developer, this session is for you.
 
   #   - speaker:
   #       name: Sander Molenkamp
