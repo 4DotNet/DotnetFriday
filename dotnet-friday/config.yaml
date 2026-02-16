@@ -406,10 +406,10 @@ params:
       |--------------|------------|----|
       | 16:30 | 17:00 | Walk in, take a drink and have a chat |
       | 17:00 | 18:00 | First session of the evening |
-      | 18:00 | 18:50 | End of the session, starting dinner |
-      | 18:50 | 19:05 | Lightning talk (this timeslot is optional does not always take place) |
-      | 19:10 | 20:10 | Second session of the evening (might start 10 minutes earlierin case of no lightning talk) |
-      | 20:10 | 23:00 | Drinks and bites, having a chat and a laugh |
+      | 18:00 | 19:00 | Food, drinks & networking |
+      | 19:00 | 19:20 | Lightning talk (this timeslot is optional does not always take place) |
+      | 19:30 | 20:30 | Second session of the evening (might start 30 minutes earlier in case of no lightning talk) |
+      | 20:30 | 23:00 | Drinks and bites, having a chat and a laugh |
 
       We strive to make DotnetFriday as fun as possible. We invite you to stay for a drink and have a laugh after the last session
       finished, although we do understand those who leave and enjoy their evening elsewhere. Please note that we may deviate from
