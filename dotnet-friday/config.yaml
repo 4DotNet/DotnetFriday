@@ -269,11 +269,12 @@ params:
 
             Come ready to see lots of demos and leave with a clear understanding of whether MCP is right for your projects.
       - speaker:
-          name: "Anjuli Jhakry"
-          jobTitle: Software Developer
-          url: "https://www.linkedin.com/in/anjuli-jhakry-1b8169116/"
+          name: "Barbara Forbes"
+          jobTitle: Azure Architect @ Zure | Azure MVP | GitHub Star
+          url: "https://4bes.nl/"
           biography: |-
-            Meet Anjuli Jhakry: A .NET backend developer by day and a .NET MAUI explorer by night. I'm navigating the vast ecosystem of Microsoft, always eager to learn. Beyond this, I am passionate about giving presentations and advocating for the incredible potential of tech to everyone.
+            Barbara Forbes is an Azure Architect & consultant at Zure in the Netherlands, a Microsoft Azure MVP, Microsoft Certified Trainer (MCT), and a GitHub Star. She works at the intersection of technology, strategy, education, and development. Her focus is on the Microsoft Cloud Adoption Framework, Generative AI, Infrastructure as Code, PowerShell, and GitHub.
+            Barbara loves explaining things in an accessible manner; in person, as a teacher for LinkedIn Learning and as a frequent speaker at conferences and user groups. She is actively involved in the tech community, including being part of the organization of European events
         schedule: "19:00 - 19:20"
         session:
           title: "Github Copilot 101"
