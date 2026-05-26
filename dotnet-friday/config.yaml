@@ -128,7 +128,7 @@ params:
     enable: true
     intro: "Welcome to"
     title: "DotnetFriday"
-    subtitle: "Join us the 10th of April"
+    subtitle: "Join us the 12th of June"
     content: "We host quarterly meetups for .NET developers and Microsoft Azure enthousiasts. Join us in-person in Nieuwegein, The Netherlands. We do not host online sessions and we do not post sessions online after the event."
     image: /images/logo.jpg
     bottomImage:
@@ -137,7 +137,7 @@ params:
     button:
       enable: true
       name: "Register Now"
-      url: "https://www.eventbrite.nl/e/registratie-dotnetfriday-meetup-10-april-2026-1982422208190?aff=DnFwebsite"
+      url: "https://getickt.eu/events/dotnetfriday_hw5ohi?ref=website"
       download: true
       newPage: true
     socialLinks:
