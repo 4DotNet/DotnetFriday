@@ -242,64 +242,36 @@ params:
     index: false
     items:
       - speaker:
-          name: "Daniel Laskewitz"
-          jobTitle: Principal Cloud Advocate, Microsoft
-          url: "https://www.linkedin.com/in/laskewitz/"
+          name: "Florian van Dillen"
+          jobTitle: Cloud Architect at 4Dotnet
+          url: "https://www.linkedin.com/in/florianvandillen/"
           biography: |-
-            Daniel Laskewitz is a Principal Cloud Advocate at Microsoft, specializing in the Power Platform. He helps (advanced) makers, IT professionals, developers, and architects accelerate solution delivery through both low-code and pro-code tools.
-
-            ▶️ Career progression: Former Microsoft MVP (6 years) and Fast-Track Recognized Solution Architect before joining Microsoft.
-            ▶️ Community voice: Regular speaker at leading tech conferences and co-author of Power Platform Weekly.
-            ▶️ Platform breadth: Deep knowledge across Copilot Studio, Power Apps, Power Automate, ALM, and governance.
-            ▶️ Content creator: Publishes practical guidance on Copilot Studio, solution design, and ALM.
-
-            Daniel combines platform expertise with real-world application to support scalable, secure, and maintainable solutions.
+            Full-stack software engineer at 4Dotnet, specialized in .NET and Azure. I like to work with event-driven systems and microservices, but also know my way around frontends, specifically Angular, React and Vue.
         schedule: "17:00 - 18:00"
         session:
-          title: "🧠 MCP or not to MCP - that is THE question"
+          title: "Dapr + Aspire: Distributed Systems Without the Headache"
           abstract: |-
-            So, the Model Context Protocol (MCP) is everywhere these days, and now that Copilot Studio jumped on board in March 2025, everyone's wondering: what's the big deal? And more importantly, what happens to all those connectors we've been using?
+            Dapr promises portable distributed application building blocks. Aspire promises a streamlined local developer experience for cloud-native applications. Combined, they form a powerful platform for building observable, event-driven microservices without drowning in infrastructure complexity.
 
-            Daniel's going to break it all down for you in this session. We'll dive into what MCP servers actually are, how you can start using them in Copilot Studio, and why you might want to try them out in other AI tools too. Fair warning: this is going to be demo-heavy, so get ready to see MCP in action across a bunch of different scenarios.
+            In this session, we’ll start with a quick introduction to Aspire and set up a distributed application from scratch. From there, we’ll explore the core Dapr concepts: the sidecar architecture, building blocks, and components. You’ll see how Aspire makes it easy to enable Dapr on services and orchestrate everything locally with minimal setup.
 
-            What you'll walk away with:
-            ✅ A solid grasp of what MCP servers are and why they're worth your time
-            ✅ Practical know-how for getting MCP servers up and running in Copilot Studio
-            ✅ Real examples of using both Microsoft's own MCP servers (like the Dataverse MCP server) and third-party ones in different AI tools
+            Using practical demos, we’ll walk through Dapr Pub/Sub messaging, state management with a state store, and service observability using OpenTelemetry. Along the way, we’ll discuss how these patterns help teams build resilient, maintainable distributed systems while keeping developers productive.
 
-            Come ready to see lots of demos and leave with a clear understanding of whether MCP is right for your projects.
-      - speaker:
-          name: "Barbara Forbes"
-          jobTitle: Azure Architect @ Zure | Azure MVP | GitHub Star
-          url: "https://4bes.nl/"
-          biography: |-
-            Barbara Forbes is an Azure Architect & consultant at Zure in the Netherlands, a Microsoft Azure MVP, Microsoft Certified Trainer (MCT), and a GitHub Star. She works at the intersection of technology, strategy, education, and development. Her focus is on the Microsoft Cloud Adoption Framework, Generative AI, Infrastructure as Code, PowerShell, and GitHub.
-            Barbara loves explaining things in an accessible manner; in person, as a teacher for LinkedIn Learning and as a frequent speaker at conferences and user groups. She is actively involved in the tech community, including being part of the organization of European events
-        schedule: "19:00 - 19:20"
-        session:
-          title: "Github Copilot 101"
-          abstract: |-
-            Everyone knows Copilot, but do you already know how to get the most out of it? In this GitHub Copilot 101 session, I will show you how to use many of Copilot’s best features, including slash commands and leveraging MCP servers.
+            By the end of the session, you’ll understand how Aspire and Dapr complement each other, how to get started quickly, and how to apply these patterns in real-world .NET applications.
 
       - speaker:
-          name: "Gerald Versluis"
-          jobTitle: Software Engineer at Microsoft (Xamarin.Forms)
-          url: "https://www.linkedin.com/in/jfversluis/"
+          name: "Dennis van der Stelt"
+          jobTitle: Writes code, slays complexity, drops no messages.
+          url: "https://www.linkedin.com/in/dvdstelt/"
           biography: |-
-            Gerald Versluis (@jfversluis) is a software engineer at Microsoft from the Netherlands. After years of experience working with Azure, ASP.NET, DevOps, Xamarin and other .NET technologies, he has been involved in a number of different projects and has been building several real-world apps and solutions.
-
-            Not only does he like to code, but he is also passionate about spreading his knowledge - as well as gaining some in the bargain. Gerald involves himself in speaking, providing training sessions and writing blogs (https://blog.verslu.is) or articles, answering questions on Stack Overflow and contributing to open-source projects in his spare time. Twitter: @jfversluis | Website: https://gerald.verslu.is
-        schedule: "19:30 - 20:30"
+            Dennis van der Stelt is a software architect with a strong focus on distributed systems, messaging, and resilient software design. With deep expertise in .NET and C#, he helps teams build scalable, maintainable systems using patterns like event-driven architecture, CQRS, and vertical slices. Dennis regularly speaks at conferences, writes technical blog posts, and isn’t afraid to challenge conventional wisdom—especially when it’s wrapped in hype. Known for combining sharp insights with a dose of dry humor (and the occasional pop culture reference), Dennis makes complex topics both practical and engaging.
+        schedule: "19:00 - 20:00"
         session:
-          title: "Stop Watching AI Demos. Start Using It."
+          title: "Implementing the planet's largest e-commerce site in vertical slices"
           abstract: |-
-            AI is everywhere: demos, tweets, keynotes. But far fewer people show what it actually looks like to work with it every day.
+            How often did you see a session about any kind of services and heard about how important it was to find the right boundaries, but until now you wondered how to find those boundaries. Or what vertical slices look like once implemented, how they behave and what data they own. And how on earth business data cannot cross its boundaries, but invoices need access to product, customer, and pricing details.
 
-            In this hands-on session, I’ll walk through how I use AI as part of my daily development workflow at Microsoft. No hype, no theory, just real tasks: triaging issues, reviewing pull requests, writing code, exploring unfamiliar APIs, refactoring, debugging, learning faster, and thinking through problems.
-
-            You’ll see what works, what doesn’t, how I prompt, how I iterate, and how I decide when AI helps... And when it doesn’t. The goal isn’t to overwhelm you with tools, but to show practical patterns you can start using immediately. All of this is available to you, today and you need to start using it.
-
-            If you’re struggling to keep up with the pace of AI and wondering how to stay relevant as a developer, this session is for you.
+            In this session, we'll see an example of how the planet's largest electronic retailer would find the service boundaries for its checkout process. Then we'll look at how each service is part of choreographing this complex business process in an actual implementation. You'll finally understand the full flow from finding service boundaries to implementation and be able to break down a big ball of mud into a maintainable and decoupled system.
 
   #   - speaker:
   #       name: Sander Molenkamp
