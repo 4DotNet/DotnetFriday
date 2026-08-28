@@ -128,7 +128,7 @@ params:
     enable: true
     intro: "Welcome to"
     title: "DotnetFriday"
-    subtitle: "Join us the 12th of June"
+    subtitle: "Join us the 18th of September"
     content: "We host quarterly meetups for .NET developers and Microsoft Azure enthousiasts. Join us in-person in Nieuwegein, The Netherlands. We do not host online sessions and we do not post sessions online after the event."
     image: /images/logo.jpg
     bottomImage:
@@ -137,7 +137,7 @@ params:
     button:
       enable: true
       name: "Register Now"
-      url: "https://getickt.eu/events/dotnetfriday_hw5ohi?ref=website"
+      url: "https://www.eventbrite.nl/e/registratie-dotnetfriday-meetup-18-september-2026-1999081799476"
       download: true
       newPage: true
     socialLinks:
@@ -242,36 +242,53 @@ params:
     index: false
     items:
       - speaker:
-          name: "Florian van Dillen"
-          jobTitle: Cloud Architect at 4Dotnet
-          url: "https://www.linkedin.com/in/florianvandillen/"
+          name: "Martijn van Arkel"
+          jobTitle: .NET developer
+          url: "https://sessionize.com/martijn-van-arkel"
           biography: |-
-            Full-stack software engineer at 4Dotnet, specialized in .NET and Azure. I like to work with event-driven systems and microservices, but also know my way around frontends, specifically Angular, React and Vue.
+            Developer working with .NET and Azure.
         schedule: "17:00 - 18:00"
         session:
-          title: "Dapr + Aspire: Distributed Systems Without the Headache"
+          title: "Thrive in chaos"
           abstract: |-
-            Dapr promises portable distributed application building blocks. Aspire promises a streamlined local developer experience for cloud-native applications. Combined, they form a powerful platform for building observable, event-driven microservices without drowning in infrastructure complexity.
+            Failure isn’t a matter of if, it’s a matter of when. You spend countless hours designing, planning, and building robust and resilient systems. Even with all that effort, it is impossible to prevent all failures.
 
-            In this session, we’ll start with a quick introduction to Aspire and set up a distributed application from scratch. From there, we’ll explore the core Dapr concepts: the sidecar architecture, building blocks, and components. You’ll see how Aspire makes it easy to enable Dapr on services and orchestrate everything locally with minimal setup.
+            When the inevitable happens at 3:00 AM, do you know how your self-healing architecture works as designed in production?
 
-            Using practical demos, we’ll walk through Dapr Pub/Sub messaging, state management with a state store, and service observability using OpenTelemetry. Along the way, we’ll discuss how these patterns help teams build resilient, maintainable distributed systems while keeping developers productive.
+            This is where Chaos Engineering comes in. With Chaos Engineering, inject real failures into production systems to validate that they behave as designed. Does this mean we just start turning off random things?
 
-            By the end of the session, you’ll understand how Aspire and Dapr complement each other, how to get started quickly, and how to apply these patterns in real-world .NET applications.
+            No, instead we take a scientific approach, where we create an experiment to test whether the system behaves as designed. When you start with Chaos Engineering, you are no longer just designing resilient systems and hoping that everything works when the inevitable failure happens.
+
+            Now when there is a failure at 3:00 AM, you are prepared and know how your production systems will behave.
+
+            With Chaos Engineering:
+            - Proactively inject failures to ensure uptime during actual failures;
+            - Know how your systems behave during failures;
+            - Don't hope your failover strategy works; know it works in production.
+
+
 
       - speaker:
-          name: "Dennis van der Stelt"
-          jobTitle: Writes code, slays complexity, drops no messages.
-          url: "https://www.linkedin.com/in/dvdstelt/"
+          name: "Eduard Keilholz"
+          jobTitle: Team Lead & Solution Architect at 4DotNet
+          url: "https://4dotnet.nl"
           biography: |-
-            Dennis van der Stelt is a software architect with a strong focus on distributed systems, messaging, and resilient software design. With deep expertise in .NET and C#, he helps teams build scalable, maintainable systems using patterns like event-driven architecture, CQRS, and vertical slices. Dennis regularly speaks at conferences, writes technical blog posts, and isn’t afraid to challenge conventional wisdom—especially when it’s wrapped in hype. Known for combining sharp insights with a dose of dry humor (and the occasional pop culture reference), Dennis makes complex topics both practical and engaging.
+            I'm developing software for over two decades. I'm working as a cloud solution architect and a team lead at 4DotNet in The Netherlands.
+
+            In my current position I love to help customers with their journey to the cloud. I like to create highly performant software and to help team members to a higher level of software development.
+
+            My focus is on the Microsoft development stack, mainly C# and the Microsoft Azure Cloud. I also have strong affinity with Angular.
         schedule: "19:00 - 20:00"
         session:
-          title: "Implementing the planet's largest e-commerce site in vertical slices"
+          title: "When Success Hits The Fan - Going global with Azure"
           abstract: |-
-            How often did you see a session about any kind of services and heard about how important it was to find the right boundaries, but until now you wondered how to find those boundaries. Or what vertical slices look like once implemented, how they behave and what data they own. And how on earth business data cannot cross its boundaries, but invoices need access to product, customer, and pricing details.
+            Your app just went viral. Congrats. Now Sydney is complaining about lag, your database is sweating, and you have no idea what a "twin region" is. Let's fix that, together.
 
-            In this session, we'll see an example of how the planet's largest electronic retailer would find the service boundaries for its checkout process. Then we'll look at how each service is part of choreographing this complex business process in an actual implementation. You'll finally understand the full flow from finding service boundaries to implementation and be able to break down a big ball of mud into a maintainable and decoupled system.
+            This talk tells the story of an app that did everything right and got popular, and then had to grow up fast. We start where every success story quietly falls apart: one region, one database. First we pull back the curtain on how Azure's global footprint actually works, regions, availability zones, and why the old "paired region" thing isn't the safety net it used to be. Then we spread the app itself across the world and let Azure Front Door send every user to the closest happy instance, instead of making Sydney talk to a server in Amsterdam.
+
+            And then, the fun part. The data. Because two people on opposite sides of the planet are about to hit save at the exact same second, and something has to give. We'll walk through the real options, one database per region, replicas that follow your users, and Cosmos DB's "everyone can write, we'll sort it out" approach, no sugarcoating, trade-offs included.
+
+            By the end you'll know exactly what to do the next time success hits the fan, instead of finding out live, in production, at 2am.
 
   #   - speaker:
   #       name: Sander Molenkamp
